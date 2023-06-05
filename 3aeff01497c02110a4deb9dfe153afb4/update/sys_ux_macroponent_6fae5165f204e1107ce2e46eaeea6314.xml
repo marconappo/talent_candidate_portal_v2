@@ -69,4 +69,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-12-28 10:49:58</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=6fae5165f204e1107ce2e46eaeea6314"/>
 </record_update>

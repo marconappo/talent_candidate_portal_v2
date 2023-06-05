@@ -40,4 +40,5 @@
         <vendor_prefix/>
         <version>4.0.0</version>
     </sys_app>
+    <sys_translated_text action="delete_multiple" query="documentkey=3aeff01497c02110a4deb9dfe153afb4"/>
 </record_update>

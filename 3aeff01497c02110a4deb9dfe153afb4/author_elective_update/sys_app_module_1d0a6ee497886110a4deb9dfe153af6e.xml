@@ -127,7 +127,7 @@
         <sys_parent/>
         <sys_policy/>
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
-        <sys_scope_delete display_value="">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
         <sys_update_name>sys_app_module_1d0a6ee497886110a4deb9dfe153af6e</sys_update_name>
         <sys_update_version display_value="sys_app_module_1d0a6ee497886110a4deb9dfe153af6e">9329476647ba2110691e7258946d432e</sys_update_version>
         <sys_updated_by>nappoma</sys_updated_by>

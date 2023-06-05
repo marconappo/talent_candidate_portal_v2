@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="DELETE">
+        <order>1000</order>
+        <role display_value="x_431105_cand_ass.president_chair" name="x_431105_cand_ass.president_chair">b6f0855497c02110a4deb9dfe153af76</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 08:01:26</sys_created_on>
+        <sys_id>3b432a10475321103fa44aff336d4348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b6f0855497c02110a4deb9dfe153af76</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_embedded_help_role_3b432a10475321103fa44aff336d4348</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 08:01:26</sys_updated_on>
+    </sys_embedded_help_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_embedded_help_role_3b432a10475321103fa44aff336d4348</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_431105_cand_ass.president_chair" name="x_431105_cand_ass.president_chair">b6f0855497c02110a4deb9dfe153af76</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 08:01:26</sys_created_on>
+        <sys_id>3b432a10475321103fa44aff336d4348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b6f0855497c02110a4deb9dfe153af76</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_embedded_help_role_3b432a10475321103fa44aff336d4348</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 08:01:26</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>]]></payload>
+        <payload_hash>1018779526</payload_hash>
+        <record_name>b6f0855497c02110a4deb9dfe153af76</record_name>
+        <reverted_from/>
+        <source>ca05a324471b61103fa44aff336d43d4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-05 07:27:13</sys_created_on>
+        <sys_id>6c156724471b61103fa44aff336d437c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1888a73ed790000001</sys_recorded_at>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-05 07:27:13</sys_updated_on>
+        <type>Embedded Help Role Priority</type>
+        <update_guid>681567246c1b6110066e3928c896d47c</update_guid>
+        <update_guid_history>681567246c1b6110066e3928c896d47c:0,bec42be0ce1b611054c36b8d5cb91970:-1717135266,3ec42be0c31b611061313787bb29836d:164576570</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-05 09:43:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_embedded_help_role">sys_embedded_help_role</sys_db_object>
+        <sys_id>4b4c8c2a819b426b9e916fcd5ae3ff99</sys_id>
+        <sys_metadata>3b432a10475321103fa44aff336d4348</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b6f0855497c02110a4deb9dfe153af76</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_embedded_help_role_3b432a10475321103fa44aff336d4348</sys_update_name>
+        <sys_update_version display_value="sys_embedded_help_role_3b432a10475321103fa44aff336d4348">6c156724471b61103fa44aff336d437c</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-05 09:43:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

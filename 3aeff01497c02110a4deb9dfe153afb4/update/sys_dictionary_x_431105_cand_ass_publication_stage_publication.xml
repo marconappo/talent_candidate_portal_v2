@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="publication" table="x_431105_cand_ass_publication_stage">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>

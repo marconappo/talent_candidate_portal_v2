@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out>false</checked_out>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Apply for internal competition</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>true</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="Marco NAPPO">1d35f30e1b791514bd075465604bcb94</owner>
+        <picture/>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=c02a386f47c7a5103fa44aff336d4310&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs>7b0370019f22120047a2d126c42e7075</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[new sn_hr_core.hr_ServicesUtil(current, gs).createCaseFromProducer(producer, cat_item.sys_id);
+current.rich_description = '';]]></script>
+        <short_description>Apply for an internal competition</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state>published</state>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-01 16:26:26</sys_created_on>
+        <sys_id>c02a386f47c7a5103fa44aff336d4310</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Apply for internal competition</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sc_cat_item_producer_c02a386f47c7a5103fa44aff336d4310</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-06-02 04:59:21</sys_updated_on>
+        <table_name>x_431105_cand_ass_talent_application</table_name>
+        <taxonomy_topic display_value="Talent Management">90b5ee9e1b5b0110599142e4cc4bcb37</taxonomy_topic>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=c02a386f47c7a5103fa44aff336d4310"/>
+    <fx_price action="DELETE" query="id=c02a386f47c7a5103fa44aff336d4310"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>price</field>
+        <id>c02a386f47c7a5103fa44aff336d4310</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 08:01:25</sys_created_on>
+        <sys_id>fb432a10475321103fa44aff336d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 08:01:25</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sc_cat_item_producer_c02a386f47c7a5103fa44aff336d4310</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;
+    &lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;
+        &lt;access_type&gt;restricted&lt;/access_type&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;allow_edit&gt;false&lt;/allow_edit&gt;
+        &lt;availability&gt;on_desktop&lt;/availability&gt;
+        &lt;billable&gt;false&lt;/billable&gt;
+        &lt;can_cancel&gt;false&lt;/can_cancel&gt;
+        &lt;category/&gt;
+        &lt;checked_out&gt;false&lt;/checked_out&gt;
+        &lt;cost&gt;0&lt;/cost&gt;
+        &lt;custom_cart/&gt;
+        &lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;
+        &lt;delivery_plan_script/&gt;
+        &lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;
+        &lt;description/&gt;
+        &lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;
+        &lt;entitlement_script/&gt;
+        &lt;flow_designer_flow/&gt;
+        &lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;
+        &lt;group/&gt;
+        &lt;hide_sp&gt;false&lt;/hide_sp&gt;
+        &lt;icon/&gt;
+        &lt;ignore_price&gt;true&lt;/ignore_price&gt;
+        &lt;image/&gt;
+        &lt;location/&gt;
+        &lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;
+        &lt;meta/&gt;
+        &lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;
+        &lt;mobile_picture/&gt;
+        &lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;
+        &lt;model/&gt;
+        &lt;name&gt;Apply for internal competition&lt;/name&gt;
+        &lt;no_attachment_v2&gt;false&lt;/no_attachment_v2&gt;
+        &lt;no_cart&gt;false&lt;/no_cart&gt;
+        &lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;
+        &lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;
+        &lt;no_order&gt;false&lt;/no_order&gt;
+        &lt;no_order_now&gt;false&lt;/no_order_now&gt;
+        &lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;
+        &lt;no_quantity&gt;false&lt;/no_quantity&gt;
+        &lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;
+        &lt;no_search&gt;false&lt;/no_search&gt;
+        &lt;no_wishlist_v2&gt;true&lt;/no_wishlist_v2&gt;
+        &lt;omit_price&gt;false&lt;/omit_price&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;ordered_item_link/&gt;
+        &lt;owner display_value="Marco NAPPO"&gt;1d35f30e1b791514bd075465604bcb94&lt;/owner&gt;
+        &lt;picture/&gt;
+        &lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;
+        &lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=c02a386f47c7a5103fa44aff336d4310&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;
+        &lt;price&gt;0&lt;/price&gt;
+        &lt;published_ref/&gt;
+        &lt;recurring_frequency/&gt;
+        &lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;
+        &lt;request_method/&gt;
+        &lt;roles/&gt;
+        &lt;save_options/&gt;
+        &lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;
+        &lt;sc_catalogs&gt;7b0370019f22120047a2d126c42e7075&lt;/sc_catalogs&gt;
+        &lt;sc_ic_item_staging/&gt;
+        &lt;sc_ic_version/&gt;
+        &lt;sc_template/&gt;
+        &lt;script&gt;&lt;![CDATA[new sn_hr_core.hr_ServicesUtil(current, gs).createCaseFromProducer(producer, cat_item.sys_id);
+current.rich_description = '';]]&gt;&lt;/script&gt;
+        &lt;short_description&gt;Apply for an internal competition&lt;/short_description&gt;
+        &lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;
+        &lt;start_closed&gt;false&lt;/start_closed&gt;
+        &lt;state&gt;published&lt;/state&gt;
+        &lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;nappoma&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-06-01 16:26:26&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;c02a386f47c7a5103fa44aff336d4310&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Apply for internal competition&lt;/sys_name&gt;
+        &lt;sys_package display_value="Talent NOW" source="x_431105_cand_ass"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Talent NOW"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sc_cat_item_producer_c02a386f47c7a5103fa44aff336d4310&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-06-02 04:59:21&lt;/sys_updated_on&gt;
+        &lt;table_name&gt;x_431105_cand_ass_talent_application&lt;/table_name&gt;
+        &lt;taxonomy_topic display_value="Talent Management"&gt;90b5ee9e1b5b0110599142e4cc4bcb37&lt;/taxonomy_topic&gt;
+        &lt;template/&gt;
+        &lt;template_manager_roles/&gt;
+        &lt;type&gt;item&lt;/type&gt;
+        &lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;
+        &lt;vendor/&gt;
+        &lt;view/&gt;
+        &lt;visible_bundle&gt;true&lt;/visible_bundle&gt;
+        &lt;visible_guide&gt;true&lt;/visible_guide&gt;
+        &lt;visible_standalone&gt;true&lt;/visible_standalone&gt;
+        &lt;workflow/&gt;
+    &lt;/sc_cat_item_producer&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=c02a386f47c7a5103fa44aff336d4310"/&gt;
+    &lt;fx_price action="delete_multiple" query="id=c02a386f47c7a5103fa44aff336d4310"/&gt;
+    &lt;fx_price action="INSERT_OR_UPDATE"&gt;
+        &lt;amount&gt;0&lt;/amount&gt;
+        &lt;currency display_value="GBP"&gt;GBP&lt;/currency&gt;
+        &lt;field&gt;price&lt;/field&gt;
+        &lt;id&gt;c02a386f47c7a5103fa44aff336d4310&lt;/id&gt;
+        &lt;parent/&gt;
+        &lt;reference_amount&gt;0&lt;/reference_amount&gt;
+        &lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;
+        &lt;sys_created_by&gt;nappoma&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-06-04 08:01:25&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;fb432a10475321103fa44aff336d433e&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;nappoma&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-06-04 08:01:25&lt;/sys_updated_on&gt;
+        &lt;table&gt;sc_cat_item_producer&lt;/table&gt;
+        &lt;type&gt;calculated&lt;/type&gt;
+    &lt;/fx_price&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1013038185</payload_hash>
+        <record_name>Apply for internal competition</record_name>
+        <reverted_from/>
+        <source>ca05a324471b61103fa44aff336d43d4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-05 07:27:12</sys_created_on>
+        <sys_id>d0156724471b61103fa44aff336d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1888a73ebc60000001</sys_recorded_at>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-05 07:27:12</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>dc156724c21b61107dc86141b09e704e</update_guid>
+        <update_guid_history>dc156724c21b61107dc86141b09e704e:0,84d4abe0c41b6110ba5a67c46010e4c3:-677798324,3f432a10bc5321103771f21b92ef6441:875013188,bba2229c1c132110371926ba8a9f7c24:1866204416,c24a792f254fa510f6da0f53ba6c43e6:-893602058,175bf823630ba510760cd59bb99cafc7:1751693468,654b3823c20ba510212f15b3c8dcee3f:781411085,367a78afeac7a510667be5c5fddcd4ea:2109105116,5b5ab4af80c7a51001475c5f804f78fb:-578842581,b44a34afc4c7a5108e49ab43bc6aef9f:825249757,e23af0afa7c7a5104cc8a2d550356b16:-237047301,d02a7c6fd1c7a5105e2653546057b7cc:-814635989</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Apply for internal competition">5f3400b047db61103fa44aff336d4371</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-05 09:43:23</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>0e6e742f7fb24fc0aaba2cf090d48240</sys_id>
+        <sys_metadata>c02a386f47c7a5103fa44aff336d4310</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Apply for internal competition</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_c02a386f47c7a5103fa44aff336d4310</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_c02a386f47c7a5103fa44aff336d4310">d0156724471b61103fa44aff336d434f</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-05 09:43:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

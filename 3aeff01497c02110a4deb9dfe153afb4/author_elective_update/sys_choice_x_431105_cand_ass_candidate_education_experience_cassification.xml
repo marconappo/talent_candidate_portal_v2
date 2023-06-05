@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="cassification" table="x_431105_cand_ass_candidate_education_experience" version="3">
+        <sys_choice_set action="DELETE">
+            <element>cassification</element>
+            <name>x_431105_cand_ass_candidate_education_experience</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:21:26</sys_created_on>
+            <sys_id>06b64d63474ba5103fa44aff336d43c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cassification</sys_name>
+            <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+            <sys_update_name>sys_choice_x_431105_cand_ass_candidate_education_experience_cassification</sys_update_name>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:21:26</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_choice_x_431105_cand_ass_candidate_education_experience_cassification</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="cassification" table="x_431105_cand_ass_candidate_education_experience" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>cassification</element><name>x_431105_cand_ass_candidate_education_experience</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:21:26</sys_created_on><sys_id>06b64d63474ba5103fa44aff336d43c8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cassification</sys_name><sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_choice_x_431105_cand_ass_candidate_education_experience_cassification</sys_update_name><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:21:26</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-687891664</payload_hash>
+        <record_name>x_431105_cand_ass_candidate_education_experience.cassification</record_name>
+        <reverted_from/>
+        <source>bf2ea49a470b21103fa44aff336d43af</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:56:57</sys_created_on>
+        <sys_id>16422e98471321103fa44aff336d434c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1888568ca7f0000001</sys_recorded_at>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:56:57</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>9a422e9878132110de7d25559e42e14b</update_guid>
+        <update_guid_history>9a422e9878132110de7d25559e42e14b:-687891664,9e422e98d8132110687b715d516fa221:-827420591,1242ea98ff132110278353d9fa8d2df8:586376047,8242ea982f1321108d33d280cc6b5cce:172885576,4e42ea9813132110a15be30e439fb697:-2041676044,ce42ea9855132110c920b34b892f406d:365513910,7142ea984f1321106ddf94611b8da544:1896300427,f142ea98031321104439cfe12d36a61a:-1497610231,7542aa98301321107428a2191b0139f0:-1408523770,e542aa984e13211034eb92738bbb10c6:-1040653318,a142aa98871321103d461a23d4d49a90:-275728203,a542aa98ad132110d743edb75d27f44d:-1112319693,2942aa98a21321107e17ddc509f2c023:291984492,458d2deb200fa51070447186349333d5:-295864128,048d69eb7a0fa510b0ad317ba81e93da:-1198427269,6f7d69eb280fa510c4efe7f61fa7763f:-1285915714,797da5ebef0fa51023c6733ec2a9a702:-1003950687,9d7d65ebed0fa51067fcd848e654da82:-2033301497,497de9eb2b0fa5100e7900b525982e84:1913036075,8b6da9eb3d0fa5105eeacc051407a4ee:876285889,f56d69ebf30fa51039d6b0ac1532bac7:577023490,196d65ebcb0fa5106599ff605db462d0:-1213288307,506da5ebf00fa51036384582784d4def:1412932536,375d69eb0a0fa51028ee39f7f9ab61d3:-1479788498,1f5d25ebb40fa510441b2071bbdc2165:1654821353,0a5d25ebe70fa5102994d4ba319a7f73:1454109948,a15d61abc40fa51044e25558d1007315:-1315265600,b05d29eb8f0fa5105d130ed4b71349ff:-2124013214,3f4de1eb380fa5103623965fb8c3b0e9:-929894982,1f4d65eb550fa510b4f3058f91e15c94:-2139629109,fe4d65ebda0fa510300512eaf236db43:-1001720140,654da5eb780fa5101840fff2a98cd9e4:-276965275,454da5ab120fa5101d78eaa2fded1bb6:-1643849305,e04da1eb230fa51019778300920c31ca:-401676435,233d21ebaa0fa510d1bfde4d6a12a469:294672999,fe3da5ebbd0fa510680ab0fd93cfa7e8:-1650188434,6e3da5eb0b0fa5101e65a03e03358dd9:1838043022,1c3d65eb620fa51098ad249e1dd419fb:-1506295830,732d65eb4d0fa510e1760970d4b6e8ca:704448156,d32d65ebeb0fa510370e833cbd4b678b:203662279,822d61abf10fa5105ea1909bf00c4ef1:-651472522,352de1ebfa0fa510e6282f30684773c9:1468106807,dd2dedabdf0fa5108293e7438049ad88:729018051,731d6dabf50fa51008e56a5b4f23a61e:664123771,9b1d25ebe10fa510ac59b0ea50fe3d6d:-1921343005,b21d2dab750fa510926b6ab821af4cbb:314268330,e51dedabfa0fa51050e8f12f46eb9e7f:-760001603,891de1ebc20fa51075e67c1d82c9d9e3:-252417236,2c1de1ebe20fa5102a65654aca6df9be:-341024810,4b0dadabe20fa51004a13226befaca4a:805409156,ee0da1eb940fa510000aa95b2e515bc4:2047285910,350da5ab9f0fa51085ac81c24a9fae2b:427412183,4ab64d638e4ba5106dcaab885e5e26ca:1151420493</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:57:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>510ab12fedc54f2cba6c142ae4f76299</sys_id>
+        <sys_metadata>06b64d63474ba5103fa44aff336d43c8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cassification</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="">83ea78ef47c7a5103fa44aff336d432c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_choice_x_431105_cand_ass_candidate_education_experience_cassification</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_431105_cand_ass_candidate_education_experience_cassification">16422e98471321103fa44aff336d434c</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:57:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

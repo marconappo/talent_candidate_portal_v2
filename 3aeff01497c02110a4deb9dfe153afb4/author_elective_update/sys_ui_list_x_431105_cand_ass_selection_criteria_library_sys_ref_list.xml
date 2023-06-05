@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_431105_cand_ass_selection_criteria_library" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_431105_cand_ass_selection_criteria_library" element="NULL" name="x_431105_cand_ass_selection_criteria_library" parent="NULL" relationship="NULL" sys_domain="global" view="97d2c07054302110a866ac4e61313123">f6ad18c0474ba510691e7258946d43a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-21 17:23:22</sys_created_on>
+            <sys_id>b2ad18c0474ba510691e7258946d43a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-21 17:23:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>default_for</element>
+            <list_id display_value="x_431105_cand_ass_selection_criteria_library" element="NULL" name="x_431105_cand_ass_selection_criteria_library" parent="NULL" relationship="NULL" sys_domain="global" view="97d2c07054302110a866ac4e61313123">f6ad18c0474ba510691e7258946d43a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-21 17:23:22</sys_created_on>
+            <sys_id>b6ad18c0474ba510691e7258946d43a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-21 17:23:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>parent</element>
+            <list_id display_value="x_431105_cand_ass_selection_criteria_library" element="NULL" name="x_431105_cand_ass_selection_criteria_library" parent="NULL" relationship="NULL" sys_domain="global" view="97d2c07054302110a866ac4e61313123">f6ad18c0474ba510691e7258946d43a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-21 17:23:22</sys_created_on>
+            <sys_id>baad18c0474ba510691e7258946d43a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-21 17:23:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_431105_cand_ass_selection_criteria_library</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-21 17:23:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6ad18c0474ba510691e7258946d43a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_431105_cand_ass_selection_criteria_library</sys_name>
+            <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+            <sys_update_name>sys_ui_list_x_431105_cand_ass_selection_criteria_library_sys_ref_list</sys_update_name>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-21 17:23:22</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">97d2c07054302110a866ac4e61313123</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_ui_list_x_431105_cand_ass_selection_criteria_library_sys_ref_list</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_431105_cand_ass_selection_criteria_library" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_431105_cand_ass_selection_criteria_library" element="NULL" name="x_431105_cand_ass_selection_criteria_library" parent="NULL" relationship="NULL" sys_domain="global" view="97d2c07054302110a866ac4e61313123">f6ad18c0474ba510691e7258946d43a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-21 17:23:22</sys_created_on>
+            <sys_id>b2ad18c0474ba510691e7258946d43a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-21 17:23:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>default_for</element>
+            <list_id display_value="x_431105_cand_ass_selection_criteria_library" element="NULL" name="x_431105_cand_ass_selection_criteria_library" parent="NULL" relationship="NULL" sys_domain="global" view="97d2c07054302110a866ac4e61313123">f6ad18c0474ba510691e7258946d43a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-21 17:23:22</sys_created_on>
+            <sys_id>b6ad18c0474ba510691e7258946d43a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-21 17:23:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>parent</element>
+            <list_id display_value="x_431105_cand_ass_selection_criteria_library" element="NULL" name="x_431105_cand_ass_selection_criteria_library" parent="NULL" relationship="NULL" sys_domain="global" view="97d2c07054302110a866ac4e61313123">f6ad18c0474ba510691e7258946d43a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-21 17:23:22</sys_created_on>
+            <sys_id>baad18c0474ba510691e7258946d43a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-21 17:23:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_431105_cand_ass_selection_criteria_library</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-21 17:23:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6ad18c0474ba510691e7258946d43a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_431105_cand_ass_selection_criteria_library</sys_name>
+            <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+            <sys_update_name>sys_ui_list_x_431105_cand_ass_selection_criteria_library_sys_ref_list</sys_update_name>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-21 17:23:22</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">97d2c07054302110a866ac4e61313123</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>]]></payload>
+        <payload_hash>743300141</payload_hash>
+        <record_name>Competency Library</record_name>
+        <reverted_from/>
+        <source>bde4534e470321103fa44aff336d4334</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-28 11:53:41</sys_created_on>
+        <sys_id>71559306474321103fa44aff336d4352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188623501e20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-28 11:53:41</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>3155930696432110f339835a64d47052</update_guid>
+        <update_guid_history>3155930696432110f339835a64d47052:743300141</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:54:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>01365470884e4b10830f0835995a1b44</sys_id>
+        <sys_metadata>f6ad18c0474ba510691e7258946d43a5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_431105_cand_ass_selection_criteria_library</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="Competency Library">07e4174e470321103fa44aff336d43dc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_431105_cand_ass_selection_criteria_library_sys_ref_list</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_431105_cand_ass_selection_criteria_library_sys_ref_list">71559306474321103fa44aff336d4352</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:54:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="contract_sla">
+    <contract_sla action="DELETE">
+        <active>true</active>
+        <adv_condition_type>none</adv_condition_type>
+        <cancel_condition/>
+        <collection>x_431105_cand_ass_assessment</collection>
+        <condition_class/>
+        <duration>1970-03-02 00:00:00</duration>
+        <duration_type/>
+        <enable_logging>false</enable_logging>
+        <flow display_value="Default SLA flow">828f267973333300e289235f04f6a7a3</flow>
+        <name>Assessment Time</name>
+        <pause_condition/>
+        <relative_duration_works_on>Task record</relative_duration_works_on>
+        <reset_action>cancel</reset_action>
+        <reset_condition/>
+        <resume_condition/>
+        <retroactive>false</retroactive>
+        <retroactive_pause>true</retroactive_pause>
+        <schedule display_value="24 x 7">38fa64edc0a8016400f4a5724b0434b8</schedule>
+        <schedule_source>sla_definition</schedule_source>
+        <schedule_source_field/>
+        <set_start_to/>
+        <start_condition table="x_431105_cand_ass_assessment">state=30^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </start_condition>
+        <stop_condition table="x_431105_cand_ass_assessment">state=50^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </stop_condition>
+        <sys_class_name>contract_sla</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-20 22:30:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>da4adc3f47b66510691e7258946d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assessment Time</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>contract_sla_da4adc3f47b66510691e7258946d437e</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-20 22:30:06</sys_updated_on>
+        <target>resolution</target>
+        <timezone/>
+        <timezone_source>task.caller_id.time_zone</timezone_source>
+        <type>SLA</type>
+        <vendor/>
+        <when_to_cancel>on_condition</when_to_cancel>
+        <when_to_resume>on_condition</when_to_resume>
+        <workflow/>
+    </contract_sla>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>contract_sla_da4adc3f47b66510691e7258946d437e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="contract_sla">
+    <contract_sla action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <adv_condition_type>none</adv_condition_type>
+        <cancel_condition/>
+        <collection>x_431105_cand_ass_assessment</collection>
+        <condition_class/>
+        <duration>1970-03-02 00:00:00</duration>
+        <duration_type/>
+        <enable_logging>false</enable_logging>
+        <flow display_value="Default SLA flow">828f267973333300e289235f04f6a7a3</flow>
+        <name>Assessment Time</name>
+        <pause_condition/>
+        <relative_duration_works_on>Task record</relative_duration_works_on>
+        <reset_action>cancel</reset_action>
+        <reset_condition/>
+        <resume_condition/>
+        <retroactive>false</retroactive>
+        <retroactive_pause>true</retroactive_pause>
+        <schedule display_value="24 x 7">38fa64edc0a8016400f4a5724b0434b8</schedule>
+        <schedule_source>sla_definition</schedule_source>
+        <schedule_source_field/>
+        <set_start_to/>
+        <start_condition table="x_431105_cand_ass_assessment">state=30^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </start_condition>
+        <stop_condition table="x_431105_cand_ass_assessment">state=50^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </stop_condition>
+        <sys_class_name>contract_sla</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-20 22:30:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>da4adc3f47b66510691e7258946d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assessment Time</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>contract_sla_da4adc3f47b66510691e7258946d437e</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-20 22:30:06</sys_updated_on>
+        <target>resolution</target>
+        <timezone/>
+        <timezone_source>task.caller_id.time_zone</timezone_source>
+        <type>SLA</type>
+        <vendor/>
+        <when_to_cancel>on_condition</when_to_cancel>
+        <when_to_resume>on_condition</when_to_resume>
+        <workflow/>
+    </contract_sla>
+</record_update>]]></payload>
+        <payload_hash>-967942118</payload_hash>
+        <record_name>Assessment Time</record_name>
+        <reverted_from/>
+        <source>ca05a324471b61103fa44aff336d43d4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-05 07:27:08</sys_created_on>
+        <sys_id>db05e324471b61103fa44aff336d43b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1888a73dad60000001</sys_recorded_at>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-05 07:27:08</sys_updated_on>
+        <type>SLA Definition</type>
+        <update_guid>d705e324a31b6110006cbf6950f5a0b9</update_guid>
+        <update_guid_history>d705e324a31b6110006cbf6950f5a0b9:0,24d4ebe0751b611038c4c64ed499e1fa:-868053573,2b336610bd532110c095c2b5f5eecd59:1601599810,01b2a29ca8132110dcae6f1bacc76eed:1578061496,91255342ac432110d7c7aab8ae5ccbf1:-961436681</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Assessment Time">bf3440b047db61103fa44aff336d4387</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-05 09:43:26</sys_created_on>
+        <sys_db_object display_value="" name="contract_sla">contract_sla</sys_db_object>
+        <sys_id>51868a1d51654a82bdd6017faaf89921</sys_id>
+        <sys_metadata>da4adc3f47b66510691e7258946d437e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assessment Time</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>contract_sla_da4adc3f47b66510691e7258946d437e</sys_update_name>
+        <sys_update_version display_value="contract_sla_da4adc3f47b66510691e7258946d437e">db05e324471b61103fa44aff336d43b9</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-05 09:43:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="fbe4d74e470321103fa44aff336d4372" extends="task" label="Candidate" max_length="40" name="x_431105_cand_ass_candidate" text_index="true" type="collection">
-        <element label="Approver" max_length="32" name="approver" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Approver" max_length="32" name="approver" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Competition" max_length="32" name="assessment" reference="x_431105_cand_ass_assessment" type="reference"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" display="true" label="Candidate" max_length="32" name="candidate" reference="sys_user" type="reference"/>
-        <element label="Diploma OK?" max_length="40" name="diploma_ok_boolean" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Diploma OK?" max_length="40" name="diploma_ok_boolean" type="boolean"/>
         <element label="Diploma OK?" max_length="40" name="diploma_ok_string" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Eligible" max_length="40" name="eligible" type="string">
             <choice>
@@ -12,14 +12,14 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Exclusion Reasons" max_length="4000" name="exclusion_reasons" reference="x_431105_cand_ass_exclusion_reason" reference_qual="javascript: &quot;assessment=&quot;+current.assessment;" type="glide_list" use_reference_qualifier="advanced"/>
-        <element label="More info required" max_length="40" name="more_info_required_boolean" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="More info required" max_length="40" name="more_info_required_boolean" type="boolean"/>
         <element label="More info required" max_length="40" name="more_info_required_string" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="PreSelection Score" max_length="20" name="preselection_score" type="decimal"/>
-        <element label="Professional Experience OK?" max_length="40" name="professional_experience_ok_boolean" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Professional Experience OK?" max_length="40" name="professional_experience_ok_boolean" type="boolean"/>
         <element label="Professional Experience OK?" max_length="40" name="professional_experience_ok_string" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Reason" max_length="100" name="reason" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Selection Score" max_length="20" name="selection_score" type="decimal"/>
-        <element label="TS info in L2" max_length="40" name="ts_info_in_l2_boolean" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="TS info in L2" max_length="40" name="ts_info_in_l2_boolean" type="boolean"/>
         <element label="TS info in L2" max_length="40" name="ts_info_in_l2_string" type="string"/>
     </element>
 </database>

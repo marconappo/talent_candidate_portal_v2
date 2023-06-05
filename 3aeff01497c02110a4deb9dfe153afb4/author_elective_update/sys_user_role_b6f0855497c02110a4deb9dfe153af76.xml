@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_431105_cand_ass.president_chair</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>president_chair</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-24 11:27:56</sys_created_on>
+        <sys_id>b6f0855497c02110a4deb9dfe153af76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_431105_cand_ass.president_chair</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_user_role_b6f0855497c02110a4deb9dfe153af76</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-24 11:27:56</sys_updated_on>
+    </sys_user_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_user_role_b6f0855497c02110a4deb9dfe153af76</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_431105_cand_ass.president_chair</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>president_chair</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-24 11:27:56</sys_created_on>
+        <sys_id>b6f0855497c02110a4deb9dfe153af76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_431105_cand_ass.president_chair</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_user_role_b6f0855497c02110a4deb9dfe153af76</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-24 11:27:56</sys_updated_on>
+    </sys_user_role>
+</record_update>]]></payload>
+        <payload_hash>-1931343578</payload_hash>
+        <record_name>x_431105_cand_ass.president_chair</record_name>
+        <reverted_from/>
+        <source>ca05a324471b61103fa44aff336d43d4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-05 07:27:13</sys_created_on>
+        <sys_id>ac156724471b61103fa44aff336d43b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1888a73efca0000001</sys_recorded_at>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-05 07:27:13</sys_updated_on>
+        <type>Role</type>
+        <update_guid>a8156724f31b61102e4cacc382dc8cb9</update_guid>
+        <update_guid_history>a8156724f31b61102e4cacc382dc8cb9:0,bbc4abe0a21b61108cb73f8ddea6f490:-1265983560,3f432a1011532110a3c9c3d37b6fc849:-1057076260,53a2ee5ced13211054e531240133a74a:-1429632519,d3559706af4321104b531506d7ff0ba5:1692131753</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_431105_cand_ass.president_chair">b234cc7047db61103fa44aff336d43f8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-05 09:43:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>1e3e26ee5fb5457ab2f8327d0a894664</sys_id>
+        <sys_metadata>b6f0855497c02110a4deb9dfe153af76</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_431105_cand_ass.president_chair</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_user_role_b6f0855497c02110a4deb9dfe153af76</sys_update_name>
+        <sys_update_version display_value="sys_user_role_b6f0855497c02110a4deb9dfe153af76">ac156724471b61103fa44aff336d43b9</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-05 09:43:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -60,7 +60,7 @@
         <update_guid_history>d8555fc27f432110d0144d62d062b4ad:2066843043</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">d0afcf96470761103fa44aff336d4348</sys_audit_delete>
+        <sys_audit_delete display_value="x_431105_cand_ass_assessment.x_431105_cand_ass.board_member">d0afcf96470761103fa44aff336d4348</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
         <sys_created_on>2023-05-29 06:07:13</sys_created_on>
@@ -73,7 +73,7 @@
         <sys_parent display_value="x_431105_cand_ass_assessment">f2924dd497c02110a4deb9dfe153af13</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
-        <sys_scope_delete display_value="">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
         <sys_update_name>sys_security_acl_role_fa924dd497c02110a4deb9dfe153af15</sys_update_name>
         <sys_update_version display_value="sys_security_acl_role_fa924dd497c02110a4deb9dfe153af15">1c555fc2474321103fa44aff336d43ad</sys_update_version>
         <sys_updated_by>nappoma</sys_updated_by>

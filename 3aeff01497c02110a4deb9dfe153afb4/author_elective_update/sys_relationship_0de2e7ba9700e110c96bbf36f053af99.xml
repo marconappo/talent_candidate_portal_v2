@@ -99,7 +99,7 @@
         <sys_parent display_value="Publication">9be4974e470321103fa44aff336d4308</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
-        <sys_scope_delete display_value="">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
         <sys_update_name>sys_relationship_0de2e7ba9700e110c96bbf36f053af99</sys_update_name>
         <sys_update_version display_value="sys_relationship_0de2e7ba9700e110c96bbf36f053af99">88459f82474321103fa44aff336d4351</sys_update_version>
         <sys_updated_by>nappoma</sys_updated_by>

@@ -17,7 +17,7 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="HR Talent Management Case" name="sn_hr_core_case_talent_management">5be0ca2997392110ae7c3341f053af56</super_class>
+        <super_class display_value="HR Talent Management Case" name="sn_hr_core_case_talent_management">9b7460e947c321103fa44aff336d43ba</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
         <sys_created_on>2023-05-28 18:34:07</sys_created_on>

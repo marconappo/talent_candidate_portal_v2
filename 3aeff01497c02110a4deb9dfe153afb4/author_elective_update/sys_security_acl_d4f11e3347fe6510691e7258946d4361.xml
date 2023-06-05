@@ -58,10 +58,10 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_431105_cand_ass_candidate_education_experience</sys_name>
         <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
-        <sys_parent display_value="">0fe19a3347fe6510691e7258946d4315</sys_parent>
+        <sys_parent display_value="x_431105_cand_ass_candidate_education_experience">0fe19a3347fe6510691e7258946d4315</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
-        <sys_scope_delete display_value="">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
         <sys_update_name>sys_security_acl_d4f11e3347fe6510691e7258946d4361</sys_update_name>
         <sys_update_version display_value="sys_security_acl_d4f11e3347fe6510691e7258946d4361">58f11e3347fe6510691e7258946d4363</sys_update_version>
         <sys_updated_by>nappoma</sys_updated_by>

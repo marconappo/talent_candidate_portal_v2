@@ -3,7 +3,7 @@
         <active>true</active>
         <conditions_params_mapping/>
         <is_result_memoizable>false</is_result_memoizable>
-        <screen display_value="Agent Assist">755247282b80a110d51de9dbf2dc99c3</screen>
+        <screen display_value="">755247282b80a110d51de9dbf2dc99c3</screen>
         <screen_condition/>
         <script><![CDATA[(function canShowAA(params) {
     return new x_431105_cand_ass.workspaceStarterExpUtils().checkContextualConfig(params.table);

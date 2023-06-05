@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="ability_to_read" table="x_431105_cand_ass_candidate_education_experience" version="3">
+        <sys_choice_set action="DELETE">
+            <element>ability_to_read</element>
+            <name>x_431105_cand_ass_candidate_education_experience</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 16:50:45</sys_created_on>
+            <sys_id>68bf7ce7470ba5103fa44aff336d4330</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ability_to_read</sys_name>
+            <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+            <sys_update_name>sys_choice_x_431105_cand_ass_candidate_education_experience_ability_to_read</sys_update_name>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 16:50:45</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_choice_x_431105_cand_ass_candidate_education_experience_ability_to_read</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="ability_to_read" table="x_431105_cand_ass_candidate_education_experience" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>ability_to_read</element><name>x_431105_cand_ass_candidate_education_experience</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 16:50:45</sys_created_on><sys_id>68bf7ce7470ba5103fa44aff336d4330</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ability_to_read</sys_name><sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_choice_x_431105_cand_ass_candidate_education_experience_ability_to_read</sys_update_name><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 16:50:45</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>2051733493</payload_hash>
+        <record_name>x_431105_cand_ass_candidate_education_experience.ability_to_read</record_name>
+        <reverted_from/>
+        <source>bf2ea49a470b21103fa44aff336d43af</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:56:46</sys_created_on>
+        <sys_id>33326698471321103fa44aff336d43e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1888568a17e0000001</sys_recorded_at>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:56:46</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>b732669883132110304351b33ea140e4</update_guid>
+        <update_guid_history>b732669883132110304351b33ea140e4:2051733493,bb3266987d132110e3488116aadd3cba:-1659355189,2f32669826132110d6d94e1a982bbc90:-2104147968,af32669808132110c9c94ee8ea43aa66:-743302642,23326698dc132110185e357bd669ba3d:-1017852545,d6752563030fa510e1751685d697e6fa:-477599435,c9752563130fa510a9a02057937eb595:1574787510,a875e923190fa51050a7312d4fd8bc4b:-2016316811,c8752563c50fa510d659e0bc96155a25:1389686772,f3656d23bc0fa510421228936c5a202d:1401918322,47652563190fa510fc4c5b98ce6e7e0c:-1995488973,01152d23af0fa510a67fcdbf417c91f1:624768180,cd152d23120fa51072e0f99f3308b2ed:-1937361785,8d152d23030fa510c20cd04d1f6a62ea:1808540307,0d152d239e0fa51094dc29067e3793e7:-1838457806,bfe46923ff0fa510500f629d167615fc:375229412,6ae46123ce0fa5107488edfe8b43f61e:1176615742,e9e469234b0fa510ccaff5cab0d4e281:-1005401000,6ce4edef4bcba510a40aa82599c5bab5:799815550,7fd46923120fa510cf915b059c6a4112:-1035258588,4d7b1da3d9cba510a3d9990d507e36f5:858509834,4d5b99a3cfcba510a1f3b174efac756d:254895862,404b19a377cba510a0180203a180efc8:858509834,d2cadd6375cba510ea6a6068de07d5c6:254895862,a07a59632acba510dec1cb6bd98dce36:858509834,7cd989e7b24ba51069b938506e6df0d3:254895862,80c909e74f4ba51002cc67a7052255a0:858509834,c8c909e7ed4ba5109ebb0510b877dc9c:254895862,7685c563644ba510bf93b1144f29f81d:483097437,7685c563804ba51071d58f36902edc19:412169,fa85c563684ba510c6b8c06b3b0f3c16:1451932955,52f045abc10ba5106be41d9dfa037f40:-2103877841,def045abdd0ba51072384b5c1023ed3a:-544803168,8890456b020ba510e519b44070af8542:-871647187,e240056b840ba510f89c9d0bfc895f91:-879387912,6640056bd60ba5100d2121271bc74d8e:1528599597,42eff82b7e0ba510f3d6c14221828176:-1413963749,01eff82b2f0ba510c6a51b8e10ac7b21:-1855060638,ecef382b240ba51045d107624a8293b5:-604633840,e7dff8e7920ba51082730e9322c55543:2059171555,a6df382b8f0ba510b368c443ae8c4d79:-1200193159,d5df3ce7ee0ba510e32bab774df02f15:-1689741500,1dcff8e7be0ba5102fc2c86c06b33315:1689042298,9bbf7ce79c0ba510d56c39135dd3a83c:-1665389903,c2bf3ce7010ba51096754a77292f5bf9:-1350699865,2cbf7ce7c40ba510e0864e4c0c919732:522873040</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:58:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>0d8417e3bcea4cc0b2d802b203ca73e4</sys_id>
+        <sys_metadata>68bf7ce7470ba5103fa44aff336d4330</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ability_to_read</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="">b08e74a7470ba5103fa44aff336d43f7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_choice_x_431105_cand_ass_candidate_education_experience_ability_to_read</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_431105_cand_ass_candidate_education_experience_ability_to_read">33326698471321103fa44aff336d43e5</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:58:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -13,7 +13,7 @@
         <sys_update_name>sys_security_acl_role_e9b7916f473a2510691e7258946d43bc</sys_update_name>
         <sys_updated_by>nappoma</sys_updated_by>
         <sys_updated_on>2023-05-20 08:20:00</sys_updated_on>
-        <sys_user_role display_value="x_431105_cand_ass.president_chair" name="x_431105_cand_ass.president_chair">b6f0855497c02110a4deb9dfe153af76</sys_user_role>
+        <sys_user_role display_value="">b6f0855497c02110a4deb9dfe153af76</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>

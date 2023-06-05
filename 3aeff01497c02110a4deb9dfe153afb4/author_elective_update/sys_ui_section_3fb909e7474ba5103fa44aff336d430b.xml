@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Duration" section_id="3fb909e7474ba5103fa44aff336d430b" sys_domain="global" table="x_431105_cand_ass_candidate_education_experience" version="3" view="candidate">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <position>0</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>00c909e7474ba5103fa44aff336d43a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>04c909e7474ba5103fa44aff336d43a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date</element>
+            <position>2</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>08c909e7474ba5103fa44aff336d43a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>0cc909e7474ba5103fa44aff336d43a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_of_education</element>
+            <position>4</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>00c909e7474ba5103fa44aff336d43a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_details_type_of_education</element>
+            <position>5</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>04c909e7474ba5103fa44aff336d43a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name_address_and_type_of_organisation_providing_education_and_training</element>
+            <position>6</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>08c909e7474ba5103fa44aff336d43a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>principal_subject_occupational_skills_covered</element>
+            <position>7</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>0cc909e7474ba5103fa44aff336d43a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country_in_which_the_diploma_was_issued</element>
+            <position>8</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>00c909e7474ba5103fa44aff336d43a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>title_of_qualification_awarded</element>
+            <position>9</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>04c909e7474ba5103fa44aff336d43a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>level_in_national_classification</element>
+            <position>10</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>08c909e7474ba5103fa44aff336d43a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>part_time</element>
+            <position>11</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>0cc909e7474ba5103fa44aff336d43a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>part_time_percentage</element>
+            <position>12</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>00c909e7474ba5103fa44aff336d43a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>experience_month</element>
+            <position>13</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>04c909e7474ba5103fa44aff336d43a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_of_experience</element>
+            <position>14</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>08c909e7474ba5103fa44aff336d43a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_detail_type_of_experience</element>
+            <position>15</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>0cc909e7474ba5103fa44aff336d43a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cassification</element>
+            <position>16</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>00c909e7474ba5103fa44aff336d43a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_of_business_or_sector</element>
+            <position>17</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>04c909e7474ba5103fa44aff336d43a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name_and_address_of_employer</element>
+            <position>18</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>08c909e7474ba5103fa44aff336d43a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>occupation</element>
+            <position>19</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>0cc909e7474ba5103fa44aff336d43a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nature_of_duties</element>
+            <position>20</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>00c909e7474ba5103fa44aff336d43a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>percentage_of_time_spent_on_each_of_the_following_task</element>
+            <position>21</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>04c909e7474ba5103fa44aff336d43a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>language</element>
+            <position>22</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>08c909e7474ba5103fa44aff336d43a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>listen</element>
+            <position>23</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>0cc909e7474ba5103fa44aff336d43a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ability_to_read</element>
+            <position>24</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>00c909e7474ba5103fa44aff336d43aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ability_to_speak</element>
+            <position>25</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>04c909e7474ba5103fa44aff336d43aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ability_to_write</element>
+            <position>26</position>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+            <sys_id>08c909e7474ba5103fa44aff336d43aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Duration</caption>
+            <header>false</header>
+            <name>x_431105_cand_ass_candidate_education_experience</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:34:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3fb909e7474ba5103fa44aff336d430b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_431105_cand_ass_candidate_education_experience</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+            <sys_update_name>sys_ui_section_3fb909e7474ba5103fa44aff336d430b</sys_update_name>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:34:40</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="candidate" name="candidate">0da3a2b74732a510691e7258946d43ae</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_ui_section_3fb909e7474ba5103fa44aff336d430b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Duration" section_id="3fb909e7474ba5103fa44aff336d430b" sys_domain="global" table="x_431105_cand_ass_candidate_education_experience" version="3" view="candidate"><sys_ui_element action="INSERT_OR_UPDATE"><element>start_date</element><position>0</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>00c909e7474ba5103fa44aff336d43a4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>04c909e7474ba5103fa44aff336d43a4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>end_date</element><position>2</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>08c909e7474ba5103fa44aff336d43a4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>3</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>0cc909e7474ba5103fa44aff336d43a4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>type_of_education</element><position>4</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>00c909e7474ba5103fa44aff336d43a5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>additional_details_type_of_education</element><position>5</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>04c909e7474ba5103fa44aff336d43a5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>name_address_and_type_of_organisation_providing_education_and_training</element><position>6</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>08c909e7474ba5103fa44aff336d43a5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>principal_subject_occupational_skills_covered</element><position>7</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>0cc909e7474ba5103fa44aff336d43a5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>country_in_which_the_diploma_was_issued</element><position>8</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>00c909e7474ba5103fa44aff336d43a6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>title_of_qualification_awarded</element><position>9</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>04c909e7474ba5103fa44aff336d43a6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>level_in_national_classification</element><position>10</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>08c909e7474ba5103fa44aff336d43a6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>part_time</element><position>11</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>0cc909e7474ba5103fa44aff336d43a6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>part_time_percentage</element><position>12</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>00c909e7474ba5103fa44aff336d43a7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>experience_month</element><position>13</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>04c909e7474ba5103fa44aff336d43a7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>type_of_experience</element><position>14</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>08c909e7474ba5103fa44aff336d43a7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>additional_detail_type_of_experience</element><position>15</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>0cc909e7474ba5103fa44aff336d43a7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cassification</element><position>16</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>00c909e7474ba5103fa44aff336d43a8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>type_of_business_or_sector</element><position>17</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>04c909e7474ba5103fa44aff336d43a8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>name_and_address_of_employer</element><position>18</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>08c909e7474ba5103fa44aff336d43a8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>occupation</element><position>19</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>0cc909e7474ba5103fa44aff336d43a8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>nature_of_duties</element><position>20</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>00c909e7474ba5103fa44aff336d43a9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>percentage_of_time_spent_on_each_of_the_following_task</element><position>21</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>04c909e7474ba5103fa44aff336d43a9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>language</element><position>22</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>08c909e7474ba5103fa44aff336d43a9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>listen</element><position>23</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>0cc909e7474ba5103fa44aff336d43a9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>ability_to_read</element><position>24</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>00c909e7474ba5103fa44aff336d43aa</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>ability_to_speak</element><position>25</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>04c909e7474ba5103fa44aff336d43aa</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>ability_to_write</element><position>26</position><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:41</sys_created_on><sys_id>08c909e7474ba5103fa44aff336d43aa</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Duration" display_value="Duration" name="x_431105_cand_ass_candidate_education_experience" sys_domain="global" view="0da3a2b74732a510691e7258946d43ae">3fb909e7474ba5103fa44aff336d430b</sys_ui_section><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Duration</caption><header>false</header><name>x_431105_cand_ass_candidate_education_experience</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:34:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3fb909e7474ba5103fa44aff336d430b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_431105_cand_ass_candidate_education_experience</sys_name><sys_overrides/><sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_ui_section_3fb909e7474ba5103fa44aff336d430b</sys_update_name><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:34:40</sys_updated_on><sys_user/><title>false</title><view display_value="candidate" name="candidate">0da3a2b74732a510691e7258946d43ae</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-798551517</payload_hash>
+        <record_name>Candidate Education Experience</record_name>
+        <reverted_from/>
+        <source>088b96b24787e1103fa44aff336d4391</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>olivier.gregoire</sys_created_by>
+        <sys_created_on>2023-06-01 17:34:41</sys_created_on>
+        <sys_id>00c909e7474ba5103fa44aff336d43ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1887806a64b0000001</sys_recorded_at>
+        <sys_updated_by>olivier.gregoire</sys_updated_by>
+        <sys_updated_on>2023-06-01 17:34:41</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>84c909e74c4ba5100ec492e97237e9ad</update_guid>
+        <update_guid_history>84c909e74c4ba5100ec492e97237e9ad:-798551517</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>olivier.gregoire</sys_created_by>
+        <sys_created_on>2023-06-01 17:35:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>14a521b33d68428f84c2ce88476eff41</sys_id>
+        <sys_metadata>3fb909e7474ba5103fa44aff336d430b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Duration</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="">e2e4d34e470321103fa44aff336d4333</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_3fb909e7474ba5103fa44aff336d430b</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_3fb909e7474ba5103fa44aff336d430b">00c909e7474ba5103fa44aff336d43ae</sys_update_version>
+        <sys_updated_by>olivier.gregoire</sys_updated_by>
+        <sys_updated_on>2023-06-01 17:35:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

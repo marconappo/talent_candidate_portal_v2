@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="name_and_address_of_employer" table="x_431105_cand_ass_candidate_education_experience">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Name and Address of employer</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>name_and_address_of_employer</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_431105_cand_ass_candidate_education_experience</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>olivier.gregoire</sys_created_by>
+        <sys_created_on>2023-06-01 16:29:55</sys_created_on>
+        <sys_id>c7ea78ef47c7a5103fa44aff336d43dc</sys_id>
+        <sys_name>Name and Address of employer</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_dictionary_x_431105_cand_ass_candidate_education_experience_name_and_address_of_employer</sys_update_name>
+        <sys_updated_by>olivier.gregoire</sys_updated_by>
+        <sys_updated_on>2023-06-01 16:29:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_dictionary_x_431105_cand_ass_candidate_education_experience_name_and_address_of_employer</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="name_and_address_of_employer" table="x_431105_cand_ass_candidate_education_experience"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Name and Address of employer</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>name_and_address_of_employer</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_431105_cand_ass_candidate_education_experience</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 16:29:55</sys_created_on><sys_id>c7ea78ef47c7a5103fa44aff336d43dc</sys_id><sys_name>Name and Address of employer</sys_name><sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_dictionary_x_431105_cand_ass_candidate_education_experience_name_and_address_of_employer</sys_update_name><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 16:29:56</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>224843788</payload_hash>
+        <record_name>Candidate Education Experience.Name and Address of employer</record_name>
+        <reverted_from/>
+        <source>088b96b24787e1103fa44aff336d4391</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>olivier.gregoire</sys_created_by>
+        <sys_created_on>2023-06-01 16:29:56</sys_created_on>
+        <sys_id>2feab8ef47c7a5103fa44aff336d43ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18877cb5f740000001</sys_recorded_at>
+        <sys_updated_by>olivier.gregoire</sys_updated_by>
+        <sys_updated_on>2023-06-01 16:29:56</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>a3eab8efaec7a510e7b3aee7c70606ac</update_guid>
+        <update_guid_history>a3eab8efaec7a510e7b3aee7c70606ac:224843788,5beab8ef59c7a510ce2b1f10e751e61c:-649612983</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:57:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>1b5f5657847c403ca21d458d238544f1</sys_id>
+        <sys_metadata>c7ea78ef47c7a5103fa44aff336d43dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Name and Address of employer</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="">e2e4d34e470321103fa44aff336d4333</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_431105_cand_ass_candidate_education_experience_name_and_address_of_employer</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_431105_cand_ass_candidate_education_experience_name_and_address_of_employer">2feab8ef47c7a5103fa44aff336d43ac</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:57:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

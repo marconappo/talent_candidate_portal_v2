@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="open_to_other_institution" table="x_431105_cand_ass_stage_library">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>

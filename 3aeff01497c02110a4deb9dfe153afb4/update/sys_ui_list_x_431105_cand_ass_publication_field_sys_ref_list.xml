@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>short_description</element>
-            <list_id display_value="x_431105_cand_ass_publication_field" element="NULL" name="x_431105_cand_ass_publication_field" parent="NULL" relationship="NULL" sys_domain="global" view="94b6d37340002110a866a184125c1123">42a06b0e478321103fa44aff336d4391</list_id>
+            <list_id display_value="x_431105_cand_ass_publication_field" element="NULL" name="x_431105_cand_ass_publication_field" parent="NULL" relationship="NULL" sys_domain="global" view="6679c371e821211076da10591ad2873e">42a06b0e478321103fa44aff336d4391</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -40,7 +40,7 @@
             <sys_updated_by>lellien</sys_updated_by>
             <sys_updated_on>2023-05-28 12:43:07</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">94b6d37340002110a866a184125c1123</view>
+            <view display_value="Reference List" name="sys_ref_list">6679c371e821211076da10591ad2873e</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

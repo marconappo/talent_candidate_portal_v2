@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config/>
+        <description/>
+        <event_mappings>[ {&#13;
+  "eventMappingId" : "ckgaadhhiggjaaaaaazddhhhctjjvffyafe",&#13;
+  "isConfiguration" : false,&#13;
+  "offRowStorageId" : null,&#13;
+  "sourceEventApiName" : "sn_uib_base_aw.GFORM_SAVE_RELAY_195fd4970f0210107d20409dc4767e0a",&#13;
+  "sourceEventDefinition" : {&#13;
+    "apiName" : "sn_uib_base_aw.GFORM_SAVE_RELAY_195fd4970f0210107d20409dc4767e0a",&#13;
+    "id" : null,&#13;
+    "type" : "UXEVENT"&#13;
+  },&#13;
+  "sourceEventSysId" : null,&#13;
+  "targets" : [ {&#13;
+    "broker" : null,&#13;
+    "clientScript" : null,&#13;
+    "declarativeAction" : null,&#13;
+    "event" : null,&#13;
+    "operation" : {&#13;
+      "dataBrokerId" : "dc6e87a5232200100e4bc50947bf654b",&#13;
+      "operationName" : "SAVE",&#13;
+      "parentResourceId" : "gform",&#13;
+      "payload" : {&#13;
+        "type" : "JSON_LITERAL",&#13;
+        "value" : { }&#13;
+      }&#13;
+    },&#13;
+    "targetId" : "ckgaadhhiggjaaaabbaaddhhhceeeoebiiccy",&#13;
+    "type" : "DATABROKER_OP"&#13;
+  } ]&#13;
+}, {&#13;
+  "eventMappingId" : "ckfrheeucccaaaabbaaddhhhauddkjcvkbb",&#13;
+  "isConfiguration" : false,&#13;
+  "offRowStorageId" : null,&#13;
+  "sourceEventApiName" : "sn_uib_base_aw.NOW_UXF_PAGE#ADD_NOTIFICATIONS_RELAY_195fd4970f0210107d20409dc4767e0a",&#13;
+  "sourceEventDefinition" : {&#13;
+    "apiName" : "sn_uib_base_aw.NOW_UXF_PAGE#ADD_NOTIFICATIONS_RELAY_195fd4970f0210107d20409dc4767e0a",&#13;
+    "id" : null,&#13;
+    "type" : "UXEVENT"&#13;
+  },&#13;
+  "sourceEventSysId" : null,&#13;
+  "targets" : [ {&#13;
+    "broker" : null,&#13;
+    "clientScript" : null,&#13;
+    "declarativeAction" : null,&#13;
+    "event" : {&#13;
+      "apiName" : "sn_uxf_page.NOW_UXF_PAGE#ADD_NOTIFICATIONS",&#13;
+      "payload" : {&#13;
+        "type" : "MAP_CONTAINER",&#13;
+        "container" : {&#13;
+          "items" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "items" ]&#13;
+            }&#13;
+          }&#13;
+        }&#13;
+      },&#13;
+      "sysId" : "49fe7d575f983bb3f8eea3fa8d40694c"&#13;
+    },&#13;
+    "operation" : null,&#13;
+    "targetId" : "ckfrheeucccaaaaaazddhhhaffyziccpqs",&#13;
+    "type" : "EVENT"&#13;
+  } ]&#13;
+}, {&#13;
+  "eventMappingId" : "ckfninrqbaaaaaazddhhharnggdffffiih",&#13;
+  "isConfiguration" : false,&#13;
+  "offRowStorageId" : null,&#13;
+  "sourceEventApiName" : "sn_uib_base_aw.GFORM_SET_VALUE_RELAY_195fd4970f0210107d20409dc4767e0a",&#13;
+  "sourceEventDefinition" : {&#13;
+    "apiName" : "sn_uib_base_aw.GFORM_SET_VALUE_RELAY_195fd4970f0210107d20409dc4767e0a",&#13;
+    "id" : null,&#13;
+    "type" : "UXEVENT"&#13;
+  },&#13;
+  "sourceEventSysId" : null,&#13;
+  "targets" : [ {&#13;
+    "broker" : null,&#13;
+    "clientScript" : null,&#13;
+    "declarativeAction" : null,&#13;
+    "event" : null,&#13;
+    "operation" : {&#13;
+      "dataBrokerId" : "dc6e87a5232200100e4bc50947bf654b",&#13;
+      "operationName" : "SET_VALUE",&#13;
+      "parentResourceId" : "gform",&#13;
+      "payload" : {&#13;
+        "type" : "MAP_CONTAINER",&#13;
+        "container" : {&#13;
+          "fieldName" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "fieldName" ]&#13;
+            }&#13;
+          },&#13;
+          "value" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "value" ]&#13;
+            }&#13;
+          },&#13;
+          "displayValue" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "displayValue" ]&#13;
+            }&#13;
+          }&#13;
+        }&#13;
+      }&#13;
+    },&#13;
+    "targetId" : "ckfninrqbaaaabbaaddhhhakffbbmubbfjj",&#13;
+    "type" : "DATABROKER_OP"&#13;
+  } ]&#13;
+}, {&#13;
+  "eventMappingId" : "ckfnijxcchaaaaaazddhhhabbfbpnccxq",&#13;
+  "isConfiguration" : false,&#13;
+  "offRowStorageId" : null,&#13;
+  "sourceEventApiName" : "global.GFORM_SAVE_RELAY_195fd4970f0210107d20409dc4767e0a",&#13;
+  "sourceEventDefinition" : {&#13;
+    "apiName" : "global.GFORM_SAVE_RELAY_195fd4970f0210107d20409dc4767e0a",&#13;
+    "id" : null,&#13;
+    "type" : "UXEVENT"&#13;
+  },&#13;
+  "sourceEventSysId" : null,&#13;
+  "targets" : [ {&#13;
+    "broker" : null,&#13;
+    "clientScript" : null,&#13;
+    "declarativeAction" : null,&#13;
+    "event" : null,&#13;
+    "operation" : {&#13;
+      "dataBrokerId" : "dc6e87a5232200100e4bc50947bf654b",&#13;
+      "operationName" : "SAVE",&#13;
+      "parentResourceId" : "gform",&#13;
+      "payload" : {&#13;
+        "type" : "JSON_LITERAL",&#13;
+        "value" : { }&#13;
+      }&#13;
+    },&#13;
+    "targetId" : "ckfnijxccgaaaaaayddhhhaihhpyueeul",&#13;
+    "type" : "DATABROKER_OP"&#13;
+  } ]&#13;
+}, {&#13;
+  "eventMappingId" : "ckfnigmkeeaaaabbggddhhhaditjjtlyk",&#13;
+  "isConfiguration" : false,&#13;
+  "offRowStorageId" : null,&#13;
+  "sourceEventApiName" : "global.GFORM_EXECUTE_UI_ACTION_RELAY_195fd4970f0210107d20409dc4767e0a",&#13;
+  "sourceEventDefinition" : {&#13;
+    "apiName" : "global.GFORM_EXECUTE_UI_ACTION_RELAY_195fd4970f0210107d20409dc4767e0a",&#13;
+    "id" : null,&#13;
+    "type" : "UXEVENT"&#13;
+  },&#13;
+  "sourceEventSysId" : null,&#13;
+  "targets" : [ {&#13;
+    "broker" : null,&#13;
+    "clientScript" : null,&#13;
+    "declarativeAction" : null,&#13;
+    "event" : null,&#13;
+    "operation" : {&#13;
+      "dataBrokerId" : "dc6e87a5232200100e4bc50947bf654b",&#13;
+      "operationName" : "EXECUTE_UI_ACTION",&#13;
+      "parentResourceId" : "gform",&#13;
+      "payload" : {&#13;
+        "type" : "MAP_CONTAINER",&#13;
+        "container" : {&#13;
+          "actionSysId" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "actionSysId" ]&#13;
+            }&#13;
+          }&#13;
+        }&#13;
+      }&#13;
+    },&#13;
+    "targetId" : "ckfnigmkeeaaaabbffddhhhawwnaavlaah",&#13;
+    "type" : "DATABROKER_OP"&#13;
+  } ]&#13;
+} ]&#13;
+&#13;
+</event_mappings>
+        <macroponent display_value="Agent assist">195fd4970f0210107d20409dc4767e0a</macroponent>
+        <macroponent_config>{  "isNewRecord" : "@data.gform.nowRecordFormBlob.isNewRecord",  "fields" : "@data.gform.nowRecordFormBlob.fields",  "sysId" : "@data.gform.nowRecordFormBlob.sysId",  "table" : "@data.gform.nowRecordFormBlob.table",  "cxsTableConfig" : "e15061a4b30303002bf182c136a8dc34",  "label" : "",  "bare" : true,  "scrollable" : "y",  "headerLevel" : "1",  "interceptNotifications" : false,  "propagateNotifications" : true}</macroponent_config>
+        <name>Agent Assist</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record">558adc930f0210107d20409dc4767e84</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Agent assist tab">d15fd4970f0210107d20409dc4767e08</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 15:31:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>755247282b80a110d51de9dbf2dc99c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Agent Assist</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ux_screen_755247282b80a110d51de9dbf2dc99c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 15:31:27</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=755247282b80a110d51de9dbf2dc99c3"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_ux_screen_755247282b80a110d51de9dbf2dc99c3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config/>
+        <description/>
+        <event_mappings>[ {&#13;
+  "eventMappingId" : "ckgaadhhiggjaaaaaazddhhhctjjvffyafe",&#13;
+  "isConfiguration" : false,&#13;
+  "offRowStorageId" : null,&#13;
+  "sourceEventApiName" : "sn_uib_base_aw.GFORM_SAVE_RELAY_195fd4970f0210107d20409dc4767e0a",&#13;
+  "sourceEventDefinition" : {&#13;
+    "apiName" : "sn_uib_base_aw.GFORM_SAVE_RELAY_195fd4970f0210107d20409dc4767e0a",&#13;
+    "id" : null,&#13;
+    "type" : "UXEVENT"&#13;
+  },&#13;
+  "sourceEventSysId" : null,&#13;
+  "targets" : [ {&#13;
+    "broker" : null,&#13;
+    "clientScript" : null,&#13;
+    "declarativeAction" : null,&#13;
+    "event" : null,&#13;
+    "operation" : {&#13;
+      "dataBrokerId" : "dc6e87a5232200100e4bc50947bf654b",&#13;
+      "operationName" : "SAVE",&#13;
+      "parentResourceId" : "gform",&#13;
+      "payload" : {&#13;
+        "type" : "JSON_LITERAL",&#13;
+        "value" : { }&#13;
+      }&#13;
+    },&#13;
+    "targetId" : "ckgaadhhiggjaaaabbaaddhhhceeeoebiiccy",&#13;
+    "type" : "DATABROKER_OP"&#13;
+  } ]&#13;
+}, {&#13;
+  "eventMappingId" : "ckfrheeucccaaaabbaaddhhhauddkjcvkbb",&#13;
+  "isConfiguration" : false,&#13;
+  "offRowStorageId" : null,&#13;
+  "sourceEventApiName" : "sn_uib_base_aw.NOW_UXF_PAGE#ADD_NOTIFICATIONS_RELAY_195fd4970f0210107d20409dc4767e0a",&#13;
+  "sourceEventDefinition" : {&#13;
+    "apiName" : "sn_uib_base_aw.NOW_UXF_PAGE#ADD_NOTIFICATIONS_RELAY_195fd4970f0210107d20409dc4767e0a",&#13;
+    "id" : null,&#13;
+    "type" : "UXEVENT"&#13;
+  },&#13;
+  "sourceEventSysId" : null,&#13;
+  "targets" : [ {&#13;
+    "broker" : null,&#13;
+    "clientScript" : null,&#13;
+    "declarativeAction" : null,&#13;
+    "event" : {&#13;
+      "apiName" : "sn_uxf_page.NOW_UXF_PAGE#ADD_NOTIFICATIONS",&#13;
+      "payload" : {&#13;
+        "type" : "MAP_CONTAINER",&#13;
+        "container" : {&#13;
+          "items" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "items" ]&#13;
+            }&#13;
+          }&#13;
+        }&#13;
+      },&#13;
+      "sysId" : "49fe7d575f983bb3f8eea3fa8d40694c"&#13;
+    },&#13;
+    "operation" : null,&#13;
+    "targetId" : "ckfrheeucccaaaaaazddhhhaffyziccpqs",&#13;
+    "type" : "EVENT"&#13;
+  } ]&#13;
+}, {&#13;
+  "eventMappingId" : "ckfninrqbaaaaaazddhhharnggdffffiih",&#13;
+  "isConfiguration" : false,&#13;
+  "offRowStorageId" : null,&#13;
+  "sourceEventApiName" : "sn_uib_base_aw.GFORM_SET_VALUE_RELAY_195fd4970f0210107d20409dc4767e0a",&#13;
+  "sourceEventDefinition" : {&#13;
+    "apiName" : "sn_uib_base_aw.GFORM_SET_VALUE_RELAY_195fd4970f0210107d20409dc4767e0a",&#13;
+    "id" : null,&#13;
+    "type" : "UXEVENT"&#13;
+  },&#13;
+  "sourceEventSysId" : null,&#13;
+  "targets" : [ {&#13;
+    "broker" : null,&#13;
+    "clientScript" : null,&#13;
+    "declarativeAction" : null,&#13;
+    "event" : null,&#13;
+    "operation" : {&#13;
+      "dataBrokerId" : "dc6e87a5232200100e4bc50947bf654b",&#13;
+      "operationName" : "SET_VALUE",&#13;
+      "parentResourceId" : "gform",&#13;
+      "payload" : {&#13;
+        "type" : "MAP_CONTAINER",&#13;
+        "container" : {&#13;
+          "fieldName" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "fieldName" ]&#13;
+            }&#13;
+          },&#13;
+          "value" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "value" ]&#13;
+            }&#13;
+          },&#13;
+          "displayValue" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "displayValue" ]&#13;
+            }&#13;
+          }&#13;
+        }&#13;
+      }&#13;
+    },&#13;
+    "targetId" : "ckfninrqbaaaabbaaddhhhakffbbmubbfjj",&#13;
+    "type" : "DATABROKER_OP"&#13;
+  } ]&#13;
+}, {&#13;
+  "eventMappingId" : "ckfnijxcchaaaaaazddhhhabbfbpnccxq",&#13;
+  "isConfiguration" : false,&#13;
+  "offRowStorageId" : null,&#13;
+  "sourceEventApiName" : "global.GFORM_SAVE_RELAY_195fd4970f0210107d20409dc4767e0a",&#13;
+  "sourceEventDefinition" : {&#13;
+    "apiName" : "global.GFORM_SAVE_RELAY_195fd4970f0210107d20409dc4767e0a",&#13;
+    "id" : null,&#13;
+    "type" : "UXEVENT"&#13;
+  },&#13;
+  "sourceEventSysId" : null,&#13;
+  "targets" : [ {&#13;
+    "broker" : null,&#13;
+    "clientScript" : null,&#13;
+    "declarativeAction" : null,&#13;
+    "event" : null,&#13;
+    "operation" : {&#13;
+      "dataBrokerId" : "dc6e87a5232200100e4bc50947bf654b",&#13;
+      "operationName" : "SAVE",&#13;
+      "parentResourceId" : "gform",&#13;
+      "payload" : {&#13;
+        "type" : "JSON_LITERAL",&#13;
+        "value" : { }&#13;
+      }&#13;
+    },&#13;
+    "targetId" : "ckfnijxccgaaaaaayddhhhaihhpyueeul",&#13;
+    "type" : "DATABROKER_OP"&#13;
+  } ]&#13;
+}, {&#13;
+  "eventMappingId" : "ckfnigmkeeaaaabbggddhhhaditjjtlyk",&#13;
+  "isConfiguration" : false,&#13;
+  "offRowStorageId" : null,&#13;
+  "sourceEventApiName" : "global.GFORM_EXECUTE_UI_ACTION_RELAY_195fd4970f0210107d20409dc4767e0a",&#13;
+  "sourceEventDefinition" : {&#13;
+    "apiName" : "global.GFORM_EXECUTE_UI_ACTION_RELAY_195fd4970f0210107d20409dc4767e0a",&#13;
+    "id" : null,&#13;
+    "type" : "UXEVENT"&#13;
+  },&#13;
+  "sourceEventSysId" : null,&#13;
+  "targets" : [ {&#13;
+    "broker" : null,&#13;
+    "clientScript" : null,&#13;
+    "declarativeAction" : null,&#13;
+    "event" : null,&#13;
+    "operation" : {&#13;
+      "dataBrokerId" : "dc6e87a5232200100e4bc50947bf654b",&#13;
+      "operationName" : "EXECUTE_UI_ACTION",&#13;
+      "parentResourceId" : "gform",&#13;
+      "payload" : {&#13;
+        "type" : "MAP_CONTAINER",&#13;
+        "container" : {&#13;
+          "actionSysId" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "actionSysId" ]&#13;
+            }&#13;
+          }&#13;
+        }&#13;
+      }&#13;
+    },&#13;
+    "targetId" : "ckfnigmkeeaaaabbffddhhhawwnaavlaah",&#13;
+    "type" : "DATABROKER_OP"&#13;
+  } ]&#13;
+} ]&#13;
+&#13;
+</event_mappings>
+        <macroponent display_value="Agent assist">195fd4970f0210107d20409dc4767e0a</macroponent>
+        <macroponent_config>{  "isNewRecord" : "@data.gform.nowRecordFormBlob.isNewRecord",  "fields" : "@data.gform.nowRecordFormBlob.fields",  "sysId" : "@data.gform.nowRecordFormBlob.sysId",  "table" : "@data.gform.nowRecordFormBlob.table",  "cxsTableConfig" : "e15061a4b30303002bf182c136a8dc34",  "label" : "",  "bare" : true,  "scrollable" : "y",  "headerLevel" : "1",  "interceptNotifications" : false,  "propagateNotifications" : true}</macroponent_config>
+        <name>Agent Assist</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record">558adc930f0210107d20409dc4767e84</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Agent assist tab">d15fd4970f0210107d20409dc4767e08</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 15:31:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>755247282b80a110d51de9dbf2dc99c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Agent Assist</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ux_screen_755247282b80a110d51de9dbf2dc99c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 15:31:27</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=755247282b80a110d51de9dbf2dc99c3"/>
+</record_update>]]></payload>
+        <payload_hash>136962838</payload_hash>
+        <record_name>Agent Assist</record_name>
+        <reverted_from/>
+        <source>bde4534e470321103fa44aff336d4334</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-28 11:53:54</sys_created_on>
+        <sys_id>81655f06474321103fa44aff336d436f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188623535270000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-28 11:53:54</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>41655f06d74321103fa353416548ea6f</update_guid>
+        <update_guid_history>41655f06d74321103fa353416548ea6f:136962838</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:58:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>10dcfb26e68b4ba0a2c0c81c4969f440</sys_id>
+        <sys_metadata>755247282b80a110d51de9dbf2dc99c3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Agent Assist</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_755247282b80a110d51de9dbf2dc99c3</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_755247282b80a110d51de9dbf2dc99c3">81655f06474321103fa44aff336d436f</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:58:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_431105_cand_ass_candidate_education_experience">category=education_and_training^EQ<item display_value="Education and Training" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="education_and_training"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Education and training</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>olivier.gregoire</sys_created_by>
+        <sys_created_on>2023-06-01 16:05:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2635346747c7a5103fa44aff336d438b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Education and training</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ui_policy_2635346747c7a5103fa44aff336d438b</sys_update_name>
+        <sys_updated_by>olivier.gregoire</sys_updated_by>
+        <sys_updated_on>2023-06-01 16:05:51</sys_updated_on>
+        <table>x_431105_cand_ass_candidate_education_experience</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_ui_policy_2635346747c7a5103fa44aff336d438b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_431105_cand_ass_candidate_education_experience"&gt;category=education_and_training^EQ&lt;item display_value="Education and Training" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="education_and_training"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Education and training&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;olivier.gregoire&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-01 16:05:51&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2635346747c7a5103fa44aff336d438b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Education and training&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Talent NOW" source="x_431105_cand_ass"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Talent NOW"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_2635346747c7a5103fa44aff336d438b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;olivier.gregoire&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-01 16:05:51&lt;/sys_updated_on&gt;&lt;table&gt;x_431105_cand_ass_candidate_education_experience&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1322916708</payload_hash>
+        <record_name>Education and training</record_name>
+        <reverted_from/>
+        <source>088b96b24787e1103fa44aff336d4391</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>olivier.gregoire</sys_created_by>
+        <sys_created_on>2023-06-01 16:05:51</sys_created_on>
+        <sys_id>3e65346747c7a5103fa44aff336d43a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18877b550880000001</sys_recorded_at>
+        <sys_updated_by>olivier.gregoire</sys_updated_by>
+        <sys_updated_on>2023-06-01 16:05:51</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>3265346751c7a51080f601b8ace88fa5</update_guid>
+        <update_guid_history>3265346751c7a51080f601b8ace88fa5:1322916708</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:56:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>4953c51c06d2457a8cb975d413242cc4</sys_id>
+        <sys_metadata>2635346747c7a5103fa44aff336d438b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Education and training</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="">e2e4d34e470321103fa44aff336d4333</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_2635346747c7a5103fa44aff336d438b</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_2635346747c7a5103fa44aff336d438b">3e65346747c7a5103fa44aff336d43a5</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:56:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

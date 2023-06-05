@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config/>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon>graduation-cap-outline</icon>
+        <name>Agent assist</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Record">558adc930f0210107d20409dc4767e84</parent_macroponent>
+        <parent_macroponent_composition_element_id>contextual_sidebar</parent_macroponent_composition_element_id>
+        <route_type>agentassisttab</route_type>
+        <screen_type display_value="">d15fd4970f0210107d20409dc4767e08</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-28 10:45:10</sys_created_on>
+        <sys_id>ca9d19e1b104e1107c66becbb58d4919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Agent assist</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ux_app_route_ca9d19e1b104e1107c66becbb58d4919</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-28 10:45:10</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=ca9d19e1b104e1107c66becbb58d4919"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_ux_app_route_ca9d19e1b104e1107c66becbb58d4919</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config/><description/><extension_point/><fields/><icon>graduation-cap-outline</icon><name>Agent assist</name><optional_parameters/><order>0</order><parent_macroponent display_value="Record">558adc930f0210107d20409dc4767e84</parent_macroponent><parent_macroponent_composition_element_id>contextual_sidebar</parent_macroponent_composition_element_id><route_type>agentassisttab</route_type><screen_type display_value="">d15fd4970f0210107d20409dc4767e08</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-28 10:45:10</sys_created_on><sys_id>ca9d19e1b104e1107c66becbb58d4919</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Agent assist</sys_name><sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_ux_app_route_ca9d19e1b104e1107c66becbb58d4919</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-28 10:45:10</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=ca9d19e1b104e1107c66becbb58d4919"/></record_update>]]></payload>
+        <payload_hash>871546582</payload_hash>
+        <record_name>Agent assist</record_name>
+        <reverted_from/>
+        <source>bf2ea49a470b21103fa44aff336d43af</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:58:08</sys_created_on>
+        <sys_id>ff82ee1c471321103fa44aff336d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1888569e1e70000001</sys_recorded_at>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:58:08</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>bb82ee1c0c13211001fe40be0f7188c4</update_guid>
+        <update_guid_history>bb82ee1c0c13211001fe40be0f7188c4:0,33551b06cd43211090d47d608a48f632:-2066761950</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:58:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>08d5d99115ee4cc084bbc7ee88601711</sys_id>
+        <sys_metadata>ca9d19e1b104e1107c66becbb58d4919</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Agent assist</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_ca9d19e1b104e1107c66becbb58d4919</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_ca9d19e1b104e1107c66becbb58d4919">ff82ee1c471321103fa44aff336d43c4</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:58:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
     <sys_user_role_contains action="INSERT_OR_UPDATE">
         <contains display_value="x_431105_cand_ass.board_member" name="x_431105_cand_ass.board_member">83c0419497c02110a4deb9dfe153af0a</contains>
-        <role display_value="x_431105_cand_ass.president_chair" name="x_431105_cand_ass.president_chair">b6f0855497c02110a4deb9dfe153af76</role>
+        <role display_value="">b6f0855497c02110a4deb9dfe153af76</role>
         <sys_class_name>sys_user_role_contains</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-12-24 11:38:12</sys_created_on>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="use_document_viewer" db_object_id="e2e4d34e470321103fa44aff336d4333" label="Candidate Education Experience" max_length="40" name="x_431105_cand_ass_candidate_education_experience" type="collection">
-        <element choice="1" choice_field="application_duration" choice_table="x_431105_cand_ass_candidate_education_experience" label="Accepted Duration" max_length="40" name="accepted_duration" type="integer">
+    <element attributes="use_document_viewer" db_object_id="cf032838475f61103fa44aff336d4363" label="Candidate Education Experience" max_length="40" name="x_431105_cand_ass_candidate_education_experience" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="application_duration" choice_table="x_431105_cand_ass_candidate_education_experience" label="Accepted Duration" max_length="40" name="accepted_duration" type="integer">
             <choice/>
         </element>
-        <element choice="1" label="Application Duration" max_length="40" name="application_duration" type="integer">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Application Duration" max_length="40" name="application_duration" type="integer">
             <choice>
                 <element inactive_on_update="false" label="1" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="2" sequence="1" value="2"/>
@@ -19,8 +19,8 @@
                 <element inactive_on_update="false" label="48" sequence="11" value="48"/>
             </choice>
         </element>
-        <element label="Candidate" max_length="32" name="candidate" reference="x_431105_cand_ass_candidate" type="reference"/>
-        <element choice="3" choice_field="category" choice_table="x_431105_cand_ass_requirement_library" default="education_and_training" label="Category" max_length="40" name="category" type="choice">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Candidate" max_length="32" name="candidate" reference="x_431105_cand_ass_candidate" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" choice_field="category" choice_table="x_431105_cand_ass_requirement_library" default="education_and_training" label="Category" max_length="40" name="category" type="choice">
             <choice>
                 <element inactive_on_update="false" label="General" sequence="0" value="general"/>
                 <element inactive_on_update="false" label="Education and Training" sequence="1" value="education_and_training"/>
@@ -52,10 +52,10 @@
         </element>
         <element label="Reply" max_length="1000" name="reply" type="string"/>
         <element label="Request" max_length="1000" name="request" type="string"/>
-        <element label="Requirement" max_length="32" name="requirement" reference="x_431105_cand_ass_candidate_requirement" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Requirement" max_length="32" name="requirement" reference="x_431105_cand_ass_candidate_requirement" type="reference"/>
         <element label="RfR check" max_length="40" name="rfr_check" type="string"/>
         <element label="Start date" max_length="40" name="start_date" type="glide_date"/>
-        <element label="Supporting documents" max_length="40" name="supporting_documents" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" label="Supporting documents" max_length="40" name="supporting_documents" type="file_attachment"/>
         <element attributes="edge_encryption_enabled=true" label="Title" max_length="100" name="title" type="string"/>
         <index name="index">
             <element name="candidate"/>

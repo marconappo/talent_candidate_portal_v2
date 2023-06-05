@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="registration_form_field">
+    <registration_form_field action="DELETE">
+        <column_label>Prefix</column_label>
+        <column_name>introduction</column_name>
+        <custom_field>false</custom_field>
+        <display>false</display>
+        <mandatory>false</mandatory>
+        <order>10000</order>
+        <registration_configuration display_value="">72da4d2f474ba5103fa44aff336d4371</registration_configuration>
+        <sys_class_name>registration_form_field</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-01 17:41:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>313b096f474ba5103fa44aff336d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Prefix</sys_name>
+        <sys_package display_value="External User Self-Registration" source="com.snc.external_user_self_registration">875a092b474ba5103fa44aff336d4329</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>registration_form_field_313b096f474ba5103fa44aff336d4357</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-01 17:41:05</sys_updated_on>
+        <type>5</type>
+        <validation_only>false</validation_only>
+    </registration_form_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>registration_form_field_313b096f474ba5103fa44aff336d4357</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="registration_form_field"><registration_form_field action="INSERT_OR_UPDATE"><column_label>Prefix</column_label><column_name>introduction</column_name><custom_field>false</custom_field><display>false</display><mandatory>false</mandatory><order>10000</order><registration_configuration display_value="">72da4d2f474ba5103fa44aff336d4371</registration_configuration><sys_class_name>registration_form_field</sys_class_name><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-06-01 17:41:05</sys_created_on><sys_domain>global</sys_domain><sys_id>313b096f474ba5103fa44aff336d4357</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Prefix</sys_name><sys_package display_value="External User Self-Registration" source="com.snc.external_user_self_registration">875a092b474ba5103fa44aff336d4329</sys_package><sys_policy/><sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>registration_form_field_313b096f474ba5103fa44aff336d4357</sys_update_name><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-06-01 17:41:05</sys_updated_on><type>5</type><validation_only>false</validation_only></registration_form_field></record_update>]]></payload>
+        <payload_hash>-481896824</payload_hash>
+        <record_name>Prefix</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-01 17:46:28</sys_created_on>
+        <sys_id>607c09ef474ba5103fa44aff336d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18878116f7f0000001</sys_recorded_at>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-01 17:46:28</sys_updated_on>
+        <type>Registration Form Field</type>
+        <update_guid>207c09ef1d4ba510faa4f9f8b28c43e3</update_guid>
+        <update_guid_history>207c09ef1d4ba510faa4f9f8b28c43e3:-481896824</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Prefix">687c09ef474ba5103fa44aff336d43e4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-01 17:46:28</sys_created_on>
+        <sys_db_object display_value="" name="registration_form_field">registration_form_field</sys_db_object>
+        <sys_id>0349235d2f48460280766e6b999df784</sys_id>
+        <sys_metadata>313b096f474ba5103fa44aff336d4357</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Prefix</sys_name>
+        <sys_package display_value="External User Self-Registration" source="com.snc.external_user_self_registration">875a092b474ba5103fa44aff336d4329</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>registration_form_field_313b096f474ba5103fa44aff336d4357</sys_update_name>
+        <sys_update_version display_value="registration_form_field_313b096f474ba5103fa44aff336d4357">607c09ef474ba5103fa44aff336d43e3</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-01 17:46:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

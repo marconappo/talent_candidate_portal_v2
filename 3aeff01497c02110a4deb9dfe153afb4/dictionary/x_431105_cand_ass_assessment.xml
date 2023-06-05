@@ -2,8 +2,8 @@
     <element attributes="use_document_viewer=true" audit="true" db_object_id="9be4974e470321103fa44aff336d4308" extends="task" label="Publication" max_length="40" name="x_431105_cand_ass_assessment" text_index="true" type="collection">
         <element label="Available from" max_length="40" name="available_from" type="glide_date"/>
         <element default="Administration" function_definition="Administration" label="Budget" max_length="40" name="budget" type="string"/>
-        <element attributes="encode_utf8=false" hint="aka Group in EPSO TALENT" label="Competition Group" max_length="32" name="category" reference="x_431105_cand_ass_publication_category" type="reference"/>
-        <element default="ALL" hint="Which citizenships are allowed to apply" label="Citizenship" max_length="400" name="citizenship" reference="x_431105_cand_ass_language" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" hint="aka Group in EPSO TALENT" label="Competition Group" max_length="32" name="category" reference="x_431105_cand_ass_publication_category" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" default="ALL" hint="Which citizenships are allowed to apply" label="Citizenship" max_length="1024" name="citizenship" reference="x_431105_cand_ass_language" type="glide_list"/>
         <element default="DIGIT.B.2" function_definition="DIGIT.B.2" label="Entity" max_length="40" name="entity" type="string"/>
         <element default="The Directorate-General DIGIT is the Commission department responsible for providing digital services that support other Commission departments and European Institutions in their daily work and that help European public administrations work better together. DIGIT B, in partnership with Commission services and other stakeholders, provides high quality corporate Business Solutions (Information Systems), common frameworks and interoperable, reusable components enabling the successful delivery of the Commission's Digital Transformation and EU policies. Unit DIGIT B 2 “Solutions for Legislation, Policy &amp; HR'' provides corporate digital solutions to help European Institutions and other bodies 10 run their administrations and Decision making Process and implement policies in selected areas. The unit works together with the Secretariat General DO HR and the HR Family and others as Partners such as DG GROW on Policy and Administrative Solutions it delivers and operates solution 1&amp;' areas such as corporate decision making, document management, management of human resources and policy implementation." label="Entity presentation" max_length="2000" name="entity_presentation" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="administrator" label="Function group" max_length="40" name="function_group" type="string">
@@ -18,7 +18,7 @@
                 <element inactive_on_update="false" label="GGIO" sequence="8" value="ggio"/>
             </choice>
         </element>
-        <element choice="1" label="Grade Number" max_length="40" name="grades" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Grade Number" max_length="40" name="grades" type="choice">
             <choice>
                 <element inactive_on_update="false" label="1" sequence="1" value="1"/>
                 <element inactive_on_update="false" label="2" sequence="2" value="2"/>
@@ -41,7 +41,7 @@
         <element attributes="edge_encryption_enabled=true" label="Job sharing possible" max_length="40" name="job_sharing_possible" read_only="true" type="boolean"/>
         <element default="Head of Unit - Corporate Knowledge and Decision making Solutions" function_definition="Head of Unit - Corporate Knowledge and Decision making Solutions" label="Job Title" max_length="40" name="job_title" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="true" function_definition="True" label="Management Job" max_length="255" name="management_job" type="boolean"/>
-        <element label="Options" max_length="40" name="options" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Options" max_length="1024" name="options" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Preselection Report HR Case" max_length="32" name="preselection_report_hr_case" reference="sn_hr_core_case_workforce_admin" type="reference"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="President / Chair" max_length="32" name="president_chair" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Competition" label="Process type" max_length="40" name="process_type" type="string">
@@ -51,7 +51,7 @@
                 <element inactive_on_update="false" label="Temporary Agent" sequence="3" value="Temporary Agent"/>
             </choice>
         </element>
-        <element label="Field" max_length="40" name="project_domains" reference="x_431105_cand_ass_publication_field" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Field" max_length="40" name="project_domains" reference="x_431105_cand_ass_publication_field" type="reference"/>
         <element hint="Deadline for registration" label="Publication end" max_length="255" name="publication_end" type="glide_date"/>
         <element hint="Open for applications" label="Publication start" mandatory="true" max_length="255" name="publication_start" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="internal" label="Publication type" max_length="40" name="publication_type" type="choice">
@@ -71,7 +71,7 @@
                 <element inactive_on_update="false" label="HR" value="HR"/>
             </choice>
         </element>
-        <element choice="3" default="Permanent official" label="Type of contract" max_length="40" name="type_of_contract" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Permanent official" label="Type of contract" max_length="40" name="type_of_contract" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Seconded national expert (SNE)" value="Seconded national expert (SNE)"/>
                 <element inactive_on_update="false" label="Permanent official" sequence="1" value="Permanent official"/>

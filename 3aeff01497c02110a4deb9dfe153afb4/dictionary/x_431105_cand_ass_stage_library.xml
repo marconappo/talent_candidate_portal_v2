@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="e3e4d74e470321103fa44aff336d4305" label="Milestones &amp; stepstones" max_length="40" name="x_431105_cand_ass_stage_library" type="collection">
+    <element db_object_id="a0132c38475f61103fa44aff336d4331" label="Milestones &amp; stepstones" max_length="40" name="x_431105_cand_ass_stage_library" type="collection">
         <element label="Description" max_length="400" name="description" type="string"/>
-        <element label="Internal" max_length="40" name="internal" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Internal" max_length="40" name="internal" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Open to other institution" max_length="40" name="open_to_other_institution" type="boolean"/>
-        <element label="Order" max_length="40" name="order" type="integer"/>
-        <element label="Milestone" max_length="32" name="parent" reference="x_431105_cand_ass_stage_library" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Open to other institution" max_length="40" name="open_to_other_institution" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Order" max_length="40" name="order" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Milestone" max_length="32" name="parent" reference="x_431105_cand_ass_stage_library" type="reference"/>
         <element display="true" label="Short Description" max_length="40" name="short_description" type="string"/>
         <index name="index">
             <element name="parent"/>

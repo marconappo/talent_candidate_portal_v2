@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="type_of_experience" table="x_431105_cand_ass_candidate_education_experience" version="3">
+        <sys_choice_set action="DELETE">
+            <element>type_of_experience</element>
+            <name>x_431105_cand_ass_candidate_education_experience</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-01 17:20:27</sys_created_on>
+            <sys_id>9776c9a3474ba5103fa44aff336d43cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type_of_experience</sys_name>
+            <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+            <sys_update_name>sys_choice_x_431105_cand_ass_candidate_education_experience_type_of_experience</sys_update_name>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-01 17:20:27</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_choice_x_431105_cand_ass_candidate_education_experience_type_of_experience</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="type_of_experience" table="x_431105_cand_ass_candidate_education_experience" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>type_of_experience</element><name>x_431105_cand_ass_candidate_education_experience</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 17:20:27</sys_created_on><sys_id>9776c9a3474ba5103fa44aff336d43cf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>type_of_experience</sys_name><sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_choice_x_431105_cand_ass_candidate_education_experience_type_of_experience</sys_update_name><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:20:27</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>548070039</payload_hash>
+        <record_name>x_431105_cand_ass_candidate_education_experience.type_of_experience</record_name>
+        <reverted_from/>
+        <source>bf2ea49a470b21103fa44aff336d43af</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:57:12</sys_created_on>
+        <sys_id>0252a6d8471321103fa44aff336d4375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188856907980000001</sys_recorded_at>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:57:12</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>8652a6d86d13211053dc9bfd51f03b74</update_guid>
+        <update_guid_history>8652a6d86d13211053dc9bfd51f03b74:548070039,8a52a6d8e81321108a179e25fbe1164a:871647397,0e52a6d8ee132110c9cd98e8e7976420:-144452780,bd5266d8e313211046f5118b101564f6:-829470882,315266d8c7132110730ad4b0183c5dcd:-1916013573,f95266d85d13211045ad092d5acebe96:1580095949,7d5266d84a13211044e48d1753d6016c:-253490496,ed5266d87e1321101fda0aff356b2c42:21496167,615266d801132110c055c009f17aa319:1075045213,e15226d8ab132110953519feea1430ef:-378809122,655226d86f132110d726a52839d7adc5:-1359973312,d55226d894132110b1197569efe8959b:-1596654785,595226d89613211068c5e49ec901e571:-1117601791,5d5226d87213211000930aa62a087a2e:-985135106,dd5226d832132110a8b463c96b102304:-1630465630,2aaeed2f730fa5108ae6aa0da4b30621:-23318307,79aeed2f860fa510c515254320f8a0ab:-1065732262,5dae292f7d0fa5109f83f93778776a2c:964802102,49aeed2f1b0fa510d107192f77f6b01c:1528013159,a8aeed2f6f0fa510126a9a3ad57630a6:-1660047503,b39ea16fc80fa5109360df49c7ec0361:-1884616598,cf9e616f4e0fa510c727b0b9bab66591:-2047036350,2e9e616f4c0fa5102ba670207a3e89ed:-893701400,d29ea16f160fa510d74d22c8343fb35c:-413420965,319e616f120fa510b9bc24454f554d8d:-1971594349,a59e6d2f110fa510842699eb46cfa1f9:718227524,c59e216f3e0fa510e4f4e0f25acd0840:-1417779016,d49e616fbb0fa510bbd700a423f9aa87:2123028905,178e216fae0fa51043892d28a919bdba:-37526154,a28e216f180fa510818c79e384dae589:-650679349,d98e216fca0fa510abb4b026148adeb4:2052969186,688e216f5e0fa51079f5570dacdaf683:740193439,1b7e216f8f0fa510bb7f1ada6c045138:-1271692422,e57ead2f460fa51076bf9b1562ae1e7f:501294589,707eed2fa60fa5109d4a33eea8b9e9a1:-1899125416,8c7ead2f030fa5103467002a2ed91e79:613387250,176ead2ff00fa510e16044abdc80723f:1739045852,2a6e292fa90fa510eec29a6aaaf6ae7a:1445098989,e96ead2fad0fa5109a9119db7a796a39:-1162995275,946ea12fc60fa51067a8adcf6d6c2cf1:-671673083,c95ea52fd70fa510eceaac640d9da676:1421116717,ec5e29eb020fa5103f5daa079900927a:-313733107,8b4ea9ebcf0fa510122b254e8358f739:-46118165,344e692fa20fa510a4bbfe88a3c44a60:-1942270125,502ea12f5d0fa5100b344582ffd8251a:-630857991,fd1e292f0b0fa51024d39625b861c070:-1802297529,101e292f930fa51040c556cf4da05127:1427630625,5b0e252fb80fa510677e91f1fe44c8d0:941999395,180ee52fcc0fa510cce11a2aa8705515:-563314596,d7fda52fe70fa510698137dfe610dbc9:307151385,29fd69eb300fa5107ed97a8a1e117710:1622146869,04fd6deb110fa5103614e0cdb4dd6af5:-704691816,e9ed252f5d0fa510c74cd04d54a0c518:1128353651,d1eda12f020fa51000f5df07a3daa2eb:60044845,f4ede12f060fa510fd9d89e557bc2bc1:30528374,bfdde12f310fa5103e4fd6e3d959a276:-1253331560,13dde5ebd70fa5103f71c410307251d9:-1246097679,bedd69ebe80fa510c90c677309e223cd:-1402675758,29dd6debc60fa51078ca5d755ac08fc6:-1757100974,d1dde12f3d0fa51013650d045b7accbc:137844134,ecdde12f7a0fa51083520efa09476670:-1256472657,2f76c9a3d24ba5101d3e95beb0b598d1:-1134407936</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:58:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>3ec572d961904c019ac3b09d3a942b99</sys_id>
+        <sys_metadata>9776c9a3474ba5103fa44aff336d43cf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>type_of_experience</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="">cbea78ef47c7a5103fa44aff336d43d2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_choice_x_431105_cand_ass_candidate_education_experience_type_of_experience</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_431105_cand_ass_candidate_education_experience_type_of_experience">0252a6d8471321103fa44aff336d4375</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:58:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

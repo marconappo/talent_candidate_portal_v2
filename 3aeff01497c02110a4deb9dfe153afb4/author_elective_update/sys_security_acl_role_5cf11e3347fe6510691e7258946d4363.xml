@@ -55,7 +55,7 @@
         <sys_parent/>
         <sys_policy/>
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
-        <sys_scope_delete display_value="">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
         <sys_update_name>sys_security_acl_role_5cf11e3347fe6510691e7258946d4363</sys_update_name>
         <sys_update_version display_value="sys_security_acl_role_5cf11e3347fe6510691e7258946d4363">dcf11e3347fe6510691e7258946d4365</sys_update_version>
         <sys_updated_by>nappoma</sys_updated_by>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-01 17:41:04</sys_created_on>
+        <sys_id>2d3bc56f474ba5103fa44aff336d43d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_431105_cand_ass_user_reg_req_895160.admin</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_security_acl display_value="x_431105_cand_ass_user_reg_req_895160">a13bc56f474ba5103fa44aff336d43d5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_2d3bc56f474ba5103fa44aff336d43d7</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-01 17:41:04</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_security_acl_role_2d3bc56f474ba5103fa44aff336d43d7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-06-01 17:41:04</sys_created_on><sys_id>2d3bc56f474ba5103fa44aff336d43d7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_431105_cand_ass_user_reg_req_895160.admin</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_security_acl display_value="x_431105_cand_ass_user_reg_req_895160">a13bc56f474ba5103fa44aff336d43d5</sys_security_acl><sys_update_name>sys_security_acl_role_2d3bc56f474ba5103fa44aff336d43d7</sys_update_name><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-06-01 17:41:04</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-292764651</payload_hash>
+        <record_name>x_431105_cand_ass_user_reg_req_895160.admin</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:57:55</sys_created_on>
+        <sys_id>ec826a1c471321103fa44aff336d438b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1888569ad090000001</sys_recorded_at>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:57:55</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>ac826a1cce1321106995f08f591b158b</update_guid>
+        <update_guid_history>ac826a1cce1321106995f08f591b158b:-292764651</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_431105_cand_ass_user_reg_req_895160.admin">28826a1c471321103fa44aff336d438e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:57:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0f6ed2a52fb342548d5c451d4295e990</sys_id>
+        <sys_metadata>2d3bc56f474ba5103fa44aff336d43d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_431105_cand_ass_user_reg_req_895160.admin</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_parent display_value="">a13bc56f474ba5103fa44aff336d43d5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_2d3bc56f474ba5103fa44aff336d43d7</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_2d3bc56f474ba5103fa44aff336d43d7">ec826a1c471321103fa44aff336d438b</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:57:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

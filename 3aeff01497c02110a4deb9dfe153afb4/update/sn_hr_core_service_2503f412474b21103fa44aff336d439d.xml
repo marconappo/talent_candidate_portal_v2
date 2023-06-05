@@ -3,6 +3,7 @@
         <active>true</active>
         <approval_options/>
         <at_a_glance_uib_view display_value="At a Glance UIB" name="ataglance_uib">88c750695331301038e4ddeeff7b12ca</at_a_glance_uib_view>
+        <at_a_glance_view/>
         <auto_close_case>false</auto_close_case>
         <auto_close_offset/>
         <badge display_value="HR">6439a617c3b00300b599b4ad81d3ae57</badge>

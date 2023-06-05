@@ -1962,4 +1962,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-12-25 15:59:38</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=355247288780a11066853fd3c78bd0d1"/>
 </record_update>

@@ -41,7 +41,7 @@
         <update_guid_history>d39dcfd284076110b80663919fe6878a:788431852,923c0f5282076110be22a8f97b387ece:918302072</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">1f9dcfd2470761103fa44aff336d438e</sys_audit_delete>
+        <sys_audit_delete display_value="HR Systems.Apply for a competition">1f9dcfd2470761103fa44aff336d438e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2023-05-29 05:58:24</sys_created_on>
@@ -54,7 +54,7 @@
         <sys_parent/>
         <sys_policy/>
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
-        <sys_scope_delete display_value="">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
         <sys_update_name>sc_cat_item_category_0a0b8312470761103fa44aff336d43e6</sys_update_name>
         <sys_update_version display_value="sc_cat_item_category_0a0b8312470761103fa44aff336d43e6">df9dcfd2470761103fa44aff336d438a</sys_update_version>
         <sys_updated_by>system</sys_updated_by>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>true</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set candidate</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	var url = top.location.href;
+	var urlParam = new URLSearchParams(url)
+	if(urlParam.get("sys_id").toString() == "-1"){
+		g_form.setValue('candidate',  urlParam.get("candidate"))
+	}
+    
+    g_form.setReadOnly('candidate', true)
+	g_form.setDisplay('candidate', false)
+
+    
+
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>olivier.gregoire</sys_created_by>
+        <sys_created_on>2023-05-31 14:38:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>57175703474f25103fa44aff336d4393</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Set candidate</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_script_client_57175703474f25103fa44aff336d4393</sys_update_name>
+        <sys_updated_by>olivier.gregoire</sys_updated_by>
+        <sys_updated_on>2023-06-01 17:36:27</sys_updated_on>
+        <table>x_431105_cand_ass_candidate_education_experience</table>
+        <type>onLoad</type>
+        <ui_type>1</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_script_client_57175703474f25103fa44aff336d4393</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;true&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Set candidate&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+	var url = top.location.href;
+	var urlParam = new URLSearchParams(url)
+	if(urlParam.get("sys_id").toString() == "-1"){
+		g_form.setValue('candidate',  urlParam.get("candidate"))
+	}
+    
+    g_form.setReadOnly('candidate', true)
+	g_form.setDisplay('candidate', false)
+
+    
+
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;olivier.gregoire&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-05-31 14:38:49&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;57175703474f25103fa44aff336d4393&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set candidate&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Talent NOW" source="x_431105_cand_ass"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Talent NOW"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_57175703474f25103fa44aff336d4393&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;olivier.gregoire&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-01 17:36:27&lt;/sys_updated_on&gt;&lt;table&gt;x_431105_cand_ass_candidate_education_experience&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;1&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-818290675</payload_hash>
+        <record_name>Set candidate</record_name>
+        <reverted_from/>
+        <source>088b96b24787e1103fa44aff336d4391</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>olivier.gregoire</sys_created_by>
+        <sys_created_on>2023-06-01 17:36:27</sys_created_on>
+        <sys_id>b92ac9e7474ba5103fa44aff336d431c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188780842f20000001</sys_recorded_at>
+        <sys_updated_by>olivier.gregoire</sys_updated_by>
+        <sys_updated_on>2023-06-01 17:36:27</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>fd2ac9e72d4ba510690ae4637c1b2b1b</update_guid>
+        <update_guid_history>fd2ac9e72d4ba510690ae4637c1b2b1b:-818290675,74e2f0a365c7a51093c40950db2a9482:1267728227,804b1f07c44f2510a281338b7cac7ad4:-1899650074,edfad347864f25106bec2681e973c892:-736086071,583a97073d4f2510f7572cb0ecf9eff6:115319504,4be917c30f4f25105830fea8fcbd236d:-472765692,e799dbc31a4f2510d89525680fde8469:-1221721052,91891f83ab4f251039ca9671ae470f5a:-719526521,e6491f43e34f251010964cdeee994f02:1525881187,171913c3c34f2510e7e1fe3fdef124a0:-997608537,70389b03ae4f25100bb78ab56d41775e:1438850987,6928db435d4f251051e1e7e2ea9f3964:1669914121,8ae79343f94f2510e7208bfa69b4b0ea:1933915123</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:57:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>161ab8d1063e4ade8485237e55d21f84</sys_id>
+        <sys_metadata>57175703474f25103fa44aff336d4393</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set candidate</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="">e2e4d34e470321103fa44aff336d4333</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_script_client_57175703474f25103fa44aff336d4393</sys_update_name>
+        <sys_update_version display_value="sys_script_client_57175703474f25103fa44aff336d4393">b92ac9e7474ba5103fa44aff336d431c</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:57:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

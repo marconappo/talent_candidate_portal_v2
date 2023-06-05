@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>part_time_percentage</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>olivier.gregoire</sys_created_by>
+        <sys_created_on>2023-06-01 16:36:28</sys_created_on>
+        <sys_id>2d6c70e3470ba5103fa44aff336d4318</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>part_time_percentage</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ui_policy_action_2d6c70e3470ba5103fa44aff336d4318</sys_update_name>
+        <sys_updated_by>olivier.gregoire</sys_updated_by>
+        <sys_updated_on>2023-06-01 17:39:07</sys_updated_on>
+        <table>x_431105_cand_ass_candidate_education_experience</table>
+        <ui_policy display_value="Professional Experience">5f1b7023470ba5103fa44aff336d4315</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_ui_policy_action_2d6c70e3470ba5103fa44aff336d4318</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>part_time_percentage</field><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>olivier.gregoire</sys_created_by><sys_created_on>2023-06-01 16:36:28</sys_created_on><sys_id>2d6c70e3470ba5103fa44aff336d4318</sys_id><sys_mod_count>3</sys_mod_count><sys_name>part_time_percentage</sys_name><sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_ui_policy_action_2d6c70e3470ba5103fa44aff336d4318</sys_update_name><sys_updated_by>olivier.gregoire</sys_updated_by><sys_updated_on>2023-06-01 17:39:07</sys_updated_on><table>x_431105_cand_ass_candidate_education_experience</table><ui_policy display_value="Professional Experience">5f1b7023470ba5103fa44aff336d4315</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1779841688</payload_hash>
+        <record_name>part_time_percentage</record_name>
+        <reverted_from/>
+        <source>088b96b24787e1103fa44aff336d4391</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>olivier.gregoire</sys_created_by>
+        <sys_created_on>2023-06-01 17:39:07</sys_created_on>
+        <sys_id>b8ca052f474ba5103fa44aff336d4309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188780ab2de0000001</sys_recorded_at>
+        <sys_updated_by>olivier.gregoire</sys_updated_by>
+        <sys_updated_on>2023-06-01 17:39:07</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>fcca052fa74ba510bffba732ab963d08</update_guid>
+        <update_guid_history>fcca052fa74ba510bffba732ab963d08:-1779841688,0127c9e3a94ba5107a5a6b317c84872f:-1482672007,9f0d34278c0ba510cf3672a7c5f20390:-1358335627,136c70e33e0ba510a3f928dcc8b910bb:824409764</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:56:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>e1aec14a05814a9ca2abcd51543eeec4</sys_id>
+        <sys_metadata>2d6c70e3470ba5103fa44aff336d4318</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>part_time_percentage</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="">5f1b7023470ba5103fa44aff336d4315</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_2d6c70e3470ba5103fa44aff336d4318</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_2d6c70e3470ba5103fa44aff336d4318">b8ca052f474ba5103fa44aff336d4309</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:56:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
