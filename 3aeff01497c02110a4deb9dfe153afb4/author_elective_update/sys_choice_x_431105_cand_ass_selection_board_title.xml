@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="title" table="x_431105_cand_ass_selection_board" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>title</element>
+            <name>x_431105_cand_ass_selection_board</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-19 13:05:52</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>title</sys_name>
+            <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+            <sys_update_name>sys_choice_x_431105_cand_ass_selection_board_title</sys_update_name>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-19 13:05:52</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>title</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chair</label>
+            <language>en</language>
+            <name>x_431105_cand_ass_selection_board</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-19 13:05:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-19 13:05:52</sys_updated_on>
+            <value>chair</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>title</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vice-Chair (Administration)</label>
+            <language>en</language>
+            <name>x_431105_cand_ass_selection_board</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-19 13:05:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-19 13:05:52</sys_updated_on>
+            <value>vice_chair_administration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>title</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vice-Chair (Central Staff Committee)</label>
+            <language>en</language>
+            <name>x_431105_cand_ass_selection_board</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-19 13:05:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-19 13:05:52</sys_updated_on>
+            <value>vice_chair_central_staff_committee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>title</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Member of the Administration</label>
+            <language>en</language>
+            <name>x_431105_cand_ass_selection_board</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-19 13:05:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-19 13:05:52</sys_updated_on>
+            <value>member_of_the_administration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>title</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Member of the Central Staff Committee</label>
+            <language>en</language>
+            <name>x_431105_cand_ass_selection_board</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-19 13:05:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-19 13:05:52</sys_updated_on>
+            <value>member_of_the_central_staff_committee</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

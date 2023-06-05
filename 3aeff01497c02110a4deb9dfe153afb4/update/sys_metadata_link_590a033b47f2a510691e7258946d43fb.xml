@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>37ef472747726510691e7258946d4311</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_431105_cand_ass_stage_library">
+    <x_431105_cand_ass_stage_library action="INSERT_OR_UPDATE">
+        <description>Invitation to the Assessment Centre</description>
+        <internal>false</internal>
+        <number>STL0001074</number>
+        <open_to_other_institution>true</open_to_other_institution>
+        <order>3100</order>
+        <parent display_value="3. Assessment Centre">59bde95b473ae110691e7258946d438f</parent>
+        <short_description>Invitation to the Assessment Centre</short_description>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-20 17:07:07</sys_created_on>
+        <sys_id>37ef472747726510691e7258946d4311</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-20 21:17:36</sys_updated_on>
+    </x_431105_cand_ass_stage_library>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-21 11:17:54</sys_created_on>
+        <sys_id>590a033b47f2a510691e7258946d43fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Invitation to the Assessment Centre</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_metadata_link_590a033b47f2a510691e7258946d43fb</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-21 11:17:54</sys_updated_on>
+        <tablename>x_431105_cand_ass_stage_library</tablename>
+    </sys_metadata_link>
+</record_update>

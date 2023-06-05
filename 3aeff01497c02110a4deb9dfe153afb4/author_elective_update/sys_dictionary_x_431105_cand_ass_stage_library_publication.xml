@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="publication" table="x_431105_cand_ass_stage_library">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Publication</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>publication</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>x_431105_cand_ass_stage_library</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_431105_cand_ass_assessment">x_431105_cand_ass_assessment</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-19 15:15:16</sys_created_on>
+        <sys_id>362ded5b473ae110691e7258946d436c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Publication</sys_name>
+        <sys_package display_value="Recruitment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recruitment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_dictionary_x_431105_cand_ass_stage_library_publication</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-19 15:15:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>3b0c683cdbbe5190b847ac44d4961962</instance_id>
+        <instance_name>dev142367</instance_name>
+        <name>sys_dictionary_x_431105_cand_ass_stage_library_publication</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="publication" table="x_431105_cand_ass_stage_library"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Publication</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>publication</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>x_431105_cand_ass_stage_library</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="x_431105_cand_ass_assessment">x_431105_cand_ass_assessment</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-05-19 15:15:16</sys_created_on><sys_id>362ded5b473ae110691e7258946d436c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Publication</sys_name><sys_package display_value="Recruitment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Recruitment">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_dictionary_x_431105_cand_ass_stage_library_publication</sys_update_name><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-05-19 15:15:16</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1881407962</payload_hash>
+        <record_name>Stage Library.Publication</record_name>
+        <reverted_from/>
+        <source>d015feb647ba6110691e7258946d432e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-19 15:15:16</sys_created_on>
+        <sys_id>362ded5b473ae110691e7258946d4383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188349455620000001</sys_recorded_at>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-19 15:15:16</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>7e2ded5b6e3ae110a506bea31df56a82</update_guid>
+        <update_guid_history>7e2ded5b6e3ae110a506bea31df56a82:-1881407962,322ded5bfe3ae1107e916316469f5d7c:-442447215</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-19 16:18:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>01b85ee812154dbb8fceea065d03e729</sys_id>
+        <sys_metadata>362ded5b473ae110691e7258946d436c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Publication</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="">7bbca15b473ae110691e7258946d43e4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_431105_cand_ass_stage_library_publication</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_431105_cand_ass_stage_library_publication">362ded5b473ae110691e7258946d4383</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-19 16:18:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

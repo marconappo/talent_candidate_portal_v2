@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Candidate Assessment Config">3c8dccd2b048a5109cdf0d066aa3205e</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="KPI Details">ed7ad8a1c313101001a6e0dd9740ddd1</macroponent>
+        <macroponent_config>{
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false,
+  "sysId" : "",
+  "views" : "",
+  "selectedTabIndex" : 0,
+  "table" : "",
+  "mode" : "",
+  "listView" : ""
+}</macroponent_config>
+        <name>KPI Details default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="KPI Details">348dccd25448a51040b31b418b18715e</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-30 12:50:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f88dccd21248a510127b111ad3646f5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KPI Details default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ux_screen_f88dccd21248a510127b111ad3646f5b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-30 12:50:46</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=f88dccd21248a510127b111ad3646f5b"/>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_view_rules_configuration">
+    <sys_ux_view_rules_configuration action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>CA UX View Rule Config</name>
+        <sys_class_name>sys_ux_view_rules_configuration</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 02:22:09</sys_created_on>
+        <sys_id>a3c0aec51b4825101f602f08b04bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CA UX View Rule Config</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ux_view_rules_configuration_a3c0aec51b4825101f602f08b04bcb2c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 02:22:09</sys_updated_on>
+    </sys_ux_view_rules_configuration>
+</record_update>

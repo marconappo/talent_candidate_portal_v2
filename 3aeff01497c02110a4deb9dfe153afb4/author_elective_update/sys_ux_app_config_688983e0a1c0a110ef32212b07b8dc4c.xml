@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="DELETE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>home</landing_path>
+        <name>Candidate Assessment Config</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 16:02:46</sys_created_on>
+        <sys_id>688983e0a1c0a110ef32212b07b8dc4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Candidate Assessment Config</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ux_app_config_688983e0a1c0a110ef32212b07b8dc4c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 16:02:46</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_translated_text action="DELETE" query="documentkey=688983e0a1c0a110ef32212b07b8dc4c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>f2c6bdb1dba99304cbf6d5b0cf96199b</instance_id>
+        <instance_name>dev56679</instance_name>
+        <name>sys_ux_app_config_688983e0a1c0a110ef32212b07b8dc4c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config"><sys_ux_app_config action="INSERT_OR_UPDATE"><active>true</active><custom_icon/><default_route_type/><description/><encode_query_string>false</encode_query_string><icon/><landing_path>home</landing_path><name>Candidate Assessment Config</name><prefetch_limits/><sys_class_name>sys_ux_app_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-25 16:02:46</sys_created_on><sys_id>688983e0a1c0a110ef32212b07b8dc4c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Candidate Assessment Config</sys_name><sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_ux_app_config_688983e0a1c0a110ef32212b07b8dc4c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-25 16:02:46</sys_updated_on></sys_ux_app_config><sys_translated_text action="delete_multiple" query="documentkey=688983e0a1c0a110ef32212b07b8dc4c"/></record_update>]]></payload>
+        <payload_hash>1766799248</payload_hash>
+        <record_name>Candidate Assessment Config</record_name>
+        <reverted_from/>
+        <source>cba40fd59708a110352bb39fe153af15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 23:37:44</sys_created_on>
+        <sys_id>8dd4cb199708a110352bb39fe153af83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18555f2f5940000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 23:37:44</sys_updated_on>
+        <type>UX App Configuration</type>
+        <update_guid>4dd4cb19b708a1102954caa6ad46aa83</update_guid>
+        <update_guid_history>4dd4cb19b708a1102954caa6ad46aa83:1766799248</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-30 12:50:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_config">sys_ux_app_config</sys_db_object>
+        <sys_id>628be353ece54450ab01e11c10ec1100</sys_id>
+        <sys_metadata>688983e0a1c0a110ef32212b07b8dc4c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Candidate Assessment Config</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_ux_app_config_688983e0a1c0a110ef32212b07b8dc4c</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_config_688983e0a1c0a110ef32212b07b8dc4c">8dd4cb199708a110352bb39fe153af83</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-30 12:50:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

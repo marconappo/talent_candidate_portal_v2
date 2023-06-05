@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_rl_action">
+    <sys_ui_policy_rl_action action="INSERT_OR_UPDATE">
+        <list>REL:9b0b312497c46110a4deb9dfe153af24</list>
+        <sys_class_name>sys_ui_policy_rl_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-01 11:03:29</sys_created_on>
+        <sys_id>7b18c23e9748a110c96bbf36f053afaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>REL:9b0b312497c46110a4deb9dfe153af24</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ui_policy_rl_action_7b18c23e9748a110c96bbf36f053afaa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-01 11:03:29</sys_updated_on>
+        <ui_policy display_value="Show Preselection Criteria if In Preselection">b1084efa9748a110c96bbf36f053af25</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_rl_action>
+</record_update>

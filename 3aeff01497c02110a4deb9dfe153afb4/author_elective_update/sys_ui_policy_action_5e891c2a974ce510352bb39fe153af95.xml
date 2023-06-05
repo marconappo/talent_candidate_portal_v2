@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>selection_score</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-31 08:22:03</sys_created_on>
+        <sys_id>5e891c2a974ce510352bb39fe153af95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>selection_score</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ui_policy_action_5e891c2a974ce510352bb39fe153af95</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-31 08:22:03</sys_updated_on>
+        <table>x_431105_cand_ass_candidate</table>
+        <ui_policy display_value="Show Exclusion reasons if  Not Eligible">4709502a974ce510352bb39fe153af41</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>3b0c683cdbbe5190b847ac44d4961962</instance_id>
+        <instance_name>dev142367</instance_name>
+        <name>sys_ui_policy_action_5e891c2a974ce510352bb39fe153af95</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>selection_score</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-31 08:22:03</sys_created_on>
+        <sys_id>5e891c2a974ce510352bb39fe153af95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>selection_score</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ui_policy_action_5e891c2a974ce510352bb39fe153af95</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-31 08:22:03</sys_updated_on>
+        <table>x_431105_cand_ass_candidate</table>
+        <ui_policy display_value="Show Exclusion reasons if  Not Eligible">4709502a974ce510352bb39fe153af41</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>1240579968</payload_hash>
+        <record_name>selection_score</record_name>
+        <reverted_from/>
+        <source>507826e247f62110691e7258946d4389</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-17 11:39:37</sys_created_on>
+        <sys_id>60a8a26647f62110691e7258946d4342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18829822fab0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 11:39:37</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>20a8a2660cf6211080d3506e1a002042</update_guid>
+        <update_guid_history>20a8a2660cf6211080d3506e1a002042:1240579968</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-17 13:48:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>bc0323de9ea345b0a8f4eac9e6375440</sys_id>
+        <sys_metadata>5e891c2a974ce510352bb39fe153af95</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>selection_score</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="Show Exclusion reasons if  Closure and NOT scores">4709502a974ce510352bb39fe153af41</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_ui_policy_action_5e891c2a974ce510352bb39fe153af95</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_5e891c2a974ce510352bb39fe153af95">60a8a26647f62110691e7258946d4342</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 13:48:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

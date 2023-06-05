@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="08f41b4e470321103fa44aff336d4373" label="Language" max_length="40" name="x_431105_cand_ass_publication_language" type="collection">
+        <element hint="Needed if EPSO wants to allow candidates to fill in their application form in 24 languages or 3 ONLY. Normally they do allow to fill in in 24 languages" label="Answers Language" max_length="40" name="answers_language" type="boolean"/>
+        <element hint="It's the language used in the communication with EPSO" label="EPSO language" max_length="40" name="epso_language" type="boolean"/>
+        <element hint="Incompatibilities with other languages that means that this language must be different from the one the candidate selected previously as one of the EPSO rule is the candidate must take the cognitive test (Abstract, Verbal, Numerical) in a language that is different from the competency test.&#13;&#10;Select all languages that must be different than this one." label="Incompatibilities" max_length="32" name="incompatibilities" reference="x_431105_cand_ass_publication_language" type="glide_list"/>
+        <element display="true" label="Name" max_length="40" name="language" type="string"/>
+        <element label="Languages" max_length="400" name="languages" reference="x_431105_cand_ass_language" type="glide_list"/>
+        <element hint="It's mandatory that the candidate select this language" label="Mandatory" max_length="40" name="mandatory" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="Order" max_length="40" name="order" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="0" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="1" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="5" value="5"/>
+            </choice>
+        </element>
+        <element label="Publication" max_length="32" name="publication" reference="x_431105_cand_ass_assessment" type="reference"/>
+        <element hint="Not used anymore as Talent Screener is dismissed" label="Talent Screener language" max_length="40" name="talent_screener_language" type="boolean"/>
+        <element choice="3" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Application" sequence="0" value="Application"/>
+                <element inactive_on_update="false" label="Language 1" sequence="1" value="Language 1"/>
+                <element inactive_on_update="false" label="Language 2" sequence="2" value="Language 2"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="incompatibilities"/>
+        </index>
+        <index name="index2">
+            <element name="language"/>
+        </index>
+        <index name="index3">
+            <element name="publication"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_431105_cand_ass.CandidateAssessmentUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Utility class for working with configuration items</description>
+        <name>CandidateAssessmentUtils</name>
+        <script><![CDATA[var CandidateAssessmentUtils = Class.create();
+
+CandidateAssessmentUtils.prototype = {
+    initialize: function() {
+        this.ELIGIBILITY = '0c55a1d497442110a4deb9dfe153af5f';
+        this.PRESELECTION = '7f65a1d497442110a4deb9dfe153af65';
+        this.PRESELECTION_CBT = '5165ad5897442110a4deb9dfe153af6f';
+        this.SELECTION = '8085299897442110a4deb9dfe153af4c';
+        this.IN_PUBLICATION = '10';
+        this.IN_ELIGIBILITY = '20';
+        this.NOT_ELIGIBLE = '30';
+        this.IN_PRESELECTION = '40';
+        this.IN_SELECTION = '40';
+        this.CANDIDATE_CLOSURE = '40';
+
+
+
+        this.FILE_ADMINISTRATORS = 'bcd7f9a8475211107443f2e7536d437f';
+        // TABLES
+        this.ASSESSMENT_TABLE = 'x_431105_cand_ass_assessment';
+        this.CANDIDATE_TABLE = 'x_431105_cand_ass_candidate';
+        this.ASSESSMENT_SC = 'x_431105_cand_ass_assessment_selection_criteria';
+        this.ASSESSMENT_QUESTION = 'x_431105_cand_ass_assessment_question';
+        this.CANDIDATE_ANSWER = 'x_431105_cand_ass_candidate_answers';
+        this.CANDIDATE_SC = 'x_431105_cand_ass_candidate_selection_criteria_score';
+        this.EXCLUSION_REASON = 'x_431105_cand_ass_exclusion_reason';
+        this.SCRITERIA_LIBRARY = 'x_431105_cand_ass_selection_criteria_library';
+        this.QUESTION_LIBRARY = 'x_431105_cand_ass_question_library';
+
+        this.BRUSSELS = '3b0c81de974ca510352bb39fe153affc';
+        this.LUXEMBOURG = '795c499e974ca510352bb39fe153af69';
+    },
+
+    importAssessments: function() {
+        this.cleanUpTables();
+        this.cleanUpRecordsWithoutAssessment();
+        this.cleanUpRecordsWithoutCandidate();
+        //this.importAssessmentsHrAndEPSO();
+        this.importAssessmentsOnlyHR();
+    },
+
+    calculateCandidateScore2: function(candidate, assessmentState) {
+        var gr = new GlideRecord(this.CANDIDATE_SC);
+        gr.addQuery('candidate', candidate);
+        gr.addQuery('assessment_selection_criteria.parent', '');
+        gr.addQuery('assessment_selection_criteria.assessment_state', assessmentState);
+        gr.query();
+        var score = 0;
+        while (gr.next()) score = score + gr.score;
+        var grCandidate = new GlideRecord(this.CANDIDATE_TABLE);
+        grCandidate.get(candidate);
+        if (score > 0) {
+            grCandidate.preselection_score = preselectionCBTScore;
+            grCandidate.update();
+        }
+    },
+
+    calculateSCScoreForCBT: function(current) {
+        var score = 0;
+        var candidate = current.candidate;
+        var mainSelectionCriteria = current.assessment_selection_criteria;
+        gr = new GlideRecord(this.CANDIDATE_ANSWER);
+        gr.addQuery('candidate', candidate);
+        gr.addQuery('assessment_selection_criteria', mainSelectionCriteria);
+        //gr.addQuery('assessment_question.active', 'true');
+        gr.query();
+
+        while (gr.next()) score = score + gr.score;
+        return score;
+    },
+
+    calculateCandidateScore: function(current) {
+        var grCandidate = new GlideRecord('x_431105_cand_ass_candidate');
+        grCandidate.get(current.candidate);
+        var assessmentState = current.assessment_selection_criteria.assessment_state;
+        if (assessmentState == this.PRESELECTION_CBT || assessmentState == this.PRESELECTION) {
+            grCandidate.preselection_score = this._getCandidateScore(current);
+        } else if (assessmentState == this.SELECTION) {
+            grCandidate.selection_score = this._getCandidateScore(current);
+        }
+        grCandidate.update();
+    },
+
+    _getCandidateScore: function(current) {
+        var assessmentState = current.assessment_selection_criteria.assessment_state;
+        var gr = new GlideRecord(this.CANDIDATE_SC);
+        gr.addQuery('candidate', current.candidate);
+        gr.addQuery('assessment_selection_criteria.parent', '');
+        gr.addQuery('assessment_selection_criteria.assessment_state', assessmentState);
+        gr.query();
+        var score = 0;
+        while (gr.next()) score = score + gr.score;
+        return score;
+    },
+
+    populateAssessmentQuestions: function(assessmentState, assessment) {
+        var grAssessmentQuestions = new GlideRecord(this.ASSESSMENT_QUESTION);
+        var grQuestionLibrary = new GlideRecord(this.QUESTION_LIBRARY);
+        grQuestionLibrary.addQuery('assessment_state', assessmentState);
+        grQuestionLibrary.query();
+        while (grQuestionLibrary.next()) {
+            var maxValue = grQuestionLibrary.default_max_value;
+            var aSCriteria = this._getASCriteria(grQuestionLibrary.selection_criteria);
+            var questionLibrary = grQuestionLibrary.sys_id + "";
+            grAssessmentQuestions.initialize();
+            grAssessmentQuestions.assessment = assessment;
+            grAssessmentQuestions.question_library = questionLibrary;
+            grAssessmentQuestions.assessment_selection_criteria = aSCriteria;
+            grAssessmentQuestions.max_value = maxValue;
+            grAssessmentQuestions.active = 'true';
+            grAssessmentQuestions.insert();
+        }
+    },
+
+    _getASCriteria: function(sCriteriaSysId) {
+        var grAssessmentSCriteria = new GlideRecord(this.ASSESSMENT_SC);
+        grAssessmentSCriteria.get('selection_criteria', sCriteriaSysId);
+        return grAssessmentSCriteria.sys_id + "";
+    },
+
+    populateAssessmentSCriteria: function(assessmentState, assessment) {
+        var grAssessmentSCriteria = new GlideRecord(this.ASSESSMENT_SC);
+        var grSCriteriaLibrary = new GlideRecord(this.SCRITERIA_LIBRARY);
+        grSCriteriaLibrary.addQuery('default_for', assessmentState);
+        grSCriteriaLibrary.orderBy('parent');
+        grSCriteriaLibrary.query();
+
+        while (grSCriteriaLibrary.next()) {
+            var maxValue = grSCriteriaLibrary.default_max_value;
+            var selectionCriteria = grSCriteriaLibrary.sys_id + "";
+            var parent = this._getASCriteriaParent(assessment, grSCriteriaLibrary.sys_id);
+            grAssessmentSCriteria.initialize();
+            grAssessmentSCriteria.assessment = assessment;
+            grAssessmentSCriteria.assessment_state = assessmentState;
+            grAssessmentSCriteria.selection_criteria = selectionCriteria;
+            grAssessmentSCriteria.max_value = maxValue;
+            grAssessmentSCriteria.parent = parent;
+            grAssessmentSCriteria.insert();
+        }
+    },
+
+    _getASCriteriaParent: function(assessment, sCriteriaSysId) {
+        var grSCriteriaLibrary = new GlideRecord(this.SCRITERIA_LIBRARY);
+        var grAssessmentSCriteria = new GlideRecord(this.ASSESSMENT_SC);
+        grSCriteriaLibrary.get(sCriteriaSysId);
+        grAssessmentSCriteria.addQuery('selection_criteria', grSCriteriaLibrary.parent);
+        grAssessmentSCriteria.addQuery('assessment', assessment);
+        grAssessmentSCriteria.query();
+        if (grAssessmentSCriteria.next())
+            parent = grAssessmentSCriteria.sys_id + "";
+        else parent = '';
+        return parent;
+    },
+
+
+
+    importAssessmentsHrAndEPSO: function() {
+        var ABEL = '62826bf03710200044e0bfc8bcbe5df1';
+        var ADELA = '0a826bf03710200044e0bfc8bcbe5d7a';
+        var BUD = '46c6f9efa9fe198101ddf5eed9adf6e7';
+        var MONICA = '5bb230b347e71110654e690cd36d43cc';
+        var assessmentList = [];
+
+        assessmentList[0] = this._createAssessment('EPSO/AD/140/LOGISTICS', this.PRESELECTION);
+        assessmentList[1] = this._createAssessment('EPSO/AD/141/LAW', '');
+        assessmentList[2] = this._createAssessment('EPSO/AD/142/LINGUISTICS', '');
+        assessmentList[3] = this._createAssessment('COM/2010/545', this.PRESELECTION_CBT);
+
+        this._addCandidateList(assessmentList[0], [ABEL, ADELA, BUD]);
+        this._addCandidateList(assessmentList[1], [ABEL, ADELA, BUD]);
+        this._addCandidateList(assessmentList[2], [ABEL, ADELA, BUD]);
+        this._addCandidateList(assessmentList[3], [MONICA]);
+
+        var length = assessmentList.length;
+        for (var i = 0; i < length; i++) {
+            var assessment = assessmentList[i];
+            this.addExclusionReasons(assessment);
+            if (i == (length - 1)) {
+                this.populateAssessmentSCriteria(this.PRESELECTION, assessment);
+                this.populateAssessmentQuestions(this.PRESELECTION, assessment);
+            } else {
+                this.populateAssessmentSCriteria(this.PRESELECTION_CBT, assessment);
+                this.populateAssessmentQuestions(this.PRESELECTION_CBT, assessment);
+            }
+            this.populateAssessmentSCriteria(this.SELECTION, assessment);
+            this.populateAssessmentQuestions(this.SELECTION, assessment);
+        }
+    },
+
+    importAssessmentsOnlyHR: function() {
+        var MONICA = '5bb230b347e71110654e690cd36d43cc';
+        var assessment = this._createAssessment('COM/2010/545', this.PRESELECTION_CBT);
+        this._addCandidateList(assessment, [MONICA]);
+        this.addExclusionReasons(assessment);
+        this.populateAssessmentSCriteria(this.PRESELECTION, assessment);
+        this.populateAssessmentQuestions(this.PRESELECTION, assessment);
+        this.populateAssessmentSCriteria(this.SELECTION, assessment);
+        this.populateAssessmentQuestions(this.SELECTION, assessment);
+    },
+
+    _createAssessment: function(name, statesToSkip) {
+        var gr = new GlideRecord(this.ASSESSMENT_TABLE);
+        gr.initialize();
+        gr.short_description = name;
+        gr.states_to_skip = statesToSkip;
+        gr.assignment_group = this.FILE_ADMINISTRATORS;
+        var glideDateTime = new GlideDateTime();
+        glideDateTime.addDaysLocalTime(-10);
+        gr.publication_start = glideDateTime.getLocalDate();
+        glideDateTime.addDaysLocalTime(20);
+        gr.publication_end = glideDateTime.getLocalDate();
+        glideDateTime.addDaysLocalTime(60);
+        gr.job_available_from = glideDateTime.getLocalDate();
+        gr.location = this.BRUSSELS;
+        return gr.insert();
+    },
+
+    _addCandidateList: function(assessment, candidateList) {
+        var gr = new GlideRecord(this.CANDIDATE_TABLE);
+        for (var i = 0; i < candidateList.length; i++) {
+            gr.initialize();
+            gr.assessment = assessment;
+            gr.candidate = candidateList[i];
+            gr.insert();
+        }
+    },
+
+    cleanUpTables: function() {
+        var gr = new GlideRecord(this.ASSESSMENT_TABLE);
+        gr.deleteMultiple();
+        gr = new GlideRecord(this.CANDIDATE_TABLE);
+        gr.deleteMultiple();
+    },
+
+    // Exclusion Reasons
+    addExclusionReasons: function(assessment) {
+        var exclusionReasonList = ['Does not fulfill the general admission conditions', 'Does not fulfill the specific admission conditions for qualifications', 'Does not fulfill the specific admission conditions for professional experience', 'Does not fulfill the specific admission conditions for language requirements', 'Based on the Information provided in your application form, you do not fulfil the admission conditions relating to the qualifications: You do not have a level of education corresponding cycle of university studies attested by one of the diplomas in German or Austrian law n (see annex 1.1 to the competition notice and the corrigendum)', 'You did not complete all parts of the application form, in English, French or German (see annex II of the Notice of competition)'];
+        //this._addExclusionReason(exclusionReasonList[0], assessment);
+        //this._addExclusionReason(exclusionReasonList[1], assessment);
+        //this._addExclusionReason(exclusionReasonList[2], assessment);
+        //this._addExclusionReason(exclusionReasonList[3], assessment);
+        this._addExclusionReason(exclusionReasonList[4], assessment);
+        this._addExclusionReason(exclusionReasonList[5], assessment);
+    },
+
+    _addExclusionReason: function(reason, assessment) {
+        var grTestExclusionReason = new GlideRecord(this.EXCLUSION_REASON);
+        grTestExclusionReason.initialize();
+        grTestExclusionReason.assessment = assessment;
+        grTestExclusionReason.reason = reason;
+        grTestExclusionReason.insert();
+
+    },
+
+    cleanUpRecordsWithoutAssessment: function() {
+        var gr = new GlideRecord(this.EXCLUSION_REASON);
+        gr.addQuery('assessment', '');
+        gr.query();
+        gr.setWorkflow(true);
+        gr.deleteMultiple();
+
+        gr = new GlideRecord(this.ASSESSMENT_SC);
+        gr.addQuery('assessment', '');
+        gr.query();
+        gr.setWorkflow(true);
+        gr.deleteMultiple();
+
+        gr = new GlideRecord(this.ASSESSMENT_QUESTION);
+        gr.addQuery('assessment', '');
+        gr.query();
+        gr.setWorkflow(true);
+        gr.deleteMultiple();
+    },
+
+    populateCandidateQA: function(assessment, candidate) {
+
+        var grAssessmentQuestion = new GlideRecord(this.ASSESSMENT_QUESTION);
+        grAssessmentQuestion.addQuery('assessment_selection_criteria.assessment', assessment); // 
+        grAssessmentQuestion.query();
+        var grCandidateAnswers = new GlideRecord(this.CANDIDATE_ANSWER);
+        while (grAssessmentQuestion.next()) {
+            grCandidateAnswers.initialize();
+            grCandidateAnswers.candidate = candidate;
+            grCandidateAnswers.assessment_question = grAssessmentQuestion.sys_id;
+            var assessmentQuestionSC = grAssessmentQuestion.assessment_selection_criteria + "";
+            grCandidateAnswers.assessment_selection_criteria = assessmentQuestionSC;
+            grCandidateAnswers.answer = grAssessmentQuestion.question_library.correct_answer;
+            var maxValue = grAssessmentQuestion.max_value;
+            if (assessmentQuestionSC.assessment_state == this.PRESELECTION_CBT)
+                grCandidateAnswers.score = Math.floor((Math.random() * maxValue)) + 1;
+            grCandidateAnswers.answer_yes_no = false;
+            grCandidateAnswers.insert();
+            if (assessmentQuestionSC.assessment_state == this.PRESELECTION_CBT) {
+                grCandidateAnswers.score = Math.floor((Math.random() * maxValue)) + 1;
+                grCandidateAnswers.update();
+            }
+        }
+    },
+
+    copyAssessmentSCInCandidate: function(assessment, candidate) {
+        var grAssessmentSC = new GlideRecord(this.ASSESSMENT_SC);
+        grAssessmentSC.addQuery('assessment', assessment);
+        grAssessmentSC.query();
+        var grCandidateSC = new GlideRecord(this.CANDIDATE_SC);
+        while (grAssessmentSC.next()) {
+            grCandidateSC.initialize();
+            grCandidateSC.assessment_selection_criteria = grAssessmentSC.sys_id + "";
+            grCandidateSC.candidate = candidate;
+            grCandidateSC.insert();
+        }
+    },
+    cleanUpRecordsWithoutCandidate: function() {
+        var gr = new GlideRecord(this.CANDIDATE_ANSWER);
+        gr.addQuery('candidate', '');
+        gr.query();
+        gr.setWorkflow(false);
+        gr.deleteMultiple();
+
+        gr = new GlideRecord(this.CANDIDATE_SC);
+        gr.addQuery('candidate', '');
+        gr.query();
+        gr.setWorkflow(false);
+        gr.deleteMultiple();
+
+
+    },
+
+
+    getCandidateSCParent: function(current) {
+        var candidate = current.candidate;
+        var grParent = new GlideRecord(this.CANDIDATE_SC);
+        grParent.addQuery('assessment_selection_criteria', current.assessment_selection_criteria.parent);
+        grParent.addQuery('candidate', candidate);
+        grParent.query();
+        grParent.next();
+        return grParent;
+    },
+
+    calculateSCScore: function(current) {
+        var candidate = current.candidate;
+        var mainSelectionCriteria = current.assessment_selection_criteria.parent;
+        var assessmentState = this.getStateSysID(current.candidate.assessment.state);
+        var score = 0;
+        if (assessmentState == this.PRESELECTION ||
+            assessmentState == this.SELECTION) {
+            var gr = new GlideRecord(this.CANDIDATE_SC);
+            gr.addQuery('candidate', candidate);
+            gr.addQuery('assessment_selection_criteria.parent', mainSelectionCriteria);
+            gr.query();
+
+        } else if (assessmentState == this.PRESELECTION_CBT) {
+            gr = new GlideRecord(this.CANDIDATE_ANSWER);
+            gr.addQuery('candidate', candidate);
+            gr.addQuery('assessment_selection_criteria', mainSelectionCriteria);
+            gr.addQuery('assessment_question.active', 'true');
+            gr.query();
+        }
+        while (gr.next()) score = score + gr.score;
+        return score;
+    },
+
+    getStateSysID: function(state) {
+        if (state == '30') {
+            return this.PRESELECTION_CBT;
+        }
+        if (state == '40') {
+            return this.PRESELECTION;
+        }
+        if (state == '50') {
+            return this.SELECTION;
+        }
+        return state;
+    },
+
+    type: 'CandidateAssessmentUtils'
+
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-26 18:02:04</sys_created_on>
+        <sys_id>0e6e20c91bcce1101f602f08b04bcbb9</sys_id>
+        <sys_mod_count>161</sys_mod_count>
+        <sys_name>CandidateAssessmentUtils</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_script_include_0e6e20c91bcce1101f602f08b04bcbb9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-21 15:04:49</sys_updated_on>
+    </sys_script_include>
+</record_update>

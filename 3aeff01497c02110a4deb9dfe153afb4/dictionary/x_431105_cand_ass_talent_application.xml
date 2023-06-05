@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ad807cda470b21103fa44aff336d43d9" extends="sn_hr_core_case_talent_management" label="Talent Application" max_length="40" name="x_431105_cand_ass_talent_application" type="collection">
+        <element label="Approver" max_length="32" name="approver" reference="sys_user" type="reference"/>
+        <element label="Citizenship" max_length="32" name="citizenship" reference="x_431105_cand_ass_language" type="reference"/>
+        <element label="Diploma OK?" max_length="40" name="diploma_ok" type="boolean"/>
+        <element label="Diploma OK?" max_length="40" name="diploma_ok_string" type="string"/>
+        <element label="Document file" max_length="40" name="document_file" type="file_attachment"/>
+        <element label="Document id" max_length="40" name="document_id" type="string"/>
+        <element label="Document type (ID)" max_length="40" name="document_type_id" type="string"/>
+        <element choice="1" label="Eligible" max_length="40" name="eligible" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="No"/>
+            </choice>
+        </element>
+        <element label="Exclusion Reasons" max_length="4000" name="exclusion_reasons" reference="x_431105_cand_ass_exclusion_reason" reference_qual="javascript: &quot;assessment=&quot;+current.publication;" type="glide_list" use_reference_qualifier="advanced"/>
+        <element label="How did you learn about this competition?" max_length="40" name="how_did_you_learn_about_this_competition" type="string"/>
+        <element label="Language 1" max_length="40" name="language_1" type="string"/>
+        <element label="Language 2" max_length="40" name="language_2" type="string"/>
+        <element label="More info required" max_length="40" name="more_info_required" type="boolean"/>
+        <element label="More info required" max_length="40" name="more_info_required_string" type="string"/>
+        <element label="Professional Experience OK?" max_length="40" name="professional_experience" type="boolean"/>
+        <element label="Professional Experience OK?" max_length="40" name="professional_experience_string" type="string"/>
+        <element label="Publication" max_length="32" name="publication" reference="x_431105_cand_ass_assessment" type="reference"/>
+        <element label="Special needs requirements" max_length="40" name="special_needs_requirements" type="boolean"/>
+        <element label="TS info in L2" max_length="40" name="ts_info_in_l2" type="boolean"/>
+        <element label="TS info in L2" max_length="40" name="ts_info_in_l2_string" type="string"/>
+    </element>
+</database>

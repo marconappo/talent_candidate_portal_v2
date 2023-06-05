@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config/>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Workspace notification">2683731bb7fa5010fddc6c91de11a93c</macroponent>
+        <macroponent_config/>
+        <name>Notification tray default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type/>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-28 10:49:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a7ae51650204e110f4315231efcead13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notification tray default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ux_screen_a7ae51650204e110f4315231efcead13</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-28 10:49:56</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=a7ae51650204e110f4315231efcead13"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>3b0c683cdbbe5190b847ac44d4961962</instance_id>
+        <instance_name>dev142367</instance_name>
+        <name>sys_ux_screen_a7ae51650204e110f4315231efcead13</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config/><description/><event_mappings/><macroponent display_value="Workspace notification">2683731bb7fa5010fddc6c91de11a93c</macroponent><macroponent_config/><name>Notification tray default</name><order>0</order><parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><required_translations>[]</required_translations><rollback_screen/><screen_condition/><screen_type/><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-28 10:49:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a7ae51650204e110f4315231efcead13</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Notification tray default</sys_name><sys_overrides/><sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_ux_screen_a7ae51650204e110f4315231efcead13</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-28 10:49:56</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=a7ae51650204e110f4315231efcead13"/></record_update>]]></payload>
+        <payload_hash>-1470918195</payload_hash>
+        <record_name>Notification tray default</record_name>
+        <reverted_from/>
+        <source>c1c8266247f62110691e7258946d4340</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-17 13:49:13</sys_created_on>
+        <sys_id>7646432e477a2110691e7258946d43e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18829f8d3cc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 13:49:13</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>b246432e707a21101b8e62e2157cdde5</update_guid>
+        <update_guid_history>b246432e707a21101b8e62e2157cdde5:0,aba82a66a3f62110dd8fbf4eddb95420:-519608347</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-17 13:49:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>3d605f7bf1ea4d54b7d32e5cd421a2e4</sys_id>
+        <sys_metadata>a7ae51650204e110f4315231efcead13</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notification tray default</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_ux_screen_a7ae51650204e110f4315231efcead13</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_a7ae51650204e110f4315231efcead13">7646432e477a2110691e7258946d43e5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 13:49:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

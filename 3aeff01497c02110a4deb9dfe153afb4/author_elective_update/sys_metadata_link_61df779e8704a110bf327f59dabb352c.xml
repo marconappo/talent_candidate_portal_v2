@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="DELETE">
+        <directory>update</directory>
+        <documentkey>21b07d9497842110a4deb9dfe153af46</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_431105_cand_ass_question_library">
+    <x_431105_cand_ass_question_library action="INSERT_OR_UPDATE">
+        <answers>Focusing language learning on English, French and
+German s a sensible and desirable approach.
+
+‘Some schools need to substantially change the way
+they teach languages.
+
+Class size in an important factor in the effectiveness of
+language teaching.
+
+Children need to learn languages early as it is not
+possible as adults.</answers>
+        <assessment_state display_value="Preselection CBT">5165ad5897442110a4deb9dfe153af6f</assessment_state>
+        <correct_answer>Class size in an important factor in the effectiveness of
+language teaching.</correct_answer>
+        <default_max_value>17</default_max_value>
+        <number>QLB0001022</number>
+        <question>While teaching should begin early, it only makes sense if teachers are specially trained to teach languages to young children. Moreover, class sizes should be relatively small, and enough time needs to be set aside in the school curriculum for language teaching. Schools need to respond to the challenge by offering as wide a range of languages as possible. They should also recruit and train more teachers — and here border regions can usefully cooperate with each other. Adults too should have more opportunities for acquiring and using their language skills. Care should be taken to promote all languages, including regional and minority ones, to provide more venues for language teaching, to make more use of the internet for learning languages, and to provide more subtitling on television and in the cinema.
+
+Which of the following statements is correct?</question>
+        <selection_criteria display_value="Verbal Reasoning">1a4e91d097442110a4deb9dfe153af4c</selection_criteria>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-24 14:56:18</sys_created_on>
+        <sys_id>21b07d9497842110a4deb9dfe153af46</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 06:45:59</sys_updated_on>
+    </x_431105_cand_ass_question_library>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-31 06:29:29</sys_created_on>
+        <sys_id>61df779e8704a110bf327f59dabb352c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>While teaching should begin early, it only makes sense if teachers are specially trained to teach languages to young children. Moreover, class sizes should be relatively small, and enough time needs to be set aside in the school curriculum for language te</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_metadata_link_61df779e8704a110bf327f59dabb352c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-31 06:29:29</sys_updated_on>
+        <tablename>x_431105_cand_ass_question_library</tablename>
+    </sys_metadata_link>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>3b0c683cdbbe5190b847ac44d4961962</instance_id>
+        <instance_name>dev142367</instance_name>
+        <name>sys_metadata_link_61df779e8704a110bf327f59dabb352c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_metadata_link"&gt;
+    &lt;sys_metadata_link action="INSERT_OR_UPDATE"&gt;
+        &lt;directory&gt;update&lt;/directory&gt;
+        &lt;documentkey&gt;21b07d9497842110a4deb9dfe153af46&lt;/documentkey&gt;
+        &lt;payload&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_431105_cand_ass_question_library"&gt;
+    &lt;x_431105_cand_ass_question_library action="INSERT_OR_UPDATE"&gt;
+        &lt;answers&gt;Focusing language learning on English, French and
+German s a sensible and desirable approach.
+
+‘Some schools need to substantially change the way
+they teach languages.
+
+Class size in an important factor in the effectiveness of
+language teaching.
+
+Children need to learn languages early as it is not
+possible as adults.&lt;/answers&gt;
+        &lt;assessment_state display_value="Preselection CBT"&gt;5165ad5897442110a4deb9dfe153af6f&lt;/assessment_state&gt;
+        &lt;correct_answer&gt;Class size in an important factor in the effectiveness of
+language teaching.&lt;/correct_answer&gt;
+        &lt;default_max_value&gt;17&lt;/default_max_value&gt;
+        &lt;number&gt;QLB0001022&lt;/number&gt;
+        &lt;question&gt;While teaching should begin early, it only makes sense if teachers are specially trained to teach languages to young children. Moreover, class sizes should be relatively small, and enough time needs to be set aside in the school curriculum for language teaching. Schools need to respond to the challenge by offering as wide a range of languages as possible. They should also recruit and train more teachers — and here border regions can usefully cooperate with each other. Adults too should have more opportunities for acquiring and using their language skills. Care should be taken to promote all languages, including regional and minority ones, to provide more venues for language teaching, to make more use of the internet for learning languages, and to provide more subtitling on television and in the cinema.
+
+Which of the following statements is correct?&lt;/question&gt;
+        &lt;selection_criteria display_value="Verbal Reasoning"&gt;1a4e91d097442110a4deb9dfe153af4c&lt;/selection_criteria&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-12-24 14:56:18&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;21b07d9497842110a4deb9dfe153af46&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-12-25 06:45:59&lt;/sys_updated_on&gt;
+    &lt;/x_431105_cand_ass_question_library&gt;
+&lt;/record_update&gt;
+]]&gt;&lt;/payload&gt;
+        &lt;sys_class_name&gt;sys_metadata_link&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-12-31 06:29:29&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;61df779e8704a110bf327f59dabb352c&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;While teaching should begin early, it only makes sense if teachers are specially trained to teach languages to young children. Moreover, class sizes should be relatively small, and enough time needs to be set aside in the school curriculum for language te&lt;/sys_name&gt;
+        &lt;sys_package display_value="Candidate Assessment" source="x_431105_cand_ass"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Candidate Assessment"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_metadata_link_61df779e8704a110bf327f59dabb352c&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-12-31 06:29:29&lt;/sys_updated_on&gt;
+        &lt;tablename&gt;x_431105_cand_ass_question_library&lt;/tablename&gt;
+    &lt;/sys_metadata_link&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1261915734</payload_hash>
+        <record_name>While teaching should begin early, it only makes sense if teachers are specially trained to teach la</record_name>
+        <reverted_from/>
+        <source>507826e247f62110691e7258946d4389</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-17 11:39:10</sys_created_on>
+        <sys_id>7188a22647f62110691e7258946d4313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1882981c6a90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 11:39:10</sys_updated_on>
+        <type>Metadata Snapshot</type>
+        <update_guid>3188a226f6f62110926d246b36ed0713</update_guid>
+        <update_guid_history>3188a226f6f62110926d246b36ed0713:1261915734</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-17 13:48:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_metadata_link">sys_metadata_link</sys_db_object>
+        <sys_id>0b39c261b67443e491f4562c3161f301</sys_id>
+        <sys_metadata>61df779e8704a110bf327f59dabb352c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>While teaching should begin early, it only makes sense if teachers are specially trained to teach languages to young children. Moreover, class sizes should be relatively small, and enough time needs to be set aside in the school curriculum for language te</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_metadata_link_61df779e8704a110bf327f59dabb352c</sys_update_name>
+        <sys_update_version display_value="sys_metadata_link_61df779e8704a110bf327f59dabb352c">7188a22647f62110691e7258946d4313</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 13:48:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

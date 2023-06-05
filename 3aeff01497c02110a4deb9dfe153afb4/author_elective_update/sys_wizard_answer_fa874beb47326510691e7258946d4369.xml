@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>EPSO Competition</answer>
+        <button_label/>
+        <dependent_value/>
+        <element>process_type</element>
+        <name>Open to other institutions</name>
+        <next_question/>
+        <order>200</order>
+        <payload_name/>
+        <question display_value="Procedure Type" name="Procedure Type">bb26c36b47326510691e7258946d435d</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-20 16:28:48</sys_created_on>
+        <sys_id>fa874beb47326510691e7258946d4369</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Open to other institutions</sys_name>
+        <sys_package display_value="Recruitment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recruitment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_wizard_answer_fa874beb47326510691e7258946d4369</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-20 16:38:09</sys_updated_on>
+        <table>x_431105_cand_ass_assessment</table>
+        <target_url/>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>3b0c683cdbbe5190b847ac44d4961962</instance_id>
+        <instance_name>dev142367</instance_name>
+        <name>sys_wizard_answer_fa874beb47326510691e7258946d4369</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>EPSO Competition</answer><button_label/><dependent_value/><element>process_type</element><name>Open to other institutions</name><next_question/><order>200</order><payload_name/><question display_value="Procedure Type" name="Procedure Type">bb26c36b47326510691e7258946d435d</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-05-20 16:28:48</sys_created_on><sys_id>fa874beb47326510691e7258946d4369</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Open to other institutions</sys_name><sys_package display_value="Recruitment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Recruitment">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_wizard_answer_fa874beb47326510691e7258946d4369</sys_update_name><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-05-20 16:38:09</sys_updated_on><table>x_431105_cand_ass_assessment</table><target_url/><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-1022282125</payload_hash>
+        <record_name>Open to other institutions</record_name>
+        <reverted_from/>
+        <source>d015feb647ba6110691e7258946d432e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-20 16:38:10</sys_created_on>
+        <sys_id>36b947af47326510691e7258946d4352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1883a06955c0000001</sys_recorded_at>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-20 16:38:10</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>3eb947af63326510885e5f057c6a0f51</update_guid>
+        <update_guid_history>3eb947af63326510885e5f057c6a0f51:-1022282125,59a94f6fb8326510afc7a47b3a21b7c4:2013257102,5658cb2ff0326510bd54a65c93ebef5f:206967278,3128cfab2e3265100a373855859fbd14:1542317145,faa70feb28326510d87d1491fea27120:-234418630,61970bebc0326510c40246373d37a499:-656279023</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-20 16:41:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>08d59f648a2c474083806682d8782400</sys_id>
+        <sys_metadata>fa874beb47326510691e7258946d4369</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open to other institutions</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_fa874beb47326510691e7258946d4369</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_fa874beb47326510691e7258946d4369">36b947af47326510691e7258946d4352</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-20 16:41:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

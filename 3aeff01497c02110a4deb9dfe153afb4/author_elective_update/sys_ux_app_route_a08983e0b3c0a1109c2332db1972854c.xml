@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Candidate Assessment Config">688983e0a1c0a110ef32212b07b8dc4c</app_config>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>Home</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>home</route_type>
+        <screen_type display_value="Home">e08983e0a4c0a110cf001de4e210a74c</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 16:02:46</sys_created_on>
+        <sys_id>a08983e0b3c0a1109c2332db1972854c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ux_app_route_a08983e0b3c0a1109c2332db1972854c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 16:02:46</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=a08983e0b3c0a1109c2332db1972854c"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>3b0c683cdbbe5190b847ac44d4961962</instance_id>
+        <instance_name>dev142367</instance_name>
+        <name>sys_ux_app_route_a08983e0b3c0a1109c2332db1972854c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Candidate Assessment Config">688983e0a1c0a110ef32212b07b8dc4c</app_config>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>Home</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>home</route_type>
+        <screen_type display_value="Home">e08983e0a4c0a110cf001de4e210a74c</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 16:02:46</sys_created_on>
+        <sys_id>a08983e0b3c0a1109c2332db1972854c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ux_app_route_a08983e0b3c0a1109c2332db1972854c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 16:02:46</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=a08983e0b3c0a1109c2332db1972854c"/>
+</record_update>]]></payload>
+        <payload_hash>-919336895</payload_hash>
+        <record_name>Home</record_name>
+        <reverted_from/>
+        <source>507826e247f62110691e7258946d4389</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-17 11:39:41</sys_created_on>
+        <sys_id>a1a8266647f62110691e7258946d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18829823fc50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 11:39:41</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>61a826669df62110f6b969237077874f</update_guid>
+        <update_guid_history>61a826669df62110f6b969237077874f:-919336895</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-17 13:49:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>269ca20ffe8143f892efea0b5d76e440</sys_id>
+        <sys_metadata>a08983e0b3c0a1109c2332db1972854c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_ux_app_route_a08983e0b3c0a1109c2332db1972854c</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_a08983e0b3c0a1109c2332db1972854c">a1a8266647f62110691e7258946d434f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 13:49:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

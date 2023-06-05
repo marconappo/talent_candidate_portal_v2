@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="76e4174e470321103fa44aff336d4304" label="Competition Question" max_length="40" name="x_431105_cand_ass_assessment_question" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Competition" max_length="32" name="assessment" reference="x_431105_cand_ass_assessment" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Competition Selection Criteria" max_length="32" name="assessment_selection_criteria" reference="x_431105_cand_ass_assessment_selection_criteria" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Max Value" max_length="40" name="max_value" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" display="true" label="Question Library" max_length="32" name="question_library" reference="x_431105_cand_ass_question_library" type="reference"/>
+        <index name="index">
+            <element name="assessment"/>
+        </index>
+        <index name="index2">
+            <element name="assessment_selection_criteria"/>
+        </index>
+        <index name="index3">
+            <element name="question_library"/>
+        </index>
+    </element>
+</database>

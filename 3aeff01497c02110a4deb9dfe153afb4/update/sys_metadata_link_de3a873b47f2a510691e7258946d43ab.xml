@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e0316a57473ee110691e7258946d4375</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_431105_cand_ass_requirement_library">
+    <x_431105_cand_ass_requirement_library action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <default_for/>
+        <description>enjoy full rights as a citizen of a Member State of the EU</description>
+        <duration_months/>
+        <number>RQL0001037</number>
+        <short_description>Citizen of EU</short_description>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-19 19:03:02</sys_created_on>
+        <sys_id>e0316a57473ee110691e7258946d4375</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-19 19:03:31</sys_updated_on>
+    </x_431105_cand_ass_requirement_library>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-21 11:18:47</sys_created_on>
+        <sys_id>de3a873b47f2a510691e7258946d43ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Citizen of EU</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_metadata_link_de3a873b47f2a510691e7258946d43ab</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-21 11:18:47</sys_updated_on>
+        <tablename>x_431105_cand_ass_requirement_library</tablename>
+    </sys_metadata_link>
+</record_update>

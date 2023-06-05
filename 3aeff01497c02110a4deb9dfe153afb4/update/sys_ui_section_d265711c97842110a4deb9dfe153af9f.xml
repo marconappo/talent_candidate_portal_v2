@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Publication" section_id="d265711c97842110a4deb9dfe153af9f" sys_domain="global" table="x_431105_cand_ass_assessment" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 17:58:21</sys_created_on>
+            <sys_id>6d1cdfe347b26510691e7258946d43dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">767ca19097842110a4deb9dfe153afed</sys_ui_formatter>
+            <sys_ui_section caption="Publication" display_value="Publication" name="x_431105_cand_ass_assessment" sys_domain="global" view="Default view">d265711c97842110a4deb9dfe153af9f</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 17:58:21</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 17:58:21</sys_created_on>
+            <sys_id>a51cdfe347b26510691e7258946d43de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Publication" display_value="Publication" name="x_431105_cand_ass_assessment" sys_domain="global" view="Default view">d265711c97842110a4deb9dfe153af9f</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 17:58:21</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>publication_type</element>
+            <position>2</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 17:58:21</sys_created_on>
+            <sys_id>a91cdfe347b26510691e7258946d43de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Publication" display_value="Publication" name="x_431105_cand_ass_assessment" sys_domain="global" view="Default view">d265711c97842110a4deb9dfe153af9f</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 17:58:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>function_group</element>
+            <position>3</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 17:58:21</sys_created_on>
+            <sys_id>ad1cdfe347b26510691e7258946d43de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Publication" display_value="Publication" name="x_431105_cand_ass_assessment" sys_domain="global" view="Default view">d265711c97842110a4deb9dfe153af9f</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 17:58:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>grades</element>
+            <position>4</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 17:58:21</sys_created_on>
+            <sys_id>a11cdfe347b26510691e7258946d43df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Publication" display_value="Publication" name="x_431105_cand_ass_assessment" sys_domain="global" view="Default view">d265711c97842110a4deb9dfe153af9f</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 17:58:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_type</element>
+            <position>5</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 17:58:21</sys_created_on>
+            <sys_id>a51cdfe347b26510691e7258946d43df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Publication" display_value="Publication" name="x_431105_cand_ass_assessment" sys_domain="global" view="Default view">d265711c97842110a4deb9dfe153af9f</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 17:58:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_of_contract</element>
+            <position>6</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 17:58:21</sys_created_on>
+            <sys_id>a91cdfe347b26510691e7258946d43df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Publication" display_value="Publication" name="x_431105_cand_ass_assessment" sys_domain="global" view="Default view">d265711c97842110a4deb9dfe153af9f</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 17:58:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>publication_start</element>
+            <position>7</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 17:58:21</sys_created_on>
+            <sys_id>ad1cdfe347b26510691e7258946d43df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Publication" display_value="Publication" name="x_431105_cand_ass_assessment" sys_domain="global" view="Default view">d265711c97842110a4deb9dfe153af9f</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 17:58:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>publication_end</element>
+            <position>8</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 17:58:21</sys_created_on>
+            <sys_id>a11cdfe347b26510691e7258946d43e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Publication" display_value="Publication" name="x_431105_cand_ass_assessment" sys_domain="global" view="Default view">d265711c97842110a4deb9dfe153af9f</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 17:58:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>options</element>
+            <position>9</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 17:58:21</sys_created_on>
+            <sys_id>a51cdfe347b26510691e7258946d43e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Publication" display_value="Publication" name="x_431105_cand_ass_assessment" sys_domain="global" view="Default view">d265711c97842110a4deb9dfe153af9f</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 17:58:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 17:58:21</sys_created_on>
+            <sys_id>a91cdfe347b26510691e7258946d43e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Publication" display_value="Publication" name="x_431105_cand_ass_assessment" sys_domain="global" view="Default view">d265711c97842110a4deb9dfe153af9f</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 17:58:21</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>11</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 17:58:21</sys_created_on>
+            <sys_id>ad1cdfe347b26510691e7258946d43e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Publication" display_value="Publication" name="x_431105_cand_ass_assessment" sys_domain="global" view="Default view">d265711c97842110a4deb9dfe153af9f</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 17:58:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>12</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 17:58:21</sys_created_on>
+            <sys_id>a11cdfe347b26510691e7258946d43e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Publication" display_value="Publication" name="x_431105_cand_ass_assessment" sys_domain="global" view="Default view">d265711c97842110a4deb9dfe153af9f</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 17:58:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>13</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 17:58:21</sys_created_on>
+            <sys_id>a51cdfe347b26510691e7258946d43e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Publication" display_value="Publication" name="x_431105_cand_ass_assessment" sys_domain="global" view="Default view">d265711c97842110a4deb9dfe153af9f</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 17:58:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>14</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 17:58:21</sys_created_on>
+            <sys_id>a91cdfe347b26510691e7258946d43e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Publication" display_value="Publication" name="x_431105_cand_ass_assessment" sys_domain="global" view="Default view">d265711c97842110a4deb9dfe153af9f</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 17:58:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>15</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 17:58:21</sys_created_on>
+            <sys_id>ad1cdfe347b26510691e7258946d43e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Publication" display_value="Publication" name="x_431105_cand_ass_assessment" sys_domain="global" view="Default view">d265711c97842110a4deb9dfe153af9f</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 17:58:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>citizenship</element>
+            <position>16</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 17:58:21</sys_created_on>
+            <sys_id>a11cdfe347b26510691e7258946d43e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Publication" display_value="Publication" name="x_431105_cand_ass_assessment" sys_domain="global" view="Default view">d265711c97842110a4deb9dfe153af9f</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 17:58:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_domains</element>
+            <position>17</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 17:58:21</sys_created_on>
+            <sys_id>a51cdfe347b26510691e7258946d43e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Publication" display_value="Publication" name="x_431105_cand_ass_assessment" sys_domain="global" view="Default view">d265711c97842110a4deb9dfe153af9f</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 17:58:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>18</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 17:58:21</sys_created_on>
+            <sys_id>a91cdfe347b26510691e7258946d43e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Publication" display_value="Publication" name="x_431105_cand_ass_assessment" sys_domain="global" view="Default view">d265711c97842110a4deb9dfe153af9f</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 17:58:21</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>19</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 17:58:21</sys_created_on>
+            <sys_id>ad1cdfe347b26510691e7258946d43e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Publication" display_value="Publication" name="x_431105_cand_ass_assessment" sys_domain="global" view="Default view">d265711c97842110a4deb9dfe153af9f</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 17:58:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Publication</caption>
+            <header>false</header>
+            <name>x_431105_cand_ass_assessment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-24 15:16:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d265711c97842110a4deb9dfe153af9f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>x_431105_cand_ass_assessment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+            <sys_update_name>sys_ui_section_d265711c97842110a4deb9dfe153af9f</sys_update_name>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-18 10:35:24</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

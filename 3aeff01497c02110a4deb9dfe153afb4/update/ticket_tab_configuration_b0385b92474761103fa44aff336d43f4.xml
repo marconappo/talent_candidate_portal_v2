@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ticket_tab_configuration">
+    <ticket_tab_configuration action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <order>30</order>
+        <parent display_value="x_431105_cand_ass_talent_application">01089392474761103fa44aff336d4366</parent>
+        <script><![CDATA[/**
+ * The script should evaluate true/false or `answer` populated with true/false which validates if a tab is visible 
+ * The `current` object refers to the current Task(extension) record 
+ **/ 
+]]></script>
+        <sys_class_name>ticket_tab_configuration</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-29 06:44:57</sys_created_on>
+        <sys_id>b0385b92474761103fa44aff336d43f4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>ticket_tab_configuration_b0385b92474761103fa44aff336d43f4</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-29 06:46:16</sys_updated_on>
+        <tab_name>Additional Info</tab_name>
+        <table>x_431105_cand_ass_talent_application</table>
+        <type>variable_editor</type>
+        <visible/>
+        <widget/>
+        <widget_param/>
+    </ticket_tab_configuration>
+    <sys_translated_text action="delete_multiple" query="documentkey=b0385b92474761103fa44aff336d43f4"/>
+</record_update>

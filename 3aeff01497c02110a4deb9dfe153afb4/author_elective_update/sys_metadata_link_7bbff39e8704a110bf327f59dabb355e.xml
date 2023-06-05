@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="DELETE">
+        <directory>update</directory>
+        <documentkey>964e91d097442110a4deb9dfe153af5d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_431105_cand_ass_selection_criteria_library">
+    <x_431105_cand_ass_selection_criteria_library action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <default_for/>
+        <default_max_value/>
+        <name>Manages to organise their work in a stru</name>
+        <number>SLB0001071</number>
+        <parent display_value="Prioritising and Organising">924e91d097442110a4deb9dfe153af48</parent>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-24 13:35:47</sys_created_on>
+        <sys_id>964e91d097442110a4deb9dfe153af5d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-24 13:39:03</sys_updated_on>
+    </x_431105_cand_ass_selection_criteria_library>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-31 06:29:05</sys_created_on>
+        <sys_id>7bbff39e8704a110bf327f59dabb355e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_metadata_link_7bbff39e8704a110bf327f59dabb355e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-31 06:29:05</sys_updated_on>
+        <tablename>x_431105_cand_ass_selection_criteria_lib</tablename>
+    </sys_metadata_link>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>3b0c683cdbbe5190b847ac44d4961962</instance_id>
+        <instance_name>dev142367</instance_name>
+        <name>sys_metadata_link_7bbff39e8704a110bf327f59dabb355e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_metadata_link"&gt;
+    &lt;sys_metadata_link action="INSERT_OR_UPDATE"&gt;
+        &lt;directory&gt;update&lt;/directory&gt;
+        &lt;documentkey&gt;964e91d097442110a4deb9dfe153af5d&lt;/documentkey&gt;
+        &lt;payload&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_431105_cand_ass_selection_criteria_library"&gt;
+    &lt;x_431105_cand_ass_selection_criteria_library action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;false&lt;/active&gt;
+        &lt;default_for/&gt;
+        &lt;default_max_value/&gt;
+        &lt;name&gt;Manages to organise their work in a stru&lt;/name&gt;
+        &lt;number&gt;SLB0001071&lt;/number&gt;
+        &lt;parent display_value="Prioritising and Organising"&gt;924e91d097442110a4deb9dfe153af48&lt;/parent&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-12-24 13:35:47&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;964e91d097442110a4deb9dfe153af5d&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-12-24 13:39:03&lt;/sys_updated_on&gt;
+    &lt;/x_431105_cand_ass_selection_criteria_library&gt;
+&lt;/record_update&gt;
+]]&gt;&lt;/payload&gt;
+        &lt;sys_class_name&gt;sys_metadata_link&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-12-31 06:29:05&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;7bbff39e8704a110bf327f59dabb355e&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name/&gt;
+        &lt;sys_package display_value="Candidate Assessment" source="x_431105_cand_ass"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Candidate Assessment"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_metadata_link_7bbff39e8704a110bf327f59dabb355e&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-12-31 06:29:05&lt;/sys_updated_on&gt;
+        &lt;tablename&gt;x_431105_cand_ass_selection_criteria_lib&lt;/tablename&gt;
+    &lt;/sys_metadata_link&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1103276086</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>507826e247f62110691e7258946d4389</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-17 11:39:12</sys_created_on>
+        <sys_id>de88a22647f62110691e7258946d43a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1882981cb670000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 11:39:12</sys_updated_on>
+        <type>Metadata Snapshot</type>
+        <update_guid>9e88a226cbf621107940e022e9fc9ea0</update_guid>
+        <update_guid_history>9e88a226cbf621107940e022e9fc9ea0:1103276086</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-17 13:49:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_metadata_link">sys_metadata_link</sys_db_object>
+        <sys_id>0965a404bed7462c9574f50cba46ba10</sys_id>
+        <sys_metadata>7bbff39e8704a110bf327f59dabb355e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_metadata_link_7bbff39e8704a110bf327f59dabb355e</sys_update_name>
+        <sys_update_version display_value="sys_metadata_link_7bbff39e8704a110bf327f59dabb355e">de88a22647f62110691e7258946d43a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 13:49:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

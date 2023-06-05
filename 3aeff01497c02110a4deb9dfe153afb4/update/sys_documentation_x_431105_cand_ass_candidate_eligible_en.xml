@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="eligible" label="Eligible" language="en" table="x_431105_cand_ass_candidate">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>eligible</element>
+            <help/>
+            <hint/>
+            <label>Eligible</label>
+            <language>en</language>
+            <name>x_431105_cand_ass_candidate</name>
+            <plural>Eligibles</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-21 09:31:29</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Eligible</sys_name>
+            <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+            <sys_update_name>sys_documentation_x_431105_cand_ass_candidate_eligible_en</sys_update_name>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-21 09:31:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

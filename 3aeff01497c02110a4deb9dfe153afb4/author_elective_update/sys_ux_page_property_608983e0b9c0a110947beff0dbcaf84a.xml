@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>actionConfigId</name>
+        <page display_value="Candidate Assessment">288983e050c0a1105db10b97a551214c</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 16:02:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>608983e0b9c0a110947beff0dbcaf84a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>actionConfigId</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ux_page_property_608983e0b9c0a110947beff0dbcaf84a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 16:02:46</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_431105_cand_ass.288983e050c0a1105db10b97a551214c.root.actionConfigId</unique_name>
+        <value>df28e3db0f1210107d20409dc4767ee0</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=608983e0b9c0a110947beff0dbcaf84a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>f2c6bdb1dba99304cbf6d5b0cf96199b</instance_id>
+        <instance_name>dev56679</instance_name>
+        <name>sys_ux_page_property_608983e0b9c0a110947beff0dbcaf84a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>actionConfigId</name><page display_value="Candidate Assessment">288983e050c0a1105db10b97a551214c</page><required_translations>[]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-25 16:02:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>608983e0b9c0a110947beff0dbcaf84a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>actionConfigId</sys_name><sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_ux_page_property_608983e0b9c0a110947beff0dbcaf84a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-25 16:02:46</sys_updated_on><type>string</type><unique_name>x_431105_cand_ass.288983e050c0a1105db10b97a551214c.root.actionConfigId</unique_name><value>df28e3db0f1210107d20409dc4767ee0</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=608983e0b9c0a110947beff0dbcaf84a"/></record_update>]]></payload>
+        <payload_hash>-1731980517</payload_hash>
+        <record_name>actionConfigId</record_name>
+        <reverted_from/>
+        <source>cba40fd59708a110352bb39fe153af15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 23:37:46</sys_created_on>
+        <sys_id>add40f199708a110352bb39fe153af40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18555f2fd120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 23:37:46</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>6dd40f19a508a110bcc1d77287855640</update_guid>
+        <update_guid_history>6dd40f19a508a110bcc1d77287855640:-1731980517</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-28 10:49:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>4e25007c75b5426993a96385e1355449</sys_id>
+        <sys_metadata>608983e0b9c0a110947beff0dbcaf84a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>actionConfigId</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_ux_page_property_608983e0b9c0a110947beff0dbcaf84a</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_608983e0b9c0a110947beff0dbcaf84a">add40f199708a110352bb39fe153af40</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-28 10:49:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

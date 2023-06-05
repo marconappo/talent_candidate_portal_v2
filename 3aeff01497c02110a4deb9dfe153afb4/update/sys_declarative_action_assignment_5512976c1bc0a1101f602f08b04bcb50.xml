@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_declarative_action_assignment">
+    <sys_declarative_action_assignment action="INSERT_OR_UPDATE">
+        <action/>
+        <action_attributes/>
+        <action_name>import_data_from_sap_prometric_hudson</action_name>
+        <action_payload/>
+        <action_type>type</action_type>
+        <active>true</active>
+        <button_type>tertiary</button_type>
+        <client_action/>
+        <client_conditions/>
+        <client_conditions_on_fields/>
+        <client_script><![CDATA[function onClick() { }]]></client_script>
+        <confirmation_message/>
+        <confirmation_required>false</confirmation_required>
+        <create_access>false</create_access>
+        <declarative_action_render_mode/>
+        <declarative_action_type>server_script</declarative_action_type>
+        <delete_access>false</delete_access>
+        <dependency/>
+        <description/>
+        <design_icon/>
+        <enable_for_all_experiences>false</enable_for_all_experiences>
+        <enabled>true</enabled>
+        <experience_restricted>false</experience_restricted>
+        <field_name/>
+        <field_type>glide_date</field_type>
+        <form_fields_required>false</form_fields_required>
+        <form_position/>
+        <group display_value="Global Now Actions">24c4ec9453103300099addeeff7b12f6</group>
+        <group_by>true</group_by>
+        <icon/>
+        <label>Import Assessments [SAP/Prom./Hudson]</label>
+        <model display_value="List">c3547169534723003eddddeeff7b126c</model>
+        <model_conditions/>
+        <model_field_required/>
+        <order>2</order>
+        <payload_map/>
+        <read_access>false</read_access>
+        <record_conditions/>
+        <record_selection_required>false</record_selection_required>
+        <required_roles/>
+        <requires_value>false</requires_value>
+        <script_condition/>
+        <scripted_client_condition/>
+        <server_script><![CDATA[var caUtils = new CandidateAssessmentUtils();
+caUtils.importAssessments();]]></server_script>
+        <specificity>21</specificity>
+        <sys_class_name>sys_declarative_action_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 16:41:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5512976c1bc0a1101f602f08b04bcb50</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name>import_data_from_sap_prometric_hudson</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_declarative_action_assignment_5512976c1bc0a1101f602f08b04bcb50</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-28 20:21:16</sys_updated_on>
+        <table>x_431105_cand_ass_assessment</table>
+        <tooltip>Import Assessments [SAP/Prom./Hudson]</tooltip>
+        <ui_component/>
+        <view/>
+        <workspace/>
+        <write_access>false</write_access>
+    </sys_declarative_action_assignment>
+    <sys_translated_text action="delete_multiple" query="documentkey=5512976c1bc0a1101f602f08b04bcb50"/>
+</record_update>

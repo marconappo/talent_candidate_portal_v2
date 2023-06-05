@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8fe4174e470321103fa44aff336d4392" label="Requirement Library" max_length="40" name="x_431105_cand_ass_requirement_library" type="collection">
+        <element choice="3" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="General" value="general"/>
+                <element inactive_on_update="false" label="Education and Training" sequence="0" value="education_and_training"/>
+                <element inactive_on_update="false" label="Professional Experience" sequence="1" value="professional_experience"/>
+                <element inactive_on_update="false" label="Language" sequence="2" value="language"/>
+                <element inactive_on_update="false" label="Age" sequence="3" value="age"/>
+            </choice>
+        </element>
+        <element label="Default for" max_length="40" name="default_for" type="string"/>
+        <element label="Description" max_length="400" name="description" type="string"/>
+        <element choice="1" label="Duration (months)" max_length="40" name="duration_months" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="6" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="12" sequence="12" value="12"/>
+                <element inactive_on_update="false" label="24" sequence="24" value="24"/>
+                <element inactive_on_update="false" label="36" sequence="36" value="36"/>
+                <element inactive_on_update="false" label="48" sequence="48" value="48"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="Short Description" max_length="40" name="short_description" type="string"/>
+    </element>
+</database>

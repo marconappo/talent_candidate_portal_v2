@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>8279d5af473a2510691e7258946d4386</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_431105_cand_ass_language">
+    <x_431105_cand_ass_language action="INSERT_OR_UPDATE">
+        <country>Slovakia</country>
+        <description/>
+        <language>Slovak</language>
+        <number>LAN0001051</number>
+        <short_description/>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-20 08:27:46</sys_created_on>
+        <sys_id>8279d5af473a2510691e7258946d4386</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-20 08:28:19</sys_updated_on>
+    </x_431105_cand_ass_language>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-21 11:18:21</sys_created_on>
+        <sys_id>482a073b47f2a510691e7258946d4314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Slovak</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_metadata_link_482a073b47f2a510691e7258946d4314</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-21 11:18:21</sys_updated_on>
+        <tablename>x_431105_cand_ass_language</tablename>
+    </sys_metadata_link>
+</record_update>

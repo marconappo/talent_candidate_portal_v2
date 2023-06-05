@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_431105_cand_ass_candidate" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Candidate - Default view" name="x_431105_cand_ass_candidate" related_list="NULL" sys_domain="global" view="Default view">df9eb9a847072110691e7258946d4370</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_431105_cand_ass_candidate_requirement.candidate</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-23 13:43:53</sys_created_on>
+            <sys_id>1b9eb9a847072110691e7258946d4372</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-23 13:43:53</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Candidate - Default view" name="x_431105_cand_ass_candidate" related_list="NULL" sys_domain="global" view="Default view">df9eb9a847072110691e7258946d4370</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_431105_cand_ass_candidate_selection_criteria_score.candidate</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-23 13:43:53</sys_created_on>
+            <sys_id>539eb9a847072110691e7258946d4373</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-23 13:43:53</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Candidate - Default view" name="x_431105_cand_ass_candidate" related_list="NULL" sys_domain="global" view="Default view">df9eb9a847072110691e7258946d4370</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>REL:78a1277a9700e110c96bbf36f053af4b</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-23 13:43:53</sys_created_on>
+            <sys_id>579eb9a847072110691e7258946d4373</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-23 13:43:53</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Candidate - Default view</calculated_name>
+            <filter/>
+            <name>x_431105_cand_ass_candidate</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-23 13:43:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df9eb9a847072110691e7258946d4370</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Candidate - Default view</sys_name>
+            <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+            <sys_update_name>sys_ui_related_x_431105_cand_ass_candidate_null</sys_update_name>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-23 13:43:53</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

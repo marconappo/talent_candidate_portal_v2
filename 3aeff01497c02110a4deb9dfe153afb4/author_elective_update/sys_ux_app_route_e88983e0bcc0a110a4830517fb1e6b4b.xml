@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Candidate Assessment Config">688983e0a1c0a110ef32212b07b8dc4c</app_config>
+        <description/>
+        <fields/>
+        <icon>graduation-cap-outline</icon>
+        <name>Agent assist</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Record">558adc930f0210107d20409dc4767e84</parent_macroponent>
+        <parent_macroponent_composition_element_id>contextual_sidebar</parent_macroponent_composition_element_id>
+        <route_type>agentassisttab</route_type>
+        <screen_type display_value="Agent assist tab">d15fd4970f0210107d20409dc4767e08</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 16:02:45</sys_created_on>
+        <sys_id>e88983e0bcc0a110a4830517fb1e6b4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Agent assist</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ux_app_route_e88983e0bcc0a110a4830517fb1e6b4b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 16:02:45</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=e88983e0bcc0a110a4830517fb1e6b4b"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>3b0c683cdbbe5190b847ac44d4961962</instance_id>
+        <instance_name>dev142367</instance_name>
+        <name>sys_ux_app_route_e88983e0bcc0a110a4830517fb1e6b4b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Candidate Assessment Config">688983e0a1c0a110ef32212b07b8dc4c</app_config>
+        <description/>
+        <fields/>
+        <icon>graduation-cap-outline</icon>
+        <name>Agent assist</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Record">558adc930f0210107d20409dc4767e84</parent_macroponent>
+        <parent_macroponent_composition_element_id>contextual_sidebar</parent_macroponent_composition_element_id>
+        <route_type>agentassisttab</route_type>
+        <screen_type display_value="Agent assist tab">d15fd4970f0210107d20409dc4767e08</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 16:02:45</sys_created_on>
+        <sys_id>e88983e0bcc0a110a4830517fb1e6b4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Agent assist</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ux_app_route_e88983e0bcc0a110a4830517fb1e6b4b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 16:02:45</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=e88983e0bcc0a110a4830517fb1e6b4b"/>
+</record_update>]]></payload>
+        <payload_hash>1468318376</payload_hash>
+        <record_name>Agent assist</record_name>
+        <reverted_from/>
+        <source>507826e247f62110691e7258946d4389</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-17 11:39:42</sys_created_on>
+        <sys_id>fda8266647f62110691e7258946d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1882982433e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 11:39:42</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>bda82666e7f6211066c39937d86898be</update_guid>
+        <update_guid_history>bda82666e7f6211066c39937d86898be:1468318376</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-17 13:49:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>d707270f50f34264ad84d47ff4097690</sys_id>
+        <sys_metadata>e88983e0bcc0a110a4830517fb1e6b4b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Agent assist</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_ux_app_route_e88983e0bcc0a110a4830517fb1e6b4b</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_e88983e0bcc0a110a4830517fb1e6b4b">fda8266647f62110691e7258946d43be</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 13:49:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

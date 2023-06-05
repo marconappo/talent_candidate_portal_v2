@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name/>
+        <active>false</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+    // STATES
+    var PRESELECTION_CBT = '5165ad5897442110a4deb9dfe153af6f';
+    var PRESELECTION = '7f65a1d497442110a4deb9dfe153af65';
+    var SELECTION = '8085299897442110a4deb9dfe153af4c';
+
+    var ASSESSMENT = current.sys_id;
+    var candidateAssessmentUtils = new CandidateAssessmentUtils();
+
+    candidateAssessmentUtils.cleanUpRecordsWithoutAssessment();
+    // Import Eligibility Exclusion Reasons
+    candidateAssessmentUtils.addExclusionReasons(ASSESSMENT);
+    // Import CBT
+    candidateAssessmentUtils.populateAssessmentSCriteria(PRESELECTION_CBT, ASSESSMENT);
+    candidateAssessmentUtils.populateAssessmentQuestions(PRESELECTION_CBT);
+    // Import Preselection
+    candidateAssessmentUtils.populateAssessmentSCriteria(PRESELECTION, ASSESSMENT);
+    candidateAssessmentUtils.populateAssessmentQuestions(PRESELECTION);
+    // Import Selection
+    candidateAssessmentUtils.populateAssessmentSCriteria(SELECTION, ASSESSMENT);
+    candidateAssessmentUtils.populateAssessmentQuestions(SELECTION);
+
+    action.setRedirectURL(current);
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>true</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>true</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>NOImport Assessments [SAP/Prom./Hudson]</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var caUtils = new CandidateAssessmentUtils();
+caUtils.cleanUpTables();
+caUtils.cleanUpRecordsWithoutAssessment();
+caUtils.cleanUpRecordsWithoutCandidate();
+var assessmentList = caUtils.importAssessmentsFromSAPServerSide();
+var length = assessmentList.length;
+for (var i = 0; i < length; i++) {
+    var assessment = assessmentList[i];
+    caUtils.addExclusionReasons(assessment);
+    var stateList = [caUtils.PRESELECTION_CBT, caUtils.SELECTION];
+    for (var j = 0; j < stateList.length; j++) {
+        caUtils.populateAssessmentSCriteria(stateList[j], assessment);
+        caUtils.populateAssessmentQuestions(stateList[j]);
+    }
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-24 16:45:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3da9ce9097082110a4deb9dfe153af3d</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>NOImport Assessments [SAP/Prom./Hudson]</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ui_action_3da9ce9097082110a4deb9dfe153af3d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-28 15:14:49</sys_updated_on>
+        <table>x_431105_cand_ass_assessment</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>f2c6bdb1dba99304cbf6d5b0cf96199b</instance_id>
+        <instance_name>dev56679</instance_name>
+        <name>sys_ui_action_3da9ce9097082110a4deb9dfe153af3d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;false&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+    // STATES
+    var PRESELECTION_CBT = '5165ad5897442110a4deb9dfe153af6f';
+    var PRESELECTION = '7f65a1d497442110a4deb9dfe153af65';
+    var SELECTION = '8085299897442110a4deb9dfe153af4c';
+
+    var ASSESSMENT = current.sys_id;
+    var candidateAssessmentUtils = new CandidateAssessmentUtils();
+
+    candidateAssessmentUtils.cleanUpRecordsWithoutAssessment();
+    // Import Eligibility Exclusion Reasons
+    candidateAssessmentUtils.addExclusionReasons(ASSESSMENT);
+    // Import CBT
+    candidateAssessmentUtils.populateAssessmentSCriteria(PRESELECTION_CBT, ASSESSMENT);
+    candidateAssessmentUtils.populateAssessmentQuestions(PRESELECTION_CBT);
+    // Import Preselection
+    candidateAssessmentUtils.populateAssessmentSCriteria(PRESELECTION, ASSESSMENT);
+    candidateAssessmentUtils.populateAssessmentQuestions(PRESELECTION);
+    // Import Selection
+    candidateAssessmentUtils.populateAssessmentSCriteria(SELECTION, ASSESSMENT);
+    candidateAssessmentUtils.populateAssessmentQuestions(SELECTION);
+
+    action.setRedirectURL(current);
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;false&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;true&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;true&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;true&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;NOImport Assessments [SAP/Prom./Hudson]&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[var caUtils = new CandidateAssessmentUtils();
+caUtils.cleanUpTables();
+caUtils.cleanUpRecordsWithoutAssessment();
+caUtils.cleanUpRecordsWithoutCandidate();
+var assessmentList = caUtils.importAssessmentsFromSAPServerSide();
+var length = assessmentList.length;
+for (var i = 0; i &lt; length; i++) {
+    var assessment = assessmentList[i];
+    caUtils.addExclusionReasons(assessment);
+    var stateList = [caUtils.PRESELECTION_CBT, caUtils.SELECTION];
+    for (var j = 0; j &lt; stateList.length; j++) {
+        caUtils.populateAssessmentSCriteria(stateList[j], assessment);
+        caUtils.populateAssessmentQuestions(stateList[j]);
+    }
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-12-24 16:45:40&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3da9ce9097082110a4deb9dfe153af3d&lt;/sys_id&gt;&lt;sys_mod_count&gt;28&lt;/sys_mod_count&gt;&lt;sys_name&gt;NOImport Assessments [SAP/Prom./Hudson]&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Candidate Assessment" source="x_431105_cand_ass"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Candidate Assessment"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_3da9ce9097082110a4deb9dfe153af3d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-12-28 15:14:49&lt;/sys_updated_on&gt;&lt;table&gt;x_431105_cand_ass_assessment&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-139516942</payload_hash>
+        <record_name>NOImport Assessments [SAP/Prom./Hudson]</record_name>
+        <reverted_from/>
+        <source>9fc705699740e110352bb39fe153af58</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-28 15:14:49</sys_created_on>
+        <sys_id>8c5b1ea99708e110352bb39fe153af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185594ce4a00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-28 15:14:49</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>845b1ea95308e110f8d1a77b95fb6f75</update_guid>
+        <update_guid_history>845b1ea95308e110f8d1a77b95fb6f75:-139516942,924b5aa9bf08e11053104b408068fafc:1769629765,b91bd2a97d08e11079535903f2525090:1494874247,9efa96a9a108e11055b801c0691a56f3:-835611980,c7ea52a9fa08e110f790489f58d6aaae:-1816126704,1cd44b193308a1102a5f432f942229e7:-1113429253</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-28 19:39:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>8a204565683045988209a1f19d292064</sys_id>
+        <sys_metadata>3da9ce9097082110a4deb9dfe153af3d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NOImport Assessments [SAP/Prom./Hudson]</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="">24517ea81b00a1101f602f08b04bcbbc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_ui_action_3da9ce9097082110a4deb9dfe153af3d</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_3da9ce9097082110a4deb9dfe153af3d">8c5b1ea99708e110352bb39fe153af75</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-28 19:39:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

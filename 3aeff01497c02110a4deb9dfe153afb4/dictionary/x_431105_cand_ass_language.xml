@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="abe4974e470321103fa44aff336d436e" label="Language" max_length="40" name="x_431105_cand_ass_language" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Country" max_length="40" name="country" type="string"/>
+        <element label="Description" max_length="400" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Language" max_length="40" name="language" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Short Description" max_length="40" name="short_description" type="string"/>
+    </element>
+</database>

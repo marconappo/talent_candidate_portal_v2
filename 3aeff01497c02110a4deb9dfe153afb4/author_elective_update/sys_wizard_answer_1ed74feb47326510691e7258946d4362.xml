@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>Field</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Field</name>
+        <next_question/>
+        <order>400</order>
+        <payload_name/>
+        <question display_value="Procedure Type" name="Procedure Type">bb26c36b47326510691e7258946d435d</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-20 16:30:03</sys_created_on>
+        <sys_id>1ed74feb47326510691e7258946d4362</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Field</sys_name>
+        <sys_package display_value="Recruitment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recruitment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_wizard_answer_1ed74feb47326510691e7258946d4362</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-20 16:32:16</sys_updated_on>
+        <table/>
+        <target_url/>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>3b0c683cdbbe5190b847ac44d4961962</instance_id>
+        <instance_name>dev142367</instance_name>
+        <name>sys_wizard_answer_1ed74feb47326510691e7258946d4362</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>Field</answer><button_label/><dependent_value/><element/><name>Field</name><next_question/><order>400</order><payload_name/><question display_value="Procedure Type" name="Procedure Type">bb26c36b47326510691e7258946d435d</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-05-20 16:30:03</sys_created_on><sys_id>1ed74feb47326510691e7258946d4362</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Field</sys_name><sys_package display_value="Recruitment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Recruitment">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_wizard_answer_1ed74feb47326510691e7258946d4362</sys_update_name><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-05-20 16:32:16</sys_updated_on><table/><target_url/><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-403141456</payload_hash>
+        <record_name>Field</record_name>
+        <reverted_from/>
+        <source>d015feb647ba6110691e7258946d432e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-20 16:32:16</sys_created_on>
+        <sys_id>2868032f47326510691e7258946d43c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1883a0130e60000001</sys_recorded_at>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-20 16:32:16</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>2068032f5532651032b2a17d000257c3</update_guid>
+        <update_guid_history>2068032f5532651032b2a17d000257c3:-403141456,24380b2f603265106993cf0b3497c81d:-618392158,cce74febfd32651090d1a6309b85fa64:-1554710779</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-20 16:37:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>649471e7c67947ebaa1f6e775cab73a1</sys_id>
+        <sys_metadata>1ed74feb47326510691e7258946d4362</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="">bb26c36b47326510691e7258946d435d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_1ed74feb47326510691e7258946d4362</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_1ed74feb47326510691e7258946d4362">2868032f47326510691e7258946d43c3</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-20 16:37:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

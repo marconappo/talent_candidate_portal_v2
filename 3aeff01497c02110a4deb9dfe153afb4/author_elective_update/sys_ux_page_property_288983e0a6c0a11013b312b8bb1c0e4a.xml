@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Main Configuration</description>
+        <name>chrome_main</name>
+        <page display_value="Candidate Assessment">288983e050c0a1105db10b97a551214c</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 16:02:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>288983e0a6c0a11013b312b8bb1c0e4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_main</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ux_page_property_288983e0a6c0a11013b312b8bb1c0e4a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 16:02:46</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_431105_cand_ass.288983e050c0a1105db10b97a551214c.root.chrome_main</unique_name>
+        <value>{&#13;
+  "maxCachedPageCount": 5,&#13;
+  "maxActivePageCount": 3,&#13;
+  "timeLeftWarning": 15&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=288983e0a6c0a11013b312b8bb1c0e4a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>f2c6bdb1dba99304cbf6d5b0cf96199b</instance_id>
+        <instance_name>dev56679</instance_name>
+        <name>sys_ux_page_property_288983e0a6c0a11013b312b8bb1c0e4a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Main Configuration</description><name>chrome_main</name><page display_value="Candidate Assessment">288983e050c0a1105db10b97a551214c</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-25 16:02:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>288983e0a6c0a11013b312b8bb1c0e4a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_main</sys_name><sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_ux_page_property_288983e0a6c0a11013b312b8bb1c0e4a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-25 16:02:46</sys_updated_on><type>json</type><unique_name>x_431105_cand_ass.288983e050c0a1105db10b97a551214c.root.chrome_main</unique_name><value>{&#13;
+  "maxCachedPageCount": 5,&#13;
+  "maxActivePageCount": 3,&#13;
+  "timeLeftWarning": 15&#13;
+}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=288983e0a6c0a11013b312b8bb1c0e4a"/></record_update>]]></payload>
+        <payload_hash>-606597048</payload_hash>
+        <record_name>chrome_main</record_name>
+        <reverted_from/>
+        <source>cba40fd59708a110352bb39fe153af15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 23:37:45</sys_created_on>
+        <sys_id>65d40f199708a110352bb39fe153af37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18555f2fcaa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 23:37:45</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>25d40f19f808a1109c883200a193a237</update_guid>
+        <update_guid_history>25d40f19f808a1109c883200a193a237:-606597048</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-28 10:49:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>ce7e0e309b544b408124212e24529000</sys_id>
+        <sys_metadata>288983e0a6c0a11013b312b8bb1c0e4a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_main</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_ux_page_property_288983e0a6c0a11013b312b8bb1c0e4a</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_288983e0a6c0a11013b312b8bb1c0e4a">65d40f199708a110352bb39fe153af37</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-28 10:49:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

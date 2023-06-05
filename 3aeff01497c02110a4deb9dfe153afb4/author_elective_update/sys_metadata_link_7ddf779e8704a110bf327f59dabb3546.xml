@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="DELETE">
+        <directory>update</directory>
+        <documentkey>e9b07d9497842110a4deb9dfe153af40</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_431105_cand_ass_question_library">
+    <x_431105_cand_ass_question_library action="INSERT_OR_UPDATE">
+        <answers/>
+        <assessment_state display_value="Selection">8085299897442110a4deb9dfe153af4c</assessment_state>
+        <correct_answer>The voyages of exploration is a rather ambiguous term because actually there was no sudden burst of interest in exploring the world around them, they just were looking for easier trade routes to the Orient. This so-called age of exploration, if it was indeed exploring, was quite by accident. When the first countries colonised the \"New World\" every other country now wanted to get in on it. However, to make voyages in the first place, knowledge was needed in shipbuilding and navigation. Henry the Navigator bettered the conditions of European states by contributing to navigation, maps, etc. He also began a school for navigation. Great effort was now put forth to build more and more ships and for each country to go and colonise for itself. An example of this would be when Spain started some colonies in the \"New World,\" France, England, Holland, etc., started sending explorers and colonists out.</correct_answer>
+        <default_max_value/>
+        <number>QLB0001005</number>
+        <question>The fifteenth and sixteenth century voyages of exploration produced lasting changes in the political and social structure of Western Europe. Would you say that these voyages tended to hasten or to delay the growth of national states? Explain.</question>
+        <selection_criteria display_value="Analysis and Problem Solving">164e91d097442110a4deb9dfe153af4b</selection_criteria>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-24 14:56:18</sys_created_on>
+        <sys_id>e9b07d9497842110a4deb9dfe153af40</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-24 14:57:44</sys_updated_on>
+    </x_431105_cand_ass_question_library>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-31 06:29:29</sys_created_on>
+        <sys_id>7ddf779e8704a110bf327f59dabb3546</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>The fifteenth and sixteenth century voyages of exploration produced lasting changes in the political and social structure of Western Europe. Would you say that these voyages tended to hasten or to delay the growth of national states? Explain.</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_metadata_link_7ddf779e8704a110bf327f59dabb3546</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-31 06:29:29</sys_updated_on>
+        <tablename>x_431105_cand_ass_question_library</tablename>
+    </sys_metadata_link>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>3b0c683cdbbe5190b847ac44d4961962</instance_id>
+        <instance_name>dev142367</instance_name>
+        <name>sys_metadata_link_7ddf779e8704a110bf327f59dabb3546</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_metadata_link"&gt;
+    &lt;sys_metadata_link action="INSERT_OR_UPDATE"&gt;
+        &lt;directory&gt;update&lt;/directory&gt;
+        &lt;documentkey&gt;e9b07d9497842110a4deb9dfe153af40&lt;/documentkey&gt;
+        &lt;payload&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_431105_cand_ass_question_library"&gt;
+    &lt;x_431105_cand_ass_question_library action="INSERT_OR_UPDATE"&gt;
+        &lt;answers/&gt;
+        &lt;assessment_state display_value="Selection"&gt;8085299897442110a4deb9dfe153af4c&lt;/assessment_state&gt;
+        &lt;correct_answer&gt;The voyages of exploration is a rather ambiguous term because actually there was no sudden burst of interest in exploring the world around them, they just were looking for easier trade routes to the Orient. This so-called age of exploration, if it was indeed exploring, was quite by accident. When the first countries colonised the \"New World\" every other country now wanted to get in on it. However, to make voyages in the first place, knowledge was needed in shipbuilding and navigation. Henry the Navigator bettered the conditions of European states by contributing to navigation, maps, etc. He also began a school for navigation. Great effort was now put forth to build more and more ships and for each country to go and colonise for itself. An example of this would be when Spain started some colonies in the \"New World,\" France, England, Holland, etc., started sending explorers and colonists out.&lt;/correct_answer&gt;
+        &lt;default_max_value/&gt;
+        &lt;number&gt;QLB0001005&lt;/number&gt;
+        &lt;question&gt;The fifteenth and sixteenth century voyages of exploration produced lasting changes in the political and social structure of Western Europe. Would you say that these voyages tended to hasten or to delay the growth of national states? Explain.&lt;/question&gt;
+        &lt;selection_criteria display_value="Analysis and Problem Solving"&gt;164e91d097442110a4deb9dfe153af4b&lt;/selection_criteria&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-12-24 14:56:18&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e9b07d9497842110a4deb9dfe153af40&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-12-24 14:57:44&lt;/sys_updated_on&gt;
+    &lt;/x_431105_cand_ass_question_library&gt;
+&lt;/record_update&gt;
+]]&gt;&lt;/payload&gt;
+        &lt;sys_class_name&gt;sys_metadata_link&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-12-31 06:29:29&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;7ddf779e8704a110bf327f59dabb3546&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;The fifteenth and sixteenth century voyages of exploration produced lasting changes in the political and social structure of Western Europe. Would you say that these voyages tended to hasten or to delay the growth of national states? Explain.&lt;/sys_name&gt;
+        &lt;sys_package display_value="Candidate Assessment" source="x_431105_cand_ass"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Candidate Assessment"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_metadata_link_7ddf779e8704a110bf327f59dabb3546&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-12-31 06:29:29&lt;/sys_updated_on&gt;
+        &lt;tablename&gt;x_431105_cand_ass_question_library&lt;/tablename&gt;
+    &lt;/sys_metadata_link&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>292030298</payload_hash>
+        <record_name>The fifteenth and sixteenth century voyages of exploration produced lasting changes in the political</record_name>
+        <reverted_from/>
+        <source>507826e247f62110691e7258946d4389</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-17 11:39:12</sys_created_on>
+        <sys_id>1288a22647f62110691e7258946d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1882981cbab0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 11:39:12</sys_updated_on>
+        <type>Metadata Snapshot</type>
+        <update_guid>de88a22619f62110d64fe581fa24bba6</update_guid>
+        <update_guid_history>de88a22619f62110d64fe581fa24bba6:292030298</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-17 13:49:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_metadata_link">sys_metadata_link</sys_db_object>
+        <sys_id>07a0a158373342348351b09261d6f421</sys_id>
+        <sys_metadata>7ddf779e8704a110bf327f59dabb3546</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>The fifteenth and sixteenth century voyages of exploration produced lasting changes in the political and social structure of Western Europe. Would you say that these voyages tended to hasten or to delay the growth of national states? Explain.</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_metadata_link_7ddf779e8704a110bf327f59dabb3546</sys_update_name>
+        <sys_update_version display_value="sys_metadata_link_7ddf779e8704a110bf327f59dabb3546">1288a22647f62110691e7258946d43a7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 13:49:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

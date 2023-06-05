@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="DELETE">
+        <active>false</active>
+        <condition table="x_431105_cand_ass_assessment">state=30^EQ<item display_value="30" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="30"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Preselection CBT</label>
+        <name>Competition Flow</name>
+        <order>3</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-24 14:38:41</sys_created_on>
+        <sys_id>abace19097842110a4deb9dfe153af2b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Competition Flow</sys_name>
+        <sys_package display_value="Recruitment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recruitment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_process_flow_abace19097842110a4deb9dfe153af2b</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-18 07:31:08</sys_updated_on>
+        <table>x_431105_cand_ass_assessment</table>
+    </sys_process_flow>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>3b0c683cdbbe5190b847ac44d4961962</instance_id>
+        <instance_name>dev142367</instance_name>
+        <name>sys_process_flow_abace19097842110a4deb9dfe153af2b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow"><sys_process_flow action="INSERT_OR_UPDATE"><active>false</active><condition table="x_431105_cand_ass_assessment">state=30^EQ<item display_value="30" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="30"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><label>Preselection CBT</label><name>Competition Flow</name><order>3</order><sys_class_name>sys_process_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-24 14:38:41</sys_created_on><sys_id>abace19097842110a4deb9dfe153af2b</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Competition Flow</sys_name><sys_package display_value="Recruitment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Recruitment">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_process_flow_abace19097842110a4deb9dfe153af2b</sys_update_name><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-05-18 07:31:08</sys_updated_on><table>x_431105_cand_ass_assessment</table></sys_process_flow></record_update>]]></payload>
+        <payload_hash>221110112</payload_hash>
+        <record_name>Competition Flow</record_name>
+        <reverted_from/>
+        <source>d015feb647ba6110691e7258946d432e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-18 07:31:08</sys_created_on>
+        <sys_id>9e597a3e47ba6110691e7258946d43ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1882dc50bbb0000001</sys_recorded_at>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-18 07:31:08</sys_updated_on>
+        <type>Flow Formatter</type>
+        <update_guid>d6597a3e86ba61103b41971cfcbab0ad</update_guid>
+        <update_guid_history>d6597a3e86ba61103b41971cfcbab0ad:221110112,0449cf66e6ba21101856a7af8e3f9f59:0,12d68f224aba211095b1001ef6189591:2080043523,60b60faeda7a21106e86b7a61015d766:0,3c16cf6a397a211024872b016971f3cd:-387841783,4e98ea2625f62110bf0b2aae78a27812:1776535045</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-18 07:35:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_process_flow">sys_process_flow</sys_db_object>
+        <sys_id>675035a4d1814bf0831444e255d78c59</sys_id>
+        <sys_metadata>abace19097842110a4deb9dfe153af2b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Competition Flow</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_process_flow_abace19097842110a4deb9dfe153af2b</sys_update_name>
+        <sys_update_version display_value="sys_process_flow_abace19097842110a4deb9dfe153af2b">9e597a3e47ba6110691e7258946d43ad</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-18 07:35:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

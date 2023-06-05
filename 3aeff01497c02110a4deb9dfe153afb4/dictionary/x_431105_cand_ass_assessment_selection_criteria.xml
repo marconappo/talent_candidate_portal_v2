@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3be4d74e470321103fa44aff336d43b6" label="Competition Competency" max_length="40" name="x_431105_cand_ass_assessment_selection_criteria" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Competition" max_length="32" name="assessment" reference="x_431105_cand_ass_assessment" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" choice="3" label="Competition State" max_length="32" name="assessment_state" reference="x_431105_cand_ass_assessment_selection_criteria" reference_qual="javascript: &quot;assessment=&quot;+current.assessment;" type="reference" use_reference_qualifier="advanced">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Max Value" max_length="40" name="max_value" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent" max_length="32" name="parent" reference="x_431105_cand_ass_assessment_selection_criteria" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="true" label="Required" max_length="40" name="required" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" display="true" label="Competency" max_length="32" name="selection_criteria" reference="x_431105_cand_ass_selection_criteria_library" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <index name="index">
+            <element name="assessment"/>
+        </index>
+        <index name="index2">
+            <element name="assessment_state"/>
+        </index>
+        <index name="index3">
+            <element name="parent"/>
+        </index>
+        <index name="index4">
+            <element name="selection_criteria"/>
+        </index>
+    </element>
+</database>

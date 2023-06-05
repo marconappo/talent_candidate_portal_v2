@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>3bd1dbe747726510691e7258946d4380</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_431105_cand_ass_stage_library">
+    <x_431105_cand_ass_stage_library action="INSERT_OR_UPDATE">
+        <description>After the admission tests, the candidate is informed about his(her) results.</description>
+        <internal>false</internal>
+        <number>STL0001097</number>
+        <open_to_other_institution>false</open_to_other_institution>
+        <order>4800</order>
+        <parent display_value="4. Provisional Admission">87bda95b473ae110691e7258946d43a7</parent>
+        <short_description>Results of admission tests (4)</short_description>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-20 17:13:47</sys_created_on>
+        <sys_id>3bd1dbe747726510691e7258946d4380</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-20 21:08:52</sys_updated_on>
+    </x_431105_cand_ass_stage_library>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-21 11:17:54</sys_created_on>
+        <sys_id>510a033b47f2a510691e7258946d43ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Results of admission tests (4)</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_metadata_link_510a033b47f2a510691e7258946d43ff</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-21 11:17:54</sys_updated_on>
+        <tablename>x_431105_cand_ass_stage_library</tablename>
+    </sys_metadata_link>
+</record_update>

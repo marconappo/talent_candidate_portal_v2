@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>false</active>
+        <conditions table="x_431105_cand_ass_assessment">states_to_skipISNOTEMPTY^EQ<item endquery="false" field="states_to_skip" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>false</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[var PREPARATION = '7205a19897442110a4deb9dfe153af60'; // 10
+var ELIGIBILITY = '0c55a1d497442110a4deb9dfe153af5f'; //20
+var PRESELECTION_CBT = '5165ad5897442110a4deb9dfe153af6f'; //30
+var PRESELECTION = '7f65a1d497442110a4deb9dfe153af65'; //40
+var SELECTION = '8085299897442110a4deb9dfe153af4c'; //50
+var RESERVE_LIST = '0c95259897442110a4deb9dfe153afb8'; // 60
+
+function onCondition() {
+    var state = g_form.getValue('state');
+    var statesToSkip = g_form.getValue('states_to_skip');
+
+    var hideEligibility = (statesToSkip.indexOf(ELIGIBILITY) > -1 ? true : false);
+    var hideCBT = (statesToSkip.indexOf(PRESELECTION_CBT) > -1 ? true : false);
+    var hidePreSelection = (statesToSkip.indexOf(PRESELECTION) > -1 ? true : false);
+    var hideSelection = (statesToSkip.indexOf(SELECTION) > -1 ? true : false);
+
+    if (hideEligibility) $j(".disabled")[0].hide();
+    if (hideCBT) $j(".disabled")[1].hide();
+    if (hidePreSelection) $j(".disabled")[2].hide();
+    if (hideSelection) $j(".disabled")[3].hide();
+}]]></script_true>
+        <set_values/>
+        <short_description>Hide process flows to skip</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 10:30:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4cbc7de497c46110a4deb9dfe153af3a</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Hide process flows to skip</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ui_policy_4cbc7de497c46110a4deb9dfe153af3a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-01 11:19:13</sys_updated_on>
+        <table>x_431105_cand_ass_assessment</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>3b0c683cdbbe5190b847ac44d4961962</instance_id>
+        <instance_name>dev142367</instance_name>
+        <name>sys_ui_policy_4cbc7de497c46110a4deb9dfe153af3a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;
+    &lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;false&lt;/active&gt;
+        &lt;conditions table="x_431105_cand_ass_assessment"&gt;states_to_skipISNOTEMPTY^EQ&lt;item endquery="false" field="states_to_skip" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;
+            &lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;
+        &lt;/conditions&gt;
+        &lt;description/&gt;
+        &lt;global&gt;true&lt;/global&gt;
+        &lt;inherit&gt;false&lt;/inherit&gt;
+        &lt;isolate_script&gt;false&lt;/isolate_script&gt;
+        &lt;model_id/&gt;
+        &lt;model_table/&gt;
+        &lt;on_load&gt;true&lt;/on_load&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;
+        &lt;run_scripts&gt;true&lt;/run_scripts&gt;
+        &lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;
+        &lt;script_true&gt;&lt;![CDATA[var PREPARATION = '7205a19897442110a4deb9dfe153af60'; // 10
+var ELIGIBILITY = '0c55a1d497442110a4deb9dfe153af5f'; //20
+var PRESELECTION_CBT = '5165ad5897442110a4deb9dfe153af6f'; //30
+var PRESELECTION = '7f65a1d497442110a4deb9dfe153af65'; //40
+var SELECTION = '8085299897442110a4deb9dfe153af4c'; //50
+var RESERVE_LIST = '0c95259897442110a4deb9dfe153afb8'; // 60
+
+function onCondition() {
+    var state = g_form.getValue('state');
+    var statesToSkip = g_form.getValue('states_to_skip');
+
+    var hideEligibility = (statesToSkip.indexOf(ELIGIBILITY) &gt; -1 ? true : false);
+    var hideCBT = (statesToSkip.indexOf(PRESELECTION_CBT) &gt; -1 ? true : false);
+    var hidePreSelection = (statesToSkip.indexOf(PRESELECTION) &gt; -1 ? true : false);
+    var hideSelection = (statesToSkip.indexOf(SELECTION) &gt; -1 ? true : false);
+
+    if (hideEligibility) $j(".disabled")[0].hide();
+    if (hideCBT) $j(".disabled")[1].hide();
+    if (hidePreSelection) $j(".disabled")[2].hide();
+    if (hideSelection) $j(".disabled")[3].hide();
+}]]&gt;&lt;/script_true&gt;
+        &lt;set_values/&gt;
+        &lt;short_description&gt;Hide process flows to skip&lt;/short_description&gt;
+        &lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-12-25 10:30:56&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;4cbc7de497c46110a4deb9dfe153af3a&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;27&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Hide process flows to skip&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="Candidate Assessment" source="x_431105_cand_ass"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Candidate Assessment"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_ui_policy_4cbc7de497c46110a4deb9dfe153af3a&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-01-01 11:19:13&lt;/sys_updated_on&gt;
+        &lt;table&gt;x_431105_cand_ass_assessment&lt;/table&gt;
+        &lt;ui_type&gt;0&lt;/ui_type&gt;
+        &lt;view/&gt;
+    &lt;/sys_ui_policy&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1185368623</payload_hash>
+        <record_name>Hide process flows to skip</record_name>
+        <reverted_from/>
+        <source>8f19cb2647ba2110691e7258946d4359</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-17 14:02:21</sys_created_on>
+        <sys_id>5f4907a647ba2110691e7258946d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1882a04db600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 14:02:21</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>9b4907a618ba2110fa031729f31931ea</update_guid>
+        <update_guid_history>9b4907a618ba2110fa031729f31931ea:0,e1d60f2281ba21109d2f2dd0f1dab75b:2106578481,2bb687eea17a21107364f3e454614724:0,84164f6ab27a2110265223bf402ebc1c:504246411,90a8a26646f62110e12a19c8bc24530c:-1629225198</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-20 12:57:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>1b2b0a4475de4ae8a9556db1c0c97f64</sys_id>
+        <sys_metadata>4cbc7de497c46110a4deb9dfe153af3a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide process flows to skip</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="">1d19c72647ba2110691e7258946d43bf</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_4cbc7de497c46110a4deb9dfe153af3a</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_4cbc7de497c46110a4deb9dfe153af3a">5f4907a647ba2110691e7258946d43ea</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-20 12:57:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

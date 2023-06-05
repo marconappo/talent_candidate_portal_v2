@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="use_document_viewer" db_object_id="e2e4d34e470321103fa44aff336d4333" label="Candidate Education Experience" max_length="40" name="x_431105_cand_ass_candidate_education_experience" type="collection">
+        <element choice="1" choice_field="application_duration" choice_table="x_431105_cand_ass_candidate_education_experience" label="Accepted Duration" max_length="40" name="accepted_duration" type="integer">
+            <choice/>
+        </element>
+        <element choice="1" label="Application Duration" max_length="40" name="application_duration" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="12" sequence="6" value="12"/>
+                <element inactive_on_update="false" label="18" sequence="7" value="18"/>
+                <element inactive_on_update="false" label="24" sequence="8" value="24"/>
+                <element inactive_on_update="false" label="30" sequence="9" value="30"/>
+                <element inactive_on_update="false" label="36" sequence="10" value="36"/>
+                <element inactive_on_update="false" label="48" sequence="11" value="48"/>
+            </choice>
+        </element>
+        <element label="Candidate" max_length="32" name="candidate" reference="x_431105_cand_ass_candidate" type="reference"/>
+        <element choice="3" choice_field="category" choice_table="x_431105_cand_ass_requirement_library" default="education_and_training" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="General" sequence="0" value="general"/>
+                <element inactive_on_update="false" label="Education and Training" sequence="1" value="education_and_training"/>
+                <element inactive_on_update="false" label="Professional Experience" sequence="2" value="professional_experience"/>
+                <element inactive_on_update="false" label="Language" sequence="3" value="language"/>
+                <element inactive_on_update="false" label="Age" sequence="4" value="age"/>
+            </choice>
+        </element>
+        <element label="End date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Field" max_length="100" name="field" type="string"/>
+        <element label="Final check" max_length="40" name="final_check" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Observation" max_length="1000" name="observation" type="string"/>
+        <element choice="3" default="100" label="Relevant (%)" max_length="40" name="relevant" type="string">
+            <choice>
+                <element inactive_on_update="false" label="0" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="10" sequence="10" value="10"/>
+                <element inactive_on_update="false" label="20" sequence="20" value="20"/>
+                <element inactive_on_update="false" label="30" sequence="30" value="30"/>
+                <element inactive_on_update="false" label="40" sequence="40" value="40"/>
+                <element inactive_on_update="false" label="50" sequence="50" value="50"/>
+                <element inactive_on_update="false" label="60" sequence="60" value="60"/>
+                <element inactive_on_update="false" label="70" sequence="70" value="70"/>
+                <element inactive_on_update="false" label="80" sequence="80" value="80"/>
+                <element inactive_on_update="false" label="90" sequence="90" value="90"/>
+                <element inactive_on_update="false" label="100" sequence="100" value="100"/>
+            </choice>
+        </element>
+        <element label="Reply" max_length="1000" name="reply" type="string"/>
+        <element label="Request" max_length="1000" name="request" type="string"/>
+        <element label="Requirement" max_length="32" name="requirement" reference="x_431105_cand_ass_candidate_requirement" type="reference"/>
+        <element label="RfR check" max_length="40" name="rfr_check" type="string"/>
+        <element label="Start date" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Supporting documents" max_length="40" name="supporting_documents" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" max_length="100" name="title" type="string"/>
+        <index name="index">
+            <element name="candidate"/>
+        </index>
+        <index name="index2">
+            <element name="requirement"/>
+        </index>
+    </element>
+</database>

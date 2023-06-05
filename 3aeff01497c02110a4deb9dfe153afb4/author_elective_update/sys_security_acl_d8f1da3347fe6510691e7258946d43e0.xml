@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>x_431105_cand_ass_candidate_education_experience</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-21 07:12:53</sys_created_on>
+        <sys_id>d8f1da3347fe6510691e7258946d43e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_431105_cand_ass_candidate_education_experience</sys_name>
+        <sys_package display_value="Talent 2" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent 2">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_security_acl_d8f1da3347fe6510691e7258946d43e0</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-21 07:12:53</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>3b0c683cdbbe5190b847ac44d4961962</instance_id>
+        <instance_name>dev142367</instance_name>
+        <name>sys_security_acl_d8f1da3347fe6510691e7258946d43e0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><name>x_431105_cand_ass_candidate_education_experience</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-05-21 07:12:53</sys_created_on><sys_id>d8f1da3347fe6510691e7258946d43e0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_431105_cand_ass_candidate_education_experience</sys_name><sys_package display_value="Talent 2" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Talent 2">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_security_acl_d8f1da3347fe6510691e7258946d43e0</sys_update_name><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-05-21 07:12:53</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>925336848</payload_hash>
+        <record_name>x_431105_cand_ass_candidate_education_experience</record_name>
+        <reverted_from/>
+        <source>d015feb647ba6110691e7258946d432e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-21 07:12:53</sys_created_on>
+        <sys_id>98f1da3347fe6510691e7258946d43e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1883d276b3d0000001</sys_recorded_at>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-21 07:12:53</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>d0f1da3377fe651083a99aa1a13b9ae2</update_guid>
+        <update_guid_history>d0f1da3377fe651083a99aa1a13b9ae2:925336848</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-21 10:38:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>46ee0b8d334e4fabb8cd8c17d7bed1d1</sys_id>
+        <sys_metadata>d8f1da3347fe6510691e7258946d43e0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_431105_cand_ass_candidate_education_experience</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="">0fe19a3347fe6510691e7258946d4315</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_d8f1da3347fe6510691e7258946d43e0</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_d8f1da3347fe6510691e7258946d43e0">98f1da3347fe6510691e7258946d43e2</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-21 10:38:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

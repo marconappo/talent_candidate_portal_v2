@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_hr_core_service">
+    <sn_hr_core_service action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <approval_options/>
+        <at_a_glance_uib_view display_value="At a Glance UIB" name="ataglance_uib">88c750695331301038e4ddeeff7b12ca</at_a_glance_uib_view>
+        <auto_close_case>false</auto_close_case>
+        <auto_close_offset/>
+        <badge display_value="HR">6439a617c3b00300b599b4ad81d3ae57</badge>
+        <case_creation_service_config/>
+        <case_options>69cf86cf53922200d901a7e6a11c0827,c2d25d092f232200a9e7a310c18c954c</case_options>
+        <close_when/>
+        <description/>
+        <flow/>
+        <fulfillment_instructions/>
+        <fulfillment_type>simple</fulfillment_type>
+        <header_config_opened_for display_value="Default for opened for/approver">86d9872eb3900300f5302ddc16a8dc8b</header_config_opened_for>
+        <header_config_subject_person display_value="Default for subject person/task assigned to">c4e9872eb3900300f5302ddc16a8dc91</header_config_subject_person>
+        <hr_criteria/>
+        <le_type/>
+        <name>Apply for a competition</name>
+        <producer display_value="Apply for a competition">10533092474b21103fa44aff336d434a</producer>
+        <service_table>x_431105_cand_ass_talent_application</service_table>
+        <service_table_fields/>
+        <subject_person_access>true</subject_person_access>
+        <subject_person_related_lists/>
+        <sys_class_name>sn_hr_core_service</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-28 18:43:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2503f412474b21103fa44aff336d439d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Apply for a competition</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sn_hr_core_service_2503f412474b21103fa44aff336d439d</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-28 19:42:56</sys_updated_on>
+        <template display_value="Apply for a competition">a9c1b8de470b21103fa44aff336d43bd</template>
+        <topic_detail display_value="External Competition">13d27052474b21103fa44aff336d435f</topic_detail>
+        <value>apply_for_a_competition</value>
+        <workflow_detail/>
+    </sn_hr_core_service>
+    <sys_translated_text action="delete_multiple" query="documentkey=2503f412474b21103fa44aff336d439d"/>
+</record_update>

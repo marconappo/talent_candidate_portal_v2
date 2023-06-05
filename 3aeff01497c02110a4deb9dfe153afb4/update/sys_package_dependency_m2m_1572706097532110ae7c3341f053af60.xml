@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">51775fb740002110a866a184125c11c3</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 14:17:09</sys_created_on>
+        <sys_id>1572706097532110ae7c3341f053af60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 14:17:09</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

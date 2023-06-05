@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>true</delete_access>
+        <is_extendable>true</is_extendable>
+        <label>Talent Application</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_431105_cand_ass_talent_application</name>
+        <number_ref display_value="TAP">7bf0f49e470b21103fa44aff336d43d5</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="HR Talent Management Case" name="sn_hr_core_case_talent_management">5be0ca2997392110ae7c3341f053af56</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-28 18:34:07</sys_created_on>
+        <sys_id>ad807cda470b21103fa44aff336d43d9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Talent Application</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_db_object_ad807cda470b21103fa44aff336d43d9</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-28 18:34:08</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role display_value="x_431105_cand_ass.board_member" name="x_431105_cand_ass.board_member">83c0419497c02110a4deb9dfe153af0a</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Eligibility Details" section_id="4ad11cb347b66510691e7258946d43f2" sys_domain="global" table="x_431105_cand_ass_candidate" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>more_info_required_boolean</element>
+            <position>0</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 21:58:27</sys_created_on>
+            <sys_id>6203d43747b66510691e7258946d4310</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Eligibility Details" display_value="Eligibility Details" name="x_431105_cand_ass_candidate" sys_domain="global" view="Default view">4ad11cb347b66510691e7258946d43f2</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 21:58:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ts_info_in_l2_boolean</element>
+            <position>1</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 21:58:27</sys_created_on>
+            <sys_id>6603d43747b66510691e7258946d4310</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Eligibility Details" display_value="Eligibility Details" name="x_431105_cand_ass_candidate" sys_domain="global" view="Default view">4ad11cb347b66510691e7258946d43f2</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 21:58:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>diploma_ok_boolean</element>
+            <position>2</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 21:58:27</sys_created_on>
+            <sys_id>6a03d43747b66510691e7258946d4310</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Eligibility Details" display_value="Eligibility Details" name="x_431105_cand_ass_candidate" sys_domain="global" view="Default view">4ad11cb347b66510691e7258946d43f2</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 21:58:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>professional_experience_ok_boolean</element>
+            <position>3</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 21:58:27</sys_created_on>
+            <sys_id>6e03d43747b66510691e7258946d4310</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Eligibility Details" display_value="Eligibility Details" name="x_431105_cand_ass_candidate" sys_domain="global" view="Default view">4ad11cb347b66510691e7258946d43f2</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 21:58:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 21:58:27</sys_created_on>
+            <sys_id>6203d43747b66510691e7258946d4311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Eligibility Details" display_value="Eligibility Details" name="x_431105_cand_ass_candidate" sys_domain="global" view="Default view">4ad11cb347b66510691e7258946d43f2</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 21:58:27</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>more_info_required_string</element>
+            <position>5</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 21:58:27</sys_created_on>
+            <sys_id>6603d43747b66510691e7258946d4311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Eligibility Details" display_value="Eligibility Details" name="x_431105_cand_ass_candidate" sys_domain="global" view="Default view">4ad11cb347b66510691e7258946d43f2</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 21:58:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ts_info_in_l2_string</element>
+            <position>6</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 21:58:27</sys_created_on>
+            <sys_id>6a03d43747b66510691e7258946d4311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Eligibility Details" display_value="Eligibility Details" name="x_431105_cand_ass_candidate" sys_domain="global" view="Default view">4ad11cb347b66510691e7258946d43f2</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 21:58:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>diploma_ok_string</element>
+            <position>7</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 21:58:27</sys_created_on>
+            <sys_id>6e03d43747b66510691e7258946d4311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Eligibility Details" display_value="Eligibility Details" name="x_431105_cand_ass_candidate" sys_domain="global" view="Default view">4ad11cb347b66510691e7258946d43f2</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 21:58:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>professional_experience_ok_string</element>
+            <position>8</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 21:58:27</sys_created_on>
+            <sys_id>6203d43747b66510691e7258946d4312</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Eligibility Details" display_value="Eligibility Details" name="x_431105_cand_ass_candidate" sys_domain="global" view="Default view">4ad11cb347b66510691e7258946d43f2</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 21:58:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Eligibility Details</caption>
+            <header>false</header>
+            <name>x_431105_cand_ass_candidate</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 21:53:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ad11cb347b66510691e7258946d43f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_431105_cand_ass_candidate</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+            <sys_update_name>sys_ui_section_4ad11cb347b66510691e7258946d43f2</sys_update_name>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 21:53:14</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_hr_core_template">
+    <sn_hr_core_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <assign_to/>
+        <assignment_option>skills_group</assignment_option>
+        <assignment_type/>
+        <date_offset_quantity>0</date_offset_quantity>
+        <date_offset_type>on</date_offset_type>
+        <date_offset_units/>
+        <description_for_employee/>
+        <due_date_source/>
+        <global>true</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>Apply for a competition</name>
+        <next/>
+        <next_child/>
+        <owning_group/>
+        <parent_case_table>sn_hr_core_case</parent_case_table>
+        <roles/>
+        <short_description/>
+        <short_description_for_employee/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <show_translated_fields>false</show_translated_fields>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sn_hr_core_template</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-28 18:38:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a9c1b8de470b21103fa44aff336d43bd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Apply for a competition</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sn_hr_core_template_a9c1b8de470b21103fa44aff336d43bd</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-28 19:41:10</sys_updated_on>
+        <table>x_431105_cand_ass_talent_application</table>
+        <template>assignment_group=a876013377a33300d0e310389a106158^</template>
+        <template_reference/>
+        <template_reference_field/>
+        <use_assignment_date>false</use_assignment_date>
+        <user display_value="Marco NAPPO">1d35f30e1b791514bd075465604bcb94</user>
+        <view/>
+    </sn_hr_core_template>
+</record_update>

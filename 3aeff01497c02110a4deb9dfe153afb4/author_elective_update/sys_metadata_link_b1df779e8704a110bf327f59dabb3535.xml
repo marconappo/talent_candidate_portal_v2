@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="DELETE">
+        <directory>update</directory>
+        <documentkey>65b07d9497842110a4deb9dfe153af41</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_431105_cand_ass_question_library">
+    <x_431105_cand_ass_question_library action="INSERT_OR_UPDATE">
+        <answers/>
+        <assessment_state display_value="Preselection">7f65a1d497442110a4deb9dfe153af65</assessment_state>
+        <correct_answer>I am very self-motivated</correct_answer>
+        <default_max_value/>
+        <number>QLB0001007</number>
+        <question>How do you motivate yourself?</question>
+        <selection_criteria display_value="Management skills">124e91d097442110a4deb9dfe153af4a</selection_criteria>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-24 14:56:18</sys_created_on>
+        <sys_id>65b07d9497842110a4deb9dfe153af41</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-24 14:57:56</sys_updated_on>
+    </x_431105_cand_ass_question_library>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-31 06:29:29</sys_created_on>
+        <sys_id>b1df779e8704a110bf327f59dabb3535</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How do you motivate yourself?</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_metadata_link_b1df779e8704a110bf327f59dabb3535</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-31 06:29:29</sys_updated_on>
+        <tablename>x_431105_cand_ass_question_library</tablename>
+    </sys_metadata_link>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>3b0c683cdbbe5190b847ac44d4961962</instance_id>
+        <instance_name>dev142367</instance_name>
+        <name>sys_metadata_link_b1df779e8704a110bf327f59dabb3535</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_metadata_link"&gt;
+    &lt;sys_metadata_link action="INSERT_OR_UPDATE"&gt;
+        &lt;directory&gt;update&lt;/directory&gt;
+        &lt;documentkey&gt;65b07d9497842110a4deb9dfe153af41&lt;/documentkey&gt;
+        &lt;payload&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_431105_cand_ass_question_library"&gt;
+    &lt;x_431105_cand_ass_question_library action="INSERT_OR_UPDATE"&gt;
+        &lt;answers/&gt;
+        &lt;assessment_state display_value="Preselection"&gt;7f65a1d497442110a4deb9dfe153af65&lt;/assessment_state&gt;
+        &lt;correct_answer&gt;I am very self-motivated&lt;/correct_answer&gt;
+        &lt;default_max_value/&gt;
+        &lt;number&gt;QLB0001007&lt;/number&gt;
+        &lt;question&gt;How do you motivate yourself?&lt;/question&gt;
+        &lt;selection_criteria display_value="Management skills"&gt;124e91d097442110a4deb9dfe153af4a&lt;/selection_criteria&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-12-24 14:56:18&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;65b07d9497842110a4deb9dfe153af41&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-12-24 14:57:56&lt;/sys_updated_on&gt;
+    &lt;/x_431105_cand_ass_question_library&gt;
+&lt;/record_update&gt;
+]]&gt;&lt;/payload&gt;
+        &lt;sys_class_name&gt;sys_metadata_link&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-12-31 06:29:29&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;b1df779e8704a110bf327f59dabb3535&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;How do you motivate yourself?&lt;/sys_name&gt;
+        &lt;sys_package display_value="Candidate Assessment" source="x_431105_cand_ass"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Candidate Assessment"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_metadata_link_b1df779e8704a110bf327f59dabb3535&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-12-31 06:29:29&lt;/sys_updated_on&gt;
+        &lt;tablename&gt;x_431105_cand_ass_question_library&lt;/tablename&gt;
+    &lt;/sys_metadata_link&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1576750600</payload_hash>
+        <record_name>How do you motivate yourself?</record_name>
+        <reverted_from/>
+        <source>507826e247f62110691e7258946d4389</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-17 11:39:14</sys_created_on>
+        <sys_id>aa88e22647f62110691e7258946d4394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1882981d2d40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 11:39:14</sys_updated_on>
+        <type>Metadata Snapshot</type>
+        <update_guid>6a88e22620f62110a5549f97e9dc5f94</update_guid>
+        <update_guid_history>6a88e22620f62110a5549f97e9dc5f94:1576750600</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-17 13:49:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_metadata_link">sys_metadata_link</sys_db_object>
+        <sys_id>0195c47acb8344088005c7b83e544e40</sys_id>
+        <sys_metadata>b1df779e8704a110bf327f59dabb3535</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How do you motivate yourself?</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_metadata_link_b1df779e8704a110bf327f59dabb3535</sys_update_name>
+        <sys_update_version display_value="sys_metadata_link_b1df779e8704a110bf327f59dabb3535">aa88e22647f62110691e7258946d4394</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 13:49:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

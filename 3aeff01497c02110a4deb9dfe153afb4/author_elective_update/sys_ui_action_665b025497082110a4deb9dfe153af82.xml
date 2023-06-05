@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name/>
+        <active>false</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+    // STATES
+    var PRESELECTION = '7f65a1d497442110a4deb9dfe153af65';
+    var ASSESSMENT = current.sys_id;
+    var candidateAssessmentUtils = new CandidateAssessmentUtils();
+    candidateAssessmentUtils.cleanUpRecordsWithoutAssessment();
+    candidateAssessmentUtils.populateAssessmentSCriteria(PRESELECTION, ASSESSMENT);
+    candidateAssessmentUtils.populateAssessmentQuestions(PRESELECTION);
+    action.setRedirectURL(current);
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>true</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>true</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Import PreSelection Questions [SAP]</name>
+        <onclick/>
+        <order>120</order>
+        <script><![CDATA[// STATES
+var PRESELECTION = '7f65a1d497442110a4deb9dfe153af65';
+var ASSESSMENT = current.sys_id;
+var candidateAssessmentUtils = new CandidateAssessmentUtils();
+candidateAssessmentUtils.cleanUpRecordsWithoutAssessment();
+candidateAssessmentUtils.populateAssessmentSCriteria(PRESELECTION, ASSESSMENT);
+candidateAssessmentUtils.populateAssessmentQuestions(PRESELECTION);
+action.setRedirectURL(current);]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-24 16:53:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>665b025497082110a4deb9dfe153af82</sys_id>
+        <sys_mod_count>71</sys_mod_count>
+        <sys_name>Import PreSelection Questions [SAP]</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ui_action_665b025497082110a4deb9dfe153af82</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-26 19:13:17</sys_updated_on>
+        <table>x_431105_cand_ass_assessment</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>f2c6bdb1dba99304cbf6d5b0cf96199b</instance_id>
+        <instance_name>dev56679</instance_name>
+        <name>sys_ui_action_665b025497082110a4deb9dfe153af82</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;false&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+    // STATES
+    var PRESELECTION = '7f65a1d497442110a4deb9dfe153af65';
+    var ASSESSMENT = current.sys_id;
+    var candidateAssessmentUtils = new CandidateAssessmentUtils();
+    candidateAssessmentUtils.cleanUpRecordsWithoutAssessment();
+    candidateAssessmentUtils.populateAssessmentSCriteria(PRESELECTION, ASSESSMENT);
+    candidateAssessmentUtils.populateAssessmentQuestions(PRESELECTION);
+    action.setRedirectURL(current);
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;false&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;true&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;true&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;true&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Import PreSelection Questions [SAP]&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;120&lt;/order&gt;&lt;script&gt;&lt;![CDATA[// STATES
+var PRESELECTION = '7f65a1d497442110a4deb9dfe153af65';
+var ASSESSMENT = current.sys_id;
+var candidateAssessmentUtils = new CandidateAssessmentUtils();
+candidateAssessmentUtils.cleanUpRecordsWithoutAssessment();
+candidateAssessmentUtils.populateAssessmentSCriteria(PRESELECTION, ASSESSMENT);
+candidateAssessmentUtils.populateAssessmentQuestions(PRESELECTION);
+action.setRedirectURL(current);]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-12-24 16:53:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;665b025497082110a4deb9dfe153af82&lt;/sys_id&gt;&lt;sys_mod_count&gt;71&lt;/sys_mod_count&gt;&lt;sys_name&gt;Import PreSelection Questions [SAP]&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Candidate Assessment" source="x_431105_cand_ass"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Candidate Assessment"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_665b025497082110a4deb9dfe153af82&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-12-26 19:13:17&lt;/sys_updated_on&gt;&lt;table&gt;x_431105_cand_ass_assessment&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>25885680</payload_hash>
+        <record_name>Import PreSelection Questions [SAP]</record_name>
+        <reverted_from/>
+        <source>cba40fd59708a110352bb39fe153af15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 23:37:40</sys_created_on>
+        <sys_id>d0d44b199708a110352bb39fe153aff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18555f2e8e30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 23:37:40</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>90d44b19eb08a1108f52c7c710185ef0</update_guid>
+        <update_guid_history>90d44b19eb08a1108f52c7c710185ef0:25885680</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-28 19:39:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>45f90f139acf43d787649faf5c190311</sys_id>
+        <sys_metadata>665b025497082110a4deb9dfe153af82</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import PreSelection Questions [SAP]</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="">24517ea81b00a1101f602f08b04bcbbc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_ui_action_665b025497082110a4deb9dfe153af82</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_665b025497082110a4deb9dfe153af82">d0d44b199708a110352bb39fe153aff0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-28 19:39:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

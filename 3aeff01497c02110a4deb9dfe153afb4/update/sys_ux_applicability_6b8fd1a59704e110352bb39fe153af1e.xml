@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_431105_cand_ass.CA Selection Board Members</api_name>
+        <description/>
+        <name>CA Selection Board Members</name>
+        <roles name="x_431105_cand_ass.board_member">83c0419497c02110a4deb9dfe153af0a</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-28 10:54:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6b8fd1a59704e110352bb39fe153af1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CA Selection Board Members</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ux_applicability_6b8fd1a59704e110352bb39fe153af1e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-28 10:54:23</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>
