@@ -6,7 +6,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category/>
+        <category display_value="HR Systems">32c78de49f331200d9011977677fcf97</category>
         <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
@@ -30,7 +30,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Apply for internal competition [BROKEN]]</name>
+        <name>Apply for an internal competition</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -53,13 +53,13 @@
 * To access the variables, use `producer.var1` where var1 is the name of the variable
 * To access the Record Producer use `cat_item`
 */]]></post_insert_script>
-        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=c02a386f47c7a5103fa44aff336d4310&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=21e695344793a1103fa44aff336d43d5&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <published_ref/>
         <recurring_frequency/>
         <redirect_url>generated_record</redirect_url>
         <request_method/>
-        <roles/>
+        <roles>snc_internal</roles>
         <save_options/>
         <save_script><![CDATA[/**
 * This script is executed at every step save in Catalog Builder. 
@@ -74,22 +74,22 @@
         <sc_template/>
         <script><![CDATA[new sn_hr_core.hr_ServicesUtil(current, gs).createCaseFromProducer(producer, cat_item.sys_id);
 current.rich_description = '';]]></script>
-        <short_description>Apply for a competition</short_description>
+        <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state>published</state>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
-        <sys_created_on>2023-06-01 16:26:26</sys_created_on>
-        <sys_id>c02a386f47c7a5103fa44aff336d4310</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>Apply for internal competition [BROKEN]]</sys_name>
+        <sys_created_on>2023-06-05 15:44:32</sys_created_on>
+        <sys_id>21e695344793a1103fa44aff336d43d5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Apply for an internal competition</sys_name>
         <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
-        <sys_update_name>sc_cat_item_producer_c02a386f47c7a5103fa44aff336d4310</sys_update_name>
+        <sys_update_name>sc_cat_item_producer_21e695344793a1103fa44aff336d43d5</sys_update_name>
         <sys_updated_by>nappoma</sys_updated_by>
-        <sys_updated_on>2023-06-05 14:24:11</sys_updated_on>
+        <sys_updated_on>2023-06-05 15:44:58</sys_updated_on>
         <table_name>x_431105_cand_ass_talent_application</table_name>
         <taxonomy_topic display_value="Talent Management">90b5ee9e1b5b0110599142e4cc4bcb37</taxonomy_topic>
         <template/>
@@ -103,22 +103,22 @@ current.rich_description = '';]]></script>
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item_producer>
-    <sys_translated_text action="delete_multiple" query="documentkey=c02a386f47c7a5103fa44aff336d4310"/>
-    <fx_price action="delete_multiple" query="id=c02a386f47c7a5103fa44aff336d4310"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=21e695344793a1103fa44aff336d43d5"/>
+    <fx_price action="delete_multiple" query="id=21e695344793a1103fa44aff336d43d5"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="GBP">GBP</currency>
         <field>price</field>
-        <id>c02a386f47c7a5103fa44aff336d4310</id>
+        <id>21e695344793a1103fa44aff336d43d5</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>nappoma</sys_created_by>
-        <sys_created_on>2023-06-04 08:01:25</sys_created_on>
-        <sys_id>fb432a10475321103fa44aff336d433e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2023-06-05 15:44:32</sys_created_on>
+        <sys_id>6de695344793a1103fa44aff336d43d7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>nappoma</sys_updated_by>
-        <sys_updated_on>2023-06-04 08:01:25</sys_updated_on>
+        <sys_updated_on>2023-06-05 15:44:38</sys_updated_on>
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>

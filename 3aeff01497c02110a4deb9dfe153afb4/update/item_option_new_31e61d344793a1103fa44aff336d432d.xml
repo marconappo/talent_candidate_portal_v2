@@ -2,14 +2,14 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Apply for a competition">10533092474b21103fa44aff336d434a</cat_item>
+        <cat_item display_value="Apply for an internal competition">21e695344793a1103fa44aff336d43d5</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value/>
+        <default_value>Some of the particular strengths I would bring to my work as an administrator include strong analytical and problem-solving skills. I am adept at critically evaluating complex scientific information, identifying potential gaps, and proposing practical solutions. Additionally, my ability to effectively communicate technical concepts to diverse audiences enables me to bridge the gap between scientific research and policy-making. I am also highly organized and detail-oriented, which is essential in managing the documentation, data analysis, and reporting requirements inherent in chemical policy administration.</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -21,13 +21,13 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>publication</field>
+        <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
         <hidden>false</hidden>
         <include_none>false</include_none>
-        <instructions><![CDATA[<p>Which competition would you like to apply for?</p>]]></instructions>
+        <instructions/>
         <layout>normal</layout>
         <list_table/>
         <lookup_label/>
@@ -37,17 +37,17 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
-        <map_to_field>true</map_to_field>
+        <mandatory>false</mandatory>
+        <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>publication</name>
-        <order>200</order>
+        <name>what_particular_strengths_would_you_bring_to_your_work</name>
+        <order>2100</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Competition</question_text>
+        <question_text>What particular strengths would you bring to your work?</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -55,13 +55,9 @@
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_431105_cand_ass_talent_application</record_producer_table>
-        <reference>x_431105_cand_ass_assessment</reference>
-        <reference_qual>active=true^state=10^publication_type=open_to_other_institutions^EQ</reference_qual>
-        <reference_qual_condition table="x_431105_cand_ass_assessment">active=true^state=10^publication_type=open_to_other_institutions^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item display_value="Application" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="10"/>
-            <item display_value="Open to other institutions" endquery="false" field="publication_type" goto="false" newquery="false" operator="=" or="false" value="open_to_other_institutions"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </reference_qual_condition>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -73,25 +69,25 @@
 */]]></save_script>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
-        <show_help>true</show_help>
+        <show_help>false</show_help>
         <show_help_on_load>false</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
-        <sys_created_on>2023-06-05 14:25:12</sys_created_on>
-        <sys_id>993430d2474b21103fa44aff336d4321</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Competition</sys_name>
+        <sys_created_on>2023-06-05 15:44:33</sys_created_on>
+        <sys_id>31e61d344793a1103fa44aff336d432d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>What particular strengths would you bring to your work?</sys_name>
         <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
-        <sys_update_name>item_option_new_993430d2474b21103fa44aff336d4321</sys_update_name>
+        <sys_update_name>item_option_new_31e61d344793a1103fa44aff336d432d</sys_update_name>
         <sys_updated_by>nappoma</sys_updated_by>
-        <sys_updated_on>2023-06-05 15:44:02</sys_updated_on>
+        <sys_updated_on>2023-06-05 15:44:33</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>8</type>
+        <type>2</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -105,24 +101,24 @@
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
         <visible_summary>true</visible_summary>
-        <write_roles>admin</write_roles>
+        <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=993430d2474b21103fa44aff336d4321"/>
-    <fx_price action="delete_multiple" query="id=993430d2474b21103fa44aff336d4321"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=31e61d344793a1103fa44aff336d432d"/>
+    <fx_price action="delete_multiple" query="id=31e61d344793a1103fa44aff336d432d"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="GBP">GBP</currency>
         <field>price_if_checked</field>
-        <id>993430d2474b21103fa44aff336d4321</id>
+        <id>31e61d344793a1103fa44aff336d432d</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>nappoma</sys_created_by>
-        <sys_created_on>2023-05-28 18:50:26</sys_created_on>
-        <sys_id>66b4bcd2474b21103fa44aff336d43e2</sys_id>
+        <sys_created_on>2023-06-05 15:44:33</sys_created_on>
+        <sys_id>bde61d344793a1103fa44aff336d432f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nappoma</sys_updated_by>
-        <sys_updated_on>2023-05-28 18:50:26</sys_updated_on>
+        <sys_updated_on>2023-06-05 15:44:33</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -130,16 +126,16 @@
         <amount>0</amount>
         <currency display_value="GBP">GBP</currency>
         <field>rec_price_if_checked</field>
-        <id>993430d2474b21103fa44aff336d4321</id>
+        <id>31e61d344793a1103fa44aff336d432d</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>nappoma</sys_created_by>
-        <sys_created_on>2023-05-28 18:50:26</sys_created_on>
-        <sys_id>a6b4bcd2474b21103fa44aff336d43e1</sys_id>
+        <sys_created_on>2023-06-05 15:44:33</sys_created_on>
+        <sys_id>f1e61d344793a1103fa44aff336d432f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nappoma</sys_updated_by>
-        <sys_updated_on>2023-05-28 18:50:26</sys_updated_on>
+        <sys_updated_on>2023-06-05 15:44:33</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
