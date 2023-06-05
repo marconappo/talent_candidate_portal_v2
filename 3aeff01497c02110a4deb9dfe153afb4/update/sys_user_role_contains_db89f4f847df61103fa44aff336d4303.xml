@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_431105_cand_ass.board_member" name="x_431105_cand_ass.board_member">83c0419497c02110a4deb9dfe153af0a</contains>
+        <role display_value="x_431105_cand_ass.president_chair" name="x_431105_cand_ass.president_chair">976974f847df61103fa44aff336d430a</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-05 13:36:19</sys_created_on>
+        <sys_id>db89f4f847df61103fa44aff336d4303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_431105_cand_ass.board_member.x_431105_cand_ass.president_chair</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_user_role_contains_db89f4f847df61103fa44aff336d4303</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-05 13:36:19</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

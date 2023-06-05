@@ -4,15 +4,15 @@
         <sc_category display_value="HR Systems">32c78de49f331200d9011977677fcf97</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
-        <sys_created_on>2023-05-29 05:56:40</sys_created_on>
-        <sys_id>b13d87d2470761103fa44aff336d4396</sys_id>
+        <sys_created_on>2023-06-05 14:25:14</sys_created_on>
+        <sys_id>f3b4c9b84713a1103fa44aff336d430b</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>HR Systems.Apply for a competition</sys_name>
         <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
-        <sys_update_name>sc_cat_item_category_b13d87d2470761103fa44aff336d4396</sys_update_name>
+        <sys_update_name>sc_cat_item_category_f3b4c9b84713a1103fa44aff336d430b</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-05-29 05:58:24</sys_updated_on>
+        <sys_updated_on>2023-06-05 14:28:19</sys_updated_on>
     </sc_cat_item_category>
 </record_update>

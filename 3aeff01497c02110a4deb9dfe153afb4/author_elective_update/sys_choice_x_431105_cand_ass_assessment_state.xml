@@ -20,7 +20,7 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Publication</label>
+            <label>Draft</label>
             <language>en</language>
             <name>x_431105_cand_ass_assessment</name>
             <sequence>0</sequence>
@@ -29,9 +29,9 @@
             <sys_created_on>2023-05-18 07:33:03</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-21 14:10:16</sys_updated_on>
+            <sys_updated_on>2023-06-05 12:44:54</sys_updated_on>
             <value>0</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -58,7 +58,7 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Admission Test</label>
+            <label>Admission Test: CBT-MCQ</label>
             <language>en</language>
             <name>x_431105_cand_ass_assessment</name>
             <sequence>2</sequence>
@@ -67,9 +67,9 @@
             <sys_created_on>2023-05-20 17:49:26</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>7</sys_mod_count>
+            <sys_mod_count>8</sys_mod_count>
             <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-23 11:45:42</sys_updated_on>
+            <sys_updated_on>2023-06-05 12:45:09</sys_updated_on>
             <value>50</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -77,7 +77,7 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Admission</label>
+            <label>Admission: Eligibility Check</label>
             <language>en</language>
             <name>x_431105_cand_ass_assessment</name>
             <sequence>3</sequence>
@@ -86,9 +86,9 @@
             <sys_created_on>2022-12-24 14:07:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>9</sys_mod_count>
+            <sys_mod_count>10</sys_mod_count>
             <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-23 11:43:56</sys_updated_on>
+            <sys_updated_on>2023-06-05 12:45:01</sys_updated_on>
             <value>20</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">

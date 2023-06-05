@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="x_431105_cand_ass_assessment" version="2" view="default">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Publication - Default" name="x_431105_cand_ass_assessment" related_list="NULL" sys_domain="global" view="412a8bf5e821211076da10591ad287fb">55087c3847df61103fa44aff336d43a9</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_431105_cand_ass_publication_stage.publication</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-06-05 13:29:37</sys_created_on>
+            <sys_id>11087c3847df61103fa44aff336d43aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-06-05 13:29:37</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Publication - Default" name="x_431105_cand_ass_assessment" related_list="NULL" sys_domain="global" view="412a8bf5e821211076da10591ad287fb">55087c3847df61103fa44aff336d43a9</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_431105_cand_ass_publication_language.publication</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-06-05 13:29:37</sys_created_on>
+            <sys_id>15087c3847df61103fa44aff336d43aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-06-05 13:29:37</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Publication - Default" name="x_431105_cand_ass_assessment" related_list="NULL" sys_domain="global" view="412a8bf5e821211076da10591ad287fb">55087c3847df61103fa44aff336d43a9</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_431105_cand_ass_competition_requirment.competition</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-06-05 13:29:37</sys_created_on>
+            <sys_id>19087c3847df61103fa44aff336d43aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-06-05 13:29:37</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Publication - Default" name="x_431105_cand_ass_assessment" related_list="NULL" sys_domain="global" view="412a8bf5e821211076da10591ad287fb">55087c3847df61103fa44aff336d43a9</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>x_431105_cand_ass_exclusion_reason.assessment</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-06-05 13:29:37</sys_created_on>
+            <sys_id>1d087c3847df61103fa44aff336d43aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-06-05 13:29:37</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Publication - Default" name="x_431105_cand_ass_assessment" related_list="NULL" sys_domain="global" view="412a8bf5e821211076da10591ad287fb">55087c3847df61103fa44aff336d43a9</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>x_431105_cand_ass_selection_board.publication</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-06-05 13:29:37</sys_created_on>
+            <sys_id>11087c3847df61103fa44aff336d43ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-06-05 13:29:37</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Publication - Default" name="x_431105_cand_ass_assessment" related_list="NULL" sys_domain="global" view="412a8bf5e821211076da10591ad287fb">55087c3847df61103fa44aff336d43a9</list_id>
+            <order_by/>
+            <position>5</position>
+            <related_list>x_431105_cand_ass_candidate.assessment</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-06-05 13:29:37</sys_created_on>
+            <sys_id>15087c3847df61103fa44aff336d43ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-06-05 13:29:37</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Publication - Default</calculated_name>
+            <filter/>
+            <name>x_431105_cand_ass_assessment</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-06-05 13:29:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>55087c3847df61103fa44aff336d43a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Publication - Default</sys_name>
+            <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+            <sys_update_name>sys_ui_related_x_431105_cand_ass_assessment_default</sys_update_name>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-06-05 13:29:37</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default" name="default">412a8bf5e821211076da10591ad287fb</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_ui_related_x_431105_cand_ass_assessment_default</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="x_431105_cand_ass_assessment" version="2" view="default"><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Publication - Default" name="x_431105_cand_ass_assessment" related_list="NULL" sys_domain="global" view="412a8bf5e821211076da10591ad287fb">55087c3847df61103fa44aff336d43a9</list_id><order_by/><position>0</position><related_list>x_431105_cand_ass_publication_stage.publication</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-06-05 13:29:37</sys_created_on><sys_id>11087c3847df61103fa44aff336d43aa</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-06-05 13:29:37</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Publication - Default" name="x_431105_cand_ass_assessment" related_list="NULL" sys_domain="global" view="412a8bf5e821211076da10591ad287fb">55087c3847df61103fa44aff336d43a9</list_id><order_by/><position>1</position><related_list>x_431105_cand_ass_publication_language.publication</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-06-05 13:29:37</sys_created_on><sys_id>15087c3847df61103fa44aff336d43aa</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-06-05 13:29:37</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Publication - Default" name="x_431105_cand_ass_assessment" related_list="NULL" sys_domain="global" view="412a8bf5e821211076da10591ad287fb">55087c3847df61103fa44aff336d43a9</list_id><order_by/><position>2</position><related_list>x_431105_cand_ass_competition_requirment.competition</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-06-05 13:29:37</sys_created_on><sys_id>19087c3847df61103fa44aff336d43aa</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-06-05 13:29:37</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Publication - Default" name="x_431105_cand_ass_assessment" related_list="NULL" sys_domain="global" view="412a8bf5e821211076da10591ad287fb">55087c3847df61103fa44aff336d43a9</list_id><order_by/><position>3</position><related_list>x_431105_cand_ass_exclusion_reason.assessment</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-06-05 13:29:37</sys_created_on><sys_id>1d087c3847df61103fa44aff336d43aa</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-06-05 13:29:37</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Publication - Default" name="x_431105_cand_ass_assessment" related_list="NULL" sys_domain="global" view="412a8bf5e821211076da10591ad287fb">55087c3847df61103fa44aff336d43a9</list_id><order_by/><position>4</position><related_list>x_431105_cand_ass_selection_board.publication</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-06-05 13:29:37</sys_created_on><sys_id>11087c3847df61103fa44aff336d43ab</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-06-05 13:29:37</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Publication - Default" name="x_431105_cand_ass_assessment" related_list="NULL" sys_domain="global" view="412a8bf5e821211076da10591ad287fb">55087c3847df61103fa44aff336d43a9</list_id><order_by/><position>5</position><related_list>x_431105_cand_ass_candidate.assessment</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-06-05 13:29:37</sys_created_on><sys_id>15087c3847df61103fa44aff336d43ab</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-06-05 13:29:37</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Publication - Default</calculated_name><filter/><name>x_431105_cand_ass_assessment</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-06-05 13:29:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>55087c3847df61103fa44aff336d43a9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Publication - Default</sys_name><sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_ui_related_x_431105_cand_ass_assessment_default</sys_update_name><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-06-05 13:29:37</sys_updated_on><sys_user/><view display_value="Default" name="default">412a8bf5e821211076da10591ad287fb</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+        <payload_hash>-1238373363</payload_hash>
+        <record_name>Publication</record_name>
+        <reverted_from/>
+        <source>999a6834479f61103fa44aff336d43f1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-05 13:29:37</sys_created_on>
+        <sys_id>dd08747847df61103fa44aff336d43ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1888bbfb8f80000001</sys_recorded_at>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-05 13:29:37</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>1508747837df6110c9203ea59d15e7ef</update_guid>
+        <update_guid_history>1508747837df6110c9203ea59d15e7ef:-1238373363,8ee7f07857df6110b85676e164b02020:-1609914191,07b7fc38d4df611048ae0ec1b3cd89f6:1575419147,12c37cf0dddf611074705fe04e90d089:1673359005,648330f029df61105b20cdc91f1302f8:-886673587,1743f8b084df61101b45d2a1416f5046:-103181852</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-05 13:30:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>ae1b3d9bab8a4e40bd9e505bbe3d0040</sys_id>
+        <sys_metadata>55087c3847df61103fa44aff336d43a9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Publication - Default</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="Publication">9be4974e470321103fa44aff336d4308</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_ui_related_x_431105_cand_ass_assessment_default</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_x_431105_cand_ass_assessment_default">dd08747847df61103fa44aff336d43ef</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-05 13:30:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

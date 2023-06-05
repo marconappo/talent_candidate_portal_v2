@@ -29,16 +29,16 @@
         <sys_created_on>2023-05-28 18:43:36</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>2503f412474b21103fa44aff336d439d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Apply for a competition</sys_name>
         <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
         <sys_update_name>sn_hr_core_service_2503f412474b21103fa44aff336d439d</sys_update_name>
         <sys_updated_by>nappoma</sys_updated_by>
-        <sys_updated_on>2023-05-28 19:42:56</sys_updated_on>
+        <sys_updated_on>2023-06-05 14:46:59</sys_updated_on>
         <template display_value="Apply for a competition">a9c1b8de470b21103fa44aff336d43bd</template>
-        <topic_detail display_value="External Competition">13d27052474b21103fa44aff336d435f</topic_detail>
+        <topic_detail display_value="EPSO">9199cd704753a1103fa44aff336d43f7</topic_detail>
         <value>apply_for_a_competition</value>
         <workflow_detail/>
     </sn_hr_core_service>
