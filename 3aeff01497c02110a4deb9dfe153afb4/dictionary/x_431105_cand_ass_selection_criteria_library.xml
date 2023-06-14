@@ -5,9 +5,16 @@
             <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Default Max Value" max_length="40" name="default_max_value" type="integer"/>
-        <element display="true" label="Name" max_length="1000" name="name" type="string"/>
+        <element choice="1" choice_field="successful_candidates" choice_table="x_431105_cand_ass_assessment" label="Marking end" max_length="40" name="marking_end" type="integer">
+            <choice/>
+        </element>
+        <element choice="1" choice_field="successful_candidates" choice_table="x_431105_cand_ass_assessment" label="Marking start" max_length="40" name="marking_start" type="integer">
+            <choice/>
+        </element>
+        <element display="true" label="Name" max_length="100" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent" max_length="32" name="parent" reference="x_431105_cand_ass_selection_criteria_library" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Short description" max_length="150" name="short_description" type="string"/>
         <index name="index">
             <element name="default_for"/>
         </index>

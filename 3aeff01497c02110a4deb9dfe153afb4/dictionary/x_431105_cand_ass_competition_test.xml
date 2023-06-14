@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ff11bcd3475761103fa44aff336d43eb" label="Competition test" max_length="40" name="x_431105_cand_ass_competition_test" type="collection">
+        <element label="Competition" max_length="32" name="competition" reference="x_431105_cand_ass_assessment" type="reference"/>
+        <element label="Phase" max_length="32" name="competition_phase" reference="x_431105_cand_ass_stage_library" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="Test" max_length="32" name="test" reference="x_431105_cand_ass_talent_test" type="reference"/>
+        <index name="index">
+            <element name="competition"/>
+        </index>
+        <index name="index2">
+            <element name="competition_phase"/>
+        </index>
+        <index name="index3">
+            <element name="test"/>
+        </index>
+    </element>
+</database>

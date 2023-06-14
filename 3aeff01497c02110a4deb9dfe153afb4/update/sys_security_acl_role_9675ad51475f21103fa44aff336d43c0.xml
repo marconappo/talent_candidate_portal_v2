@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-07 06:05:10</sys_created_on>
+        <sys_id>9675ad51475f21103fa44aff336d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_431105_cand_ass_pass_mark_library.x_431105_cand_ass.admin</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_security_acl display_value="x_431105_cand_ass_pass_mark_library">ce75ad51475f21103fa44aff336d43bc</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_9675ad51475f21103fa44aff336d43c0</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-07 06:05:10</sys_updated_on>
+        <sys_user_role display_value="x_431105_cand_ass.admin" name="x_431105_cand_ass.admin">47a0cd5497c02110a4deb9dfe153af03</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

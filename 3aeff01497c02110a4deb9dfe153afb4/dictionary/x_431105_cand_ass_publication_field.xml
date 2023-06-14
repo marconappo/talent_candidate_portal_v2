@@ -2,6 +2,6 @@
     <element db_object_id="0813a838475f61103fa44aff336d439d" label="Publication Field" max_length="40" name="x_431105_cand_ass_publication_field" type="collection">
         <element label="Description" max_length="400" name="description" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element display="true" label="Short Description" max_length="40" name="short_description" type="string"/>
+        <element display="true" label="Short Description" max_length="100" name="short_description" type="string"/>
     </element>
 </database>

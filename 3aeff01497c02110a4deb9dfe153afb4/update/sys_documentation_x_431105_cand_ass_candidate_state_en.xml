@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="state" label="Stepstone" language="en" table="x_431105_cand_ass_candidate">
+    <sys_documentation element="state" label="Candidate phase" language="en" table="x_431105_cand_ass_candidate">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>state</element>
             <help/>
             <hint/>
-            <label>Stepstone</label>
+            <label>Candidate phase</label>
             <language>en</language>
             <name>x_431105_cand_ass_candidate</name>
-            <plural>Stepstones</plural>
+            <plural>Candidate phases</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>nappoma</sys_created_by>
             <sys_created_on>2023-05-20 20:36:26</sys_created_on>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Stepstone</sys_name>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Candidate phase</sys_name>
             <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
             <sys_policy/>
             <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
             <sys_update_name>sys_documentation_x_431105_cand_ass_candidate_state_en</sys_update_name>
             <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-22 05:53:52</sys_updated_on>
+            <sys_updated_on>2023-06-09 07:15:59</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="dc13e838475f61103fa44aff336d431b" label="Stone" max_length="40" name="x_431105_cand_ass_publication_stage" type="collection">
+    <element db_object_id="dc13e838475f61103fa44aff336d431b" label="Phases" max_length="40" name="x_431105_cand_ass_publication_stage" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Inactive" max_length="40" name="inactive" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Order" max_length="40" name="order" type="integer"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Publication" max_length="32" name="publication" reference="x_431105_cand_ass_assessment" type="reference"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" display="true" label="Stepstone" max_length="32" name="stage" reference="x_431105_cand_ass_stage_library" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" display="true" label="Candidate phase" max_length="32" name="stage" reference="x_431105_cand_ass_stage_library" type="reference"/>
         <index name="index">
             <element name="publication"/>
         </index>

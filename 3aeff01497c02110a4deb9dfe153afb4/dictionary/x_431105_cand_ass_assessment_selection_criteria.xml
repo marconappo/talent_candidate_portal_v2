@@ -1,25 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="3be4d74e470321103fa44aff336d43b6" label="Competition Competency" max_length="40" name="x_431105_cand_ass_assessment_selection_criteria" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Competition" max_length="32" name="assessment" reference="x_431105_cand_ass_assessment" type="reference"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" choice="3" label="Competition State" max_length="32" name="assessment_state" reference="x_431105_cand_ass_assessment_selection_criteria" reference_qual="javascript: &quot;assessment=&quot;+current.assessment;" type="reference" use_reference_qualifier="advanced">
-            <choice/>
+        <element choice="3" default="10&#13;&#10;" label="Marking end" max_length="40" name="marking_end" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="10" sequence="10" value="10"/>
+                <element inactive_on_update="false" label="20" sequence="20" value="20"/>
+                <element inactive_on_update="false" label="48" sequence="48" value="48"/>
+                <element inactive_on_update="false" label="50" sequence="50" value="50"/>
+                <element inactive_on_update="false" label="100" sequence="100" value="100"/>
+                <element inactive_on_update="false" label="120" sequence="120" value="120"/>
+                <element inactive_on_update="false" label="200" sequence="200" value="200"/>
+            </choice>
+        </element>
+        <element choice="3" default="0" label="Marking start" max_length="40" name="marking_start" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="0" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="1" sequence="1" value="1"/>
+            </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Max Value" max_length="40" name="max_value" type="integer"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent" max_length="32" name="parent" reference="x_431105_cand_ass_assessment_selection_criteria" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="true" label="Required" max_length="40" name="required" type="boolean"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" display="true" label="Competency" max_length="32" name="selection_criteria" reference="x_431105_cand_ass_selection_criteria_library" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Test" max_length="32" name="test" reference="x_431105_cand_ass_competition_test" type="reference"/>
         <index name="index">
             <element name="assessment"/>
         </index>
         <index name="index2">
-            <element name="assessment_state"/>
-        </index>
-        <index name="index3">
             <element name="parent"/>
         </index>
-        <index name="index4">
+        <index name="index3">
             <element name="selection_criteria"/>
+        </index>
+        <index name="index4">
+            <element name="test"/>
         </index>
     </element>
 </database>

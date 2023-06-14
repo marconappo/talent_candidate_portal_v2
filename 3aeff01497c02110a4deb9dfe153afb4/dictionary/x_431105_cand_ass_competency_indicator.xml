@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d6b73a87471f21103fa44aff336d4313" label="Competency Indicator" max_length="40" name="x_431105_cand_ass_competency_indicator" type="collection">
+        <element attributes="encode_utf8=false" label="Competency" max_length="32" name="competency" reference="x_431105_cand_ass_selection_criteria_library" type="reference"/>
+        <element label="Mark" max_length="40" name="mark" type="integer"/>
+        <element label="Marking end" max_length="40" name="marking_end" type="integer"/>
+        <element label="Marking start" max_length="40" name="marking_start" type="integer"/>
+        <element label="Negative" max_length="40" name="negative" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Positive" max_length="40" name="positive" type="string"/>
+        <index name="index">
+            <element name="competency"/>
+        </index>
+    </element>
+</database>

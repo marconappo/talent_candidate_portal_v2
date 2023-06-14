@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="70de46524717e1103fa44aff336d43c5" extends="dl_matcher" label="Candidate phase - status " max_length="40" name="x_431105_cand_ass_candidate_phase_status" type="collection">
+        <element choice="1" choice_field="stepstone" choice_table="x_431105_cand_ass_talent_application" label="Candidate phase" max_length="40" name="candidate_phase" type="string">
+            <choice/>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" choice_field="status" choice_table="x_431105_cand_ass_talent_application" label="Status" max_length="40" name="status" type="string">
+            <choice/>
+        </element>
+    </element>
+</database>

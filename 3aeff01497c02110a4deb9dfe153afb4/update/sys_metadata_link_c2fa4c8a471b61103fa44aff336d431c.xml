@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>bbf0730d471721103fa44aff336d4378</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_431105_cand_ass_selection_criteria_library">
+    <x_431105_cand_ass_selection_criteria_library action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <default_for display_value="Assessment centre">cdf537b9479761103fa44aff336d43f9</default_for>
+        <default_max_value/>
+        <name>Delivering quality and results</name>
+        <number>SLB0001002</number>
+        <parent/>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-06 21:36:56</sys_created_on>
+        <sys_id>bbf0730d471721103fa44aff336d4378</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-09 06:51:41</sys_updated_on>
+    </x_431105_cand_ass_selection_criteria_library>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-09 07:25:12</sys_created_on>
+        <sys_id>c2fa4c8a471b61103fa44aff336d431c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_metadata_link_c2fa4c8a471b61103fa44aff336d431c</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-09 07:25:12</sys_updated_on>
+        <tablename>x_431105_cand_ass_selection_criteria_lib</tablename>
+    </sys_metadata_link>
+</record_update>

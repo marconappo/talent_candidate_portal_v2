@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Approver</column_label>
+        <column_label>Assessor 2</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -52,13 +52,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
         <sys_created_on>2023-05-29 07:48:13</sys_created_on>
-        <sys_name>Approver</sys_name>
+        <sys_name>Assessor 2</sys_name>
         <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
         <sys_update_name>sys_dictionary_x_431105_cand_ass_talent_application_approver</sys_update_name>
         <sys_updated_by>nappoma</sys_updated_by>
-        <sys_updated_on>2023-05-29 07:48:13</sys_updated_on>
+        <sys_updated_on>2023-06-13 09:58:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
