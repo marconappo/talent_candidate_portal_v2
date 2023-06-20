@@ -46,7 +46,7 @@
         <update_guid_history>fd2a30af01c7a51017a5f42f31e64d91:-2024976318</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="University Careers Service">1d82ea1c471321103fa44aff336d4302</sys_audit_delete>
+        <sys_audit_delete display_value="">1d82ea1c471321103fa44aff336d4302</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
         <sys_created_on>2023-06-04 07:57:58</sys_created_on>

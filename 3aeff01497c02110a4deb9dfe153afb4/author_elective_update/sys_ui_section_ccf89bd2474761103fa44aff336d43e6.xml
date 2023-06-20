@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Background Check Details" section_id="ccf89bd2474761103fa44aff336d43e6" sys_domain="global" table="x_431105_cand_ass_talent_application" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-29 06:47:53</sys_created_on>
+            <sys_id>88f89bd2474761103fa44aff336d43e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-29 06:47:53</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>background_check_details</element>
+            <position>1</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-29 06:47:53</sys_created_on>
+            <sys_id>c4f89bd2474761103fa44aff336d43eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-29 06:47:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>background_check_order_id</element>
+            <position>2</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-29 06:47:53</sys_created_on>
+            <sys_id>c4f89bd2474761103fa44aff336d43ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-29 06:47:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>background_check_provider_reference_id</element>
+            <position>3</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-29 06:47:53</sys_created_on>
+            <sys_id>ccf89bd2474761103fa44aff336d43ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-29 06:47:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>background_check_status</element>
+            <position>4</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-29 06:47:53</sys_created_on>
+            <sys_id>ccf89bd2474761103fa44aff336d43e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-29 06:47:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>background_check_result</element>
+            <position>5</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-29 06:47:53</sys_created_on>
+            <sys_id>c4f89bd2474761103fa44aff336d43e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-29 06:47:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>background_check_percentage_complete</element>
+            <position>6</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-29 06:47:53</sys_created_on>
+            <sys_id>ccf89bd2474761103fa44aff336d43eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-29 06:47:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-29 06:47:53</sys_created_on>
+            <sys_id>c0f89bd2474761103fa44aff336d43e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-29 06:47:53</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>drug_screening_details</element>
+            <position>8</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-29 06:47:53</sys_created_on>
+            <sys_id>c8f89bd2474761103fa44aff336d43eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-29 06:47:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>drug_screening_provider_reference_id</element>
+            <position>9</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-29 06:47:53</sys_created_on>
+            <sys_id>c8f89bd2474761103fa44aff336d43ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-29 06:47:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>drug_screening_status</element>
+            <position>10</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-29 06:47:53</sys_created_on>
+            <sys_id>c0f89bd2474761103fa44aff336d43eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-29 06:47:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>drug_screening_result</element>
+            <position>11</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-29 06:47:53</sys_created_on>
+            <sys_id>c0f89bd2474761103fa44aff336d43ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-29 06:47:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>12</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-29 06:47:53</sys_created_on>
+            <sys_id>c0f89bd2474761103fa44aff336d43ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-29 06:47:53</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12M.sn_hr_core_case_talent_management.sn_hr_core_background_check_search_details.hr_case</element>
+            <position>13</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-29 06:47:53</sys_created_on>
+            <sys_id>c8f89bd2474761103fa44aff336d43e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-29 06:47:53</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Background Check Details</caption>
+            <header>false</header>
+            <name>x_431105_cand_ass_talent_application</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-29 06:47:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ccf89bd2474761103fa44aff336d43e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_431105_cand_ass_talent_application</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+            <sys_update_name>sys_ui_section_ccf89bd2474761103fa44aff336d43e6</sys_update_name>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-29 06:47:53</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">0aaccb75e8a1211076da10591ad28743</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_ui_section_ccf89bd2474761103fa44aff336d43e6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Background Check Details" section_id="ccf89bd2474761103fa44aff336d43e6" sys_domain="global" table="x_431105_cand_ass_talent_application" version="3" view="workspace"><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-05-29 06:47:53</sys_created_on><sys_id>88f89bd2474761103fa44aff336d43e8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-05-29 06:47:53</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>background_check_details</element><position>1</position><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-05-29 06:47:53</sys_created_on><sys_id>c4f89bd2474761103fa44aff336d43eb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-05-29 06:47:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>background_check_order_id</element><position>2</position><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-05-29 06:47:53</sys_created_on><sys_id>c4f89bd2474761103fa44aff336d43ea</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-05-29 06:47:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>background_check_provider_reference_id</element><position>3</position><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-05-29 06:47:53</sys_created_on><sys_id>ccf89bd2474761103fa44aff336d43ea</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-05-29 06:47:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>background_check_status</element><position>4</position><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-05-29 06:47:53</sys_created_on><sys_id>ccf89bd2474761103fa44aff336d43e9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-05-29 06:47:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>background_check_result</element><position>5</position><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-05-29 06:47:53</sys_created_on><sys_id>c4f89bd2474761103fa44aff336d43e9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-05-29 06:47:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>background_check_percentage_complete</element><position>6</position><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-05-29 06:47:53</sys_created_on><sys_id>ccf89bd2474761103fa44aff336d43eb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-05-29 06:47:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>7</position><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-05-29 06:47:53</sys_created_on><sys_id>c0f89bd2474761103fa44aff336d43e9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-05-29 06:47:53</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>drug_screening_details</element><position>8</position><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-05-29 06:47:53</sys_created_on><sys_id>c8f89bd2474761103fa44aff336d43eb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-05-29 06:47:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>drug_screening_provider_reference_id</element><position>9</position><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-05-29 06:47:53</sys_created_on><sys_id>c8f89bd2474761103fa44aff336d43ea</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-05-29 06:47:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>drug_screening_status</element><position>10</position><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-05-29 06:47:53</sys_created_on><sys_id>c0f89bd2474761103fa44aff336d43eb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-05-29 06:47:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>drug_screening_result</element><position>11</position><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-05-29 06:47:53</sys_created_on><sys_id>c0f89bd2474761103fa44aff336d43ea</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-05-29 06:47:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>12</position><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-05-29 06:47:53</sys_created_on><sys_id>c0f89bd2474761103fa44aff336d43ec</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-05-29 06:47:53</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>12M.sn_hr_core_case_talent_management.sn_hr_core_background_check_search_details.hr_case</element><position>13</position><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-05-29 06:47:53</sys_created_on><sys_id>c8f89bd2474761103fa44aff336d43e9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Background Check Details" display_value="Background Check Details" name="x_431105_cand_ass_talent_application" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">ccf89bd2474761103fa44aff336d43e6</sys_ui_section><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-05-29 06:47:53</sys_updated_on><sys_user/><type>list</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Background Check Details</caption><header>false</header><name>x_431105_cand_ass_talent_application</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-05-29 06:47:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ccf89bd2474761103fa44aff336d43e6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_431105_cand_ass_talent_application</sys_name><sys_overrides/><sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_ui_section_ccf89bd2474761103fa44aff336d43e6</sys_update_name><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-05-29 06:47:53</sys_updated_on><sys_user/><title>false</title><view display_value="Workspace" name="workspace">0aaccb75e8a1211076da10591ad28743</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-2121896033</payload_hash>
+        <record_name>Talent Application</record_name>
+        <reverted_from/>
+        <source>bf2ea49a470b21103fa44aff336d43af</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-29 06:47:53</sys_created_on>
+        <sys_id>80f89bd2474761103fa44aff336d43ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188664366840000001</sys_recorded_at>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-29 06:47:53</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>08f89bd2bc47611002f6141e1349e4ee</update_guid>
+        <update_guid_history>08f89bd2bc47611002f6141e1349e4ee:-2121896033</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:56:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>20330d5fb13a44dab551f99d10ad78c4</sys_id>
+        <sys_metadata>ccf89bd2474761103fa44aff336d43e6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Background Check Details</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="">ad807cda470b21103fa44aff336d43d9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_ccf89bd2474761103fa44aff336d43e6</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_ccf89bd2474761103fa44aff336d43e6">80f89bd2474761103fa44aff336d43ef</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:56:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

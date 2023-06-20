@@ -185,7 +185,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>declaration_rich_text</sys_name>
         <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
-        <sys_parent display_value="">c02a386f47c7a5103fa44aff336d4310</sys_parent>
+        <sys_parent display_value="Apply for internal competition">c02a386f47c7a5103fa44aff336d4310</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
         <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-24 11:43:29</sys_created_on>
+        <sys_id>0d94091897c02110a4deb9dfe153afff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_431105_cand_ass_exclusion_reason.x_431105_cand_ass.board_member</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_security_acl display_value="x_431105_cand_ass_exclusion_reason">8194091897c02110a4deb9dfe153affd</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_0d94091897c02110a4deb9dfe153afff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-24 11:43:29</sys_updated_on>
+        <sys_user_role display_value="x_431105_cand_ass.board_member" name="x_431105_cand_ass.board_member">83c0419497c02110a4deb9dfe153af0a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_security_acl_role_0d94091897c02110a4deb9dfe153afff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-24 11:43:29</sys_created_on>
+        <sys_id>0d94091897c02110a4deb9dfe153afff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_431105_cand_ass_exclusion_reason.x_431105_cand_ass.board_member</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_security_acl display_value="x_431105_cand_ass_exclusion_reason">8194091897c02110a4deb9dfe153affd</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_0d94091897c02110a4deb9dfe153afff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-24 11:43:29</sys_updated_on>
+        <sys_user_role display_value="x_431105_cand_ass.board_member" name="x_431105_cand_ass.board_member">83c0419497c02110a4deb9dfe153af0a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>-66837982</payload_hash>
+        <record_name>x_431105_cand_ass_exclusion_reason.x_431105_cand_ass.board_member</record_name>
+        <reverted_from/>
+        <source>bde4534e470321103fa44aff336d4334</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-28 11:53:28</sys_created_on>
+        <sys_id>fa4597c2474321103fa44aff336d436b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1886234d1b70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-28 11:53:28</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>ba4597c2494321107818e3810f22df6b</update_guid>
+        <update_guid_history>ba4597c2494321107818e3810f22df6b:-66837982</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">2f62621c471321103fa44aff336d4343</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:57:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>04f77b17bca1407080293a65663fc784</sys_id>
+        <sys_metadata>0d94091897c02110a4deb9dfe153afff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_431105_cand_ass_exclusion_reason.x_431105_cand_ass.board_member</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="">8194091897c02110a4deb9dfe153affd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_0d94091897c02110a4deb9dfe153afff</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_0d94091897c02110a4deb9dfe153afff">fa4597c2474321103fa44aff336d436b</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:57:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

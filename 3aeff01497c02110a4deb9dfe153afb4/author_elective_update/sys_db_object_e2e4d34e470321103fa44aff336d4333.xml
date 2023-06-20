@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>true</is_extendable>
+        <label>Candidate Skills</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_431105_cand_ass_candidate_education_experience</name>
+        <number_ref display_value="CSK">3863e1af47cba5103fa44aff336d43bb</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-21 07:12:49</sys_created_on>
+        <sys_id>e2e4d34e470321103fa44aff336d4333</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Candidate Skills</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_db_object_e2e4d34e470321103fa44aff336d4333</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-01 19:26:42</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_db_object_e2e4d34e470321103fa44aff336d4333</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>true</actions_access><alter_access>true</alter_access><caller_access/><client_scripts_access>true</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><is_extendable>true</is_extendable><label>Candidate Skills</label><live_feed_enabled>false</live_feed_enabled><name>x_431105_cand_ass_candidate_education_experience</name><number_ref display_value="CSK">3863e1af47cba5103fa44aff336d43bb</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-05-21 07:12:49</sys_created_on><sys_id>e2e4d34e470321103fa44aff336d4333</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Candidate Skills</sys_name><sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_db_object_e2e4d34e470321103fa44aff336d4333</sys_update_name><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-06-01 19:26:42</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-1515276649</payload_hash>
+        <record_name>Candidate Skills</record_name>
+        <reverted_from/>
+        <source>088b96b24787e1103fa44aff336d4391</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-01 19:26:43</sys_created_on>
+        <sys_id>4d63e1af47cba5103fa44aff336d43bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188786d35450000001</sys_recorded_at>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-01 19:26:43</sys_updated_on>
+        <type>Table</type>
+        <update_guid>8163e1af2fcba51091e88a6449f57bbf</update_guid>
+        <update_guid_history>8163e1af2fcba51091e88a6449f57bbf:-1515276649,47d2696f48cba51061ef99d997efa510:231527128,9c97996f158ba51046eeeae6f2fe46d9:1957144420,153c682b8287a510066e104d71df055b:1434177240,c2f4538e34032110d059dbeb75a1594a:-517679167</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:56:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>0521d39fb1864fe7a1e4ef75919ecb21</sys_id>
+        <sys_metadata>e2e4d34e470321103fa44aff336d4333</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Candidate Skills</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_db_object_e2e4d34e470321103fa44aff336d4333</sys_update_name>
+        <sys_update_version display_value="sys_db_object_e2e4d34e470321103fa44aff336d4333">4d63e1af47cba5103fa44aff336d43bf</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:56:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

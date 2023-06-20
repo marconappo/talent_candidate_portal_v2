@@ -140,7 +140,7 @@
         <update_guid_history>fd3b096f304ba510101b29fc2706a79a:2108729056,b13b096f4a4ba5106a2b63db6fd7d076:942550283</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Candidate Portal Registration">d87c09ef474ba5103fa44aff336d434c</sys_audit_delete>
+        <sys_audit_delete display_value="">d87c09ef474ba5103fa44aff336d434c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
         <sys_created_on>2023-06-01 17:46:27</sys_created_on>

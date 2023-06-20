@@ -41,7 +41,7 @@
         <update_guid_history>3766a76b2947e510f2070f04e947f362:1839865969,7f66a76bf547e510f03e3923f6dd435f:-153885884</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Apply for internal competition.SNC External">64826a1c471321103fa44aff336d439a</sys_audit_delete>
+        <sys_audit_delete display_value="">64826a1c471321103fa44aff336d439a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
         <sys_created_on>2023-06-04 07:57:55</sys_created_on>

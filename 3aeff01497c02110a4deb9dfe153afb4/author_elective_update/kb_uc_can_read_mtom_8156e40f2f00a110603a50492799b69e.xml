@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_read_mtom">
+    <kb_uc_can_read_mtom action="DELETE">
+        <kb_knowledge_base display_value="IT">a7e8a78bff0221009b20ffffffffff17</kb_knowledge_base>
+        <sys_class_name>kb_uc_can_read_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-01 22:34:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8156e40f2f00a110603a50492799b69e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT.Users with 'Admin' Role</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>kb_uc_can_read_mtom_8156e40f2f00a110603a50492799b69e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-01 22:34:36</sys_updated_on>
+        <user_criteria display_value="Users with 'Admin' Role">cb8e06e9d7103100f2d224837e610339</user_criteria>
+    </kb_uc_can_read_mtom>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>kb_uc_can_read_mtom_8156e40f2f00a110603a50492799b69e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_read_mtom">
+    <kb_uc_can_read_mtom action="INSERT_OR_UPDATE">
+        <kb_knowledge_base display_value="IT">a7e8a78bff0221009b20ffffffffff17</kb_knowledge_base>
+        <sys_class_name>kb_uc_can_read_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-01 22:34:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8156e40f2f00a110603a50492799b69e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT.Users with 'Admin' Role</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>kb_uc_can_read_mtom_8156e40f2f00a110603a50492799b69e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-01 22:34:36</sys_updated_on>
+        <user_criteria display_value="Users with 'Admin' Role">cb8e06e9d7103100f2d224837e610339</user_criteria>
+    </kb_uc_can_read_mtom>
+</record_update>]]></payload>
+        <payload_hash>-99620133</payload_hash>
+        <record_name>IT.Users with 'Admin' Role</record_name>
+        <reverted_from/>
+        <source>bde4534e470321103fa44aff336d4334</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-28 11:52:50</sys_created_on>
+        <sys_id>5d259342474321103fa44aff336d4314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18862343bb00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-28 11:52:50</sys_updated_on>
+        <type>Who Can Read Knowledge Base</type>
+        <update_guid>1d25934296432110325fb32d6eabcc14</update_guid>
+        <update_guid_history>1d25934296432110325fb32d6eabcc14:-99620133</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">8097fc2b47c7a5103fa44aff336d431b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-01 16:15:13</sys_created_on>
+        <sys_db_object display_value="" name="kb_uc_can_read_mtom">kb_uc_can_read_mtom</sys_db_object>
+        <sys_id>643f5be9e5084b7baad610e0607e3221</sys_id>
+        <sys_metadata>8156e40f2f00a110603a50492799b69e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT.Users with 'Admin' Role</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>kb_uc_can_read_mtom_8156e40f2f00a110603a50492799b69e</sys_update_name>
+        <sys_update_version display_value="kb_uc_can_read_mtom_8156e40f2f00a110603a50492799b69e">5d259342474321103fa44aff336d4314</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-01 16:15:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

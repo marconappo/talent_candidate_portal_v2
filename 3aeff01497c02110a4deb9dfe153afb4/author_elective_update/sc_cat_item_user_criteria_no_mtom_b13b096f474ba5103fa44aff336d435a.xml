@@ -41,7 +41,7 @@
         <update_guid_history>587c09ef884ba510ee6555e606f80417:346021559</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Candidate Portal Registration.SNC External">d87c09ef474ba5103fa44aff336d4319</sys_audit_delete>
+        <sys_audit_delete display_value="">d87c09ef474ba5103fa44aff336d4319</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
         <sys_created_on>2023-06-01 17:46:27</sys_created_on>

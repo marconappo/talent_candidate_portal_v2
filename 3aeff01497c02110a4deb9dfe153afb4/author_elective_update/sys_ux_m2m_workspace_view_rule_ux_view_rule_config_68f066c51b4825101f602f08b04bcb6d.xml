@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_workspace_view_rule_ux_view_rule_config">
+    <sys_ux_m2m_workspace_view_rule_ux_view_rule_config action="DELETE">
+        <sys_class_name>sys_ux_m2m_workspace_view_rule_ux_view_rule_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 02:22:29</sys_created_on>
+        <sys_id>68f066c51b4825101f602f08b04bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CA View Rule.CA UX View Rule Config</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ux_m2m_workspace_view_rule_ux_view_rule_config_68f066c51b4825101f602f08b04bcb6d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 02:22:29</sys_updated_on>
+        <view_rules_configuration display_value="CA UX View Rule Config">a3c0aec51b4825101f602f08b04bcb2c</view_rules_configuration>
+        <workspace_view_rule display_value="CA View Rule">922f9e451b4825101f602f08b04bcb37</workspace_view_rule>
+    </sys_ux_m2m_workspace_view_rule_ux_view_rule_config>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_ux_m2m_workspace_view_rule_ux_view_rule_config_68f066c51b4825101f602f08b04bcb6d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_workspace_view_rule_ux_view_rule_config">
+    <sys_ux_m2m_workspace_view_rule_ux_view_rule_config action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ux_m2m_workspace_view_rule_ux_view_rule_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 02:22:29</sys_created_on>
+        <sys_id>68f066c51b4825101f602f08b04bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CA View Rule.CA UX View Rule Config</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ux_m2m_workspace_view_rule_ux_view_rule_config_68f066c51b4825101f602f08b04bcb6d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 02:22:29</sys_updated_on>
+        <view_rules_configuration display_value="CA UX View Rule Config">a3c0aec51b4825101f602f08b04bcb2c</view_rules_configuration>
+        <workspace_view_rule display_value="CA View Rule">922f9e451b4825101f602f08b04bcb37</workspace_view_rule>
+    </sys_ux_m2m_workspace_view_rule_ux_view_rule_config>
+</record_update>]]></payload>
+        <payload_hash>-875685001</payload_hash>
+        <record_name>CA View Rule.CA UX View Rule Config</record_name>
+        <reverted_from/>
+        <source>bde4534e470321103fa44aff336d4334</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-28 11:53:51</sys_created_on>
+        <sys_id>d065db06474321103fa44aff336d431a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18862352bca0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-28 11:53:51</sys_updated_on>
+        <type>Sys Ux M2m Workspace View Rule Ux View R</type>
+        <update_guid>9065db06bc43211031cc6f7d015cf81a</update_guid>
+        <update_guid_history>9065db06bc43211031cc6f7d015cf81a:-875685001</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:58:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_m2m_workspace_view_rule_ux_view_rule_config">sys_ux_m2m_workspace_view_rule_ux_view_rule_config</sys_db_object>
+        <sys_id>4e4d8b2c0eed4b90bac28932b55d2764</sys_id>
+        <sys_metadata>68f066c51b4825101f602f08b04bcb6d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CA View Rule.CA UX View Rule Config</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_ux_m2m_workspace_view_rule_ux_view_rule_config_68f066c51b4825101f602f08b04bcb6d</sys_update_name>
+        <sys_update_version display_value="sys_ux_m2m_workspace_view_rule_ux_view_rule_config_68f066c51b4825101f602f08b04bcb6d">d065db06474321103fa44aff336d431a</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:58:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

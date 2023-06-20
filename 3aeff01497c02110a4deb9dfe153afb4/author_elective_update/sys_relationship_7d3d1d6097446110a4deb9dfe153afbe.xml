@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="DELETE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_431105_cand_ass_candidate_selection_criteria_score</basic_apply_to>
+        <basic_query_from>x_431105_cand_ass_candidate_selection_criteria_score</basic_query_from>
+        <insert_callback/>
+        <name>Child Selection Criteria</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+    current.addQuery('assessment_selection_criteria.parent', parent.assessment_selection_criteria);
+    current.addQuery('candidate', parent.candidate);
+	
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 08:11:01</sys_created_on>
+        <sys_id>7d3d1d6097446110a4deb9dfe153afbe</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Child Selection Criteria</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_relationship_7d3d1d6097446110a4deb9dfe153afbe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 10:13:07</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="DELETE" query="documentkey=7d3d1d6097446110a4deb9dfe153afbe"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_relationship_7d3d1d6097446110a4deb9dfe153afbe</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;
+    &lt;sys_relationship action="INSERT_OR_UPDATE"&gt;
+        &lt;advanced&gt;false&lt;/advanced&gt;
+        &lt;apply_to/&gt;
+        &lt;basic_apply_to&gt;x_431105_cand_ass_candidate_selection_criteria_score&lt;/basic_apply_to&gt;
+        &lt;basic_query_from&gt;x_431105_cand_ass_candidate_selection_criteria_score&lt;/basic_query_from&gt;
+        &lt;insert_callback/&gt;
+        &lt;name&gt;Child Selection Criteria&lt;/name&gt;
+        &lt;query_from/&gt;
+        &lt;query_with&gt;&lt;![CDATA[(function refineQuery(current, parent) {
+    current.addQuery('assessment_selection_criteria.parent', parent.assessment_selection_criteria);
+    current.addQuery('candidate', parent.candidate);
+	
+
+})(current, parent);]]&gt;&lt;/query_with&gt;
+        &lt;reference_field/&gt;
+        &lt;related_list/&gt;
+        &lt;simple_reference&gt;false&lt;/simple_reference&gt;
+        &lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-12-25 08:11:01&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;7d3d1d6097446110a4deb9dfe153afbe&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Child Selection Criteria&lt;/sys_name&gt;
+        &lt;sys_package display_value="Candidate Assessment" source="x_431105_cand_ass"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Candidate Assessment"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_relationship_7d3d1d6097446110a4deb9dfe153afbe&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-12-25 10:13:07&lt;/sys_updated_on&gt;
+    &lt;/sys_relationship&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=7d3d1d6097446110a4deb9dfe153afbe"/&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1965234506</payload_hash>
+        <record_name>Child Selection Criteria</record_name>
+        <reverted_from/>
+        <source>bde4534e470321103fa44aff336d4334</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-28 11:53:18</sys_created_on>
+        <sys_id>58459f82474321103fa44aff336d43b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1886234a8a00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-28 11:53:18</sys_updated_on>
+        <type>Relationship</type>
+        <update_guid>18459f8208432110a2abe662c73abbb2</update_guid>
+        <update_guid_history>18459f8208432110a2abe662c73abbb2:-1965234506</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:58:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_relationship">sys_relationship</sys_db_object>
+        <sys_id>572f85d216e14a5e80856234222a5209</sys_id>
+        <sys_metadata>7d3d1d6097446110a4deb9dfe153afbe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Child Selection Criteria</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="">1fe4574e470321103fa44aff336d4385</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_relationship_7d3d1d6097446110a4deb9dfe153afbe</sys_update_name>
+        <sys_update_version display_value="sys_relationship_7d3d1d6097446110a4deb9dfe153afbe">58459f82474321103fa44aff336d43b2</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:58:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

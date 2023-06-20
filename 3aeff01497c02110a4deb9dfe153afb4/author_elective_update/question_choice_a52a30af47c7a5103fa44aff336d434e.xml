@@ -46,7 +46,7 @@
         <update_guid_history>ad2a30afcac7a51014db00c88d4e6d4f:28202528</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Forum des Carrières de l'Europe">dd82aa1c471321103fa44aff336d43ea</sys_audit_delete>
+        <sys_audit_delete display_value="">dd82aa1c471321103fa44aff336d43ea</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
         <sys_created_on>2023-06-04 07:57:58</sys_created_on>

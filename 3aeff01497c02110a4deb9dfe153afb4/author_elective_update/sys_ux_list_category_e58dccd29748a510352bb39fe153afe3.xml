@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="DELETE">
+        <active>true</active>
+        <configuration/>
+        <description/>
+        <order>100</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-30 12:50:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e58dccd29748a510352bb39fe153afe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assessment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ux_list_category_e58dccd29748a510352bb39fe153afe3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-30 12:50:47</sys_updated_on>
+        <title>Assessment</title>
+    </sys_ux_list_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_ux_list_category_e58dccd29748a510352bb39fe153afe3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category"><sys_ux_list_category action="INSERT_OR_UPDATE"><active>true</active><configuration/><description/><order>100</order><sys_class_name>sys_ux_list_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-30 12:50:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e58dccd29748a510352bb39fe153afe3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Assessment</sys_name><sys_overrides/><sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_ux_list_category_e58dccd29748a510352bb39fe153afe3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-30 12:50:47</sys_updated_on><title>Assessment</title></sys_ux_list_category></record_update>]]></payload>
+        <payload_hash>-1870961994</payload_hash>
+        <record_name>Assessment</record_name>
+        <reverted_from/>
+        <source>bf2ea49a470b21103fa44aff336d43af</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:58:49</sys_created_on>
+        <sys_id>f5b2e29c471321103fa44aff336d43ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188856a80880000001</sys_recorded_at>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:58:49</sys_updated_on>
+        <type>UX List Category</type>
+        <update_guid>b1b2e29c30132110afdd8db3d86ad9ef</update_guid>
+        <update_guid_history>b1b2e29c30132110afdd8db3d86ad9ef:0,14659b06f74321102f6a982de53275b6:1682848608</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:58:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list_category">sys_ux_list_category</sys_db_object>
+        <sys_id>b2c5091d45f94cb8bd418ad61edc7ad9</sys_id>
+        <sys_metadata>e58dccd29748a510352bb39fe153afe3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assessment</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_ux_list_category_e58dccd29748a510352bb39fe153afe3</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_category_e58dccd29748a510352bb39fe153afe3">f5b2e29c471321103fa44aff336d43ef</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:58:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

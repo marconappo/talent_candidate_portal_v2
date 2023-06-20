@@ -42,7 +42,7 @@
         <update_guid_history>699c246b1387a51043df100af60415ea:1224763676</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_431105_cand_ass_education_and_training.x_431105_cand_ass.president_chair">3096b0e747c7a5103fa44aff336d43ae</sys_audit_delete>
+        <sys_audit_delete display_value="">3096b0e747c7a5103fa44aff336d43ae</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>olivier.gregoire</sys_created_by>
         <sys_created_on>2023-06-01 16:10:54</sys_created_on>

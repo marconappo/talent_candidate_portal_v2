@@ -46,7 +46,7 @@
         <update_guid_history>652a30afd4c7a510a22c9fe2dcaa342e:923973806</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Driving license">7992a25c471321103fa44aff336d43fe</sys_audit_delete>
+        <sys_audit_delete display_value="">7992a25c471321103fa44aff336d43fe</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
         <sys_created_on>2023-06-04 07:58:17</sys_created_on>
@@ -56,7 +56,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Driving license</sys_name>
         <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
-        <sys_parent display_value="">dc2a7c6f47c7a5103fa44aff336d43cd</sys_parent>
+        <sys_parent display_value="Document type">dc2a7c6f47c7a5103fa44aff336d43cd</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
         <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>

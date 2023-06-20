@@ -46,7 +46,7 @@
         <update_guid_history>212a30af55c7a51024cf4e446161eb4d:1811006988</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="EU Careers Facebook">0182aa1c471321103fa44aff336d4396</sys_audit_delete>
+        <sys_audit_delete display_value="">0182aa1c471321103fa44aff336d4396</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
         <sys_created_on>2023-06-04 07:57:58</sys_created_on>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="44afe853475761103fa44aff336d4310" label="Talent test" max_length="40" name="x_431105_cand_ass_talent_test" type="collection">
-        <element label="Name" max_length="40" name="name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-    </element>
-</database>

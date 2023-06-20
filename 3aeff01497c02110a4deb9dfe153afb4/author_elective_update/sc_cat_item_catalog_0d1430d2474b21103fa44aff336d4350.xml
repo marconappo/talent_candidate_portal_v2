@@ -41,7 +41,7 @@
         <update_guid_history>d63c0f523f076110e9f05f67dbf66fbc:1897721215,cf9001d2688b21102a12d5159bd6f58e:495844983</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Human Resources Catalog.Appy for a competition">5e3c0f52470761103fa44aff336d43c0</sys_audit_delete>
+        <sys_audit_delete display_value="">5e3c0f52470761103fa44aff336d43c0</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2023-05-29 05:52:20</sys_created_on>
@@ -51,7 +51,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Human Resources Catalog.Appy for a competition</sys_name>
         <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
-        <sys_parent display_value="Apply for a competition">10533092474b21103fa44aff336d434a</sys_parent>
+        <sys_parent display_value="">10533092474b21103fa44aff336d434a</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
         <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>

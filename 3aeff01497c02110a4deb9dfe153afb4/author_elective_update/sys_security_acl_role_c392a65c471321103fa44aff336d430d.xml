@@ -42,7 +42,7 @@
         <update_guid_history>e792a65c5b13211069541df73d7e93a3:-898561019</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x.485912.candidate-selection.*.snc_internal">a792a65c471321103fa44aff336d43a5</sys_audit_delete>
+        <sys_audit_delete display_value="">a792a65c471321103fa44aff336d43a5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
         <sys_created_on>2023-06-04 07:58:23</sys_created_on>

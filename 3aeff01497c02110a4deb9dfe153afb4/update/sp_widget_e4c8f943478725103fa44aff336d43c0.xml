@@ -24,38 +24,38 @@
     };
 }]]></client_script>
         <controller_as>c</controller_as>
-        <css>$sp-space--xl : 24px !default;
-$sp-space--lg : 16px !default;
-.my-contact-panel {
-  background: white;
-  box-shadow: 0px 4px 8px rgba(23, 40, 52, 0.08);
-  border-radius: 8px;
-  padding: 0px $sp-space--xl;
-}
-.mycontact-panel-header-mobile{
-  padding: $sp-space--xl $sp-space--lg;
-}
-
-.mycontact-panel-header{
-  padding: $sp-space--xl;
-}
-
-.seprator {
-  margin: 0px;
-}
-
-
-//removes scroll bar at 400% zoom in 1280x1080 screen size
-	@media screen and (max-width: 360px){
-	  .table &gt; thead &gt; tr &gt; th,
-	    .table &gt; thead &gt; tr &gt; td,
-	    .table &gt; tbody &gt; tr &gt; th,
-	    .table &gt; tbody &gt; tr &gt; td,
-	    .table &gt; tfoot &gt; tr &gt; th,
-	    .table &gt; tfoot &gt; tr &gt; td {
-	      padding: 1px;
-	      white-space: normal;
-	    }
+        <css>$sp-space--xl : 24px !default;&#13;
+$sp-space--lg : 16px !default;&#13;
+.my-contact-panel {&#13;
+  background: white;&#13;
+  box-shadow: 0px 4px 8px rgba(23, 40, 52, 0.08);&#13;
+  border-radius: 8px;&#13;
+  padding: 0px $sp-space--xl;&#13;
+}&#13;
+.mycontact-panel-header-mobile{&#13;
+  padding: $sp-space--xl $sp-space--lg;&#13;
+}&#13;
+&#13;
+.mycontact-panel-header{&#13;
+  padding: $sp-space--xl;&#13;
+}&#13;
+&#13;
+.seprator {&#13;
+  margin: 0px;&#13;
+}&#13;
+&#13;
+&#13;
+//removes scroll bar at 400% zoom in 1280x1080 screen size&#13;
+	@media screen and (max-width: 360px){&#13;
+	  .table &gt; thead &gt; tr &gt; th,&#13;
+	    .table &gt; thead &gt; tr &gt; td,&#13;
+	    .table &gt; tbody &gt; tr &gt; th,&#13;
+	    .table &gt; tbody &gt; tr &gt; td,&#13;
+	    .table &gt; tfoot &gt; tr &gt; th,&#13;
+	    .table &gt; tfoot &gt; tr &gt; td {&#13;
+	      padding: 1px;&#13;
+	      white-space: normal;&#13;
+	    }&#13;
   }</css>
         <data_table>sp_instance</data_table>
         <demo_data/>

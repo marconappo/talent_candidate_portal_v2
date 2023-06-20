@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Apply for a competition">10533092474b21103fa44aff336d434a</cat_item>
+        <cat_item/>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -75,16 +75,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
-        <sys_created_on>2023-06-05 14:25:14</sys_created_on>
+        <sys_created_on>2023-06-01 20:53:25</sys_created_on>
         <sys_id>fb8bf8da474b21103fa44aff336d43a4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>You should also explain why this particular profile interests you.</sys_name>
         <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
         <sys_update_name>item_option_new_fb8bf8da474b21103fa44aff336d43a4</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-06-05 14:28:21</sys_updated_on>
+        <sys_updated_on>2023-06-01 20:56:57</sys_updated_on>
         <table/>
         <tooltip/>
         <type>2</type>
@@ -114,11 +114,11 @@
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>nappoma</sys_created_by>
-        <sys_created_on>2023-05-28 19:20:33</sys_created_on>
-        <sys_id>3f9b701e474b21103fa44aff336d4309</sys_id>
+        <sys_created_on>2023-06-04 08:01:05</sys_created_on>
+        <sys_id>0f332610475321103fa44aff336d4374</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nappoma</sys_updated_by>
-        <sys_updated_on>2023-05-28 19:20:33</sys_updated_on>
+        <sys_updated_on>2023-06-04 08:01:05</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -131,11 +131,11 @@
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>nappoma</sys_created_by>
-        <sys_created_on>2023-05-28 19:20:33</sys_created_on>
-        <sys_id>7f9b701e474b21103fa44aff336d4308</sys_id>
+        <sys_created_on>2023-06-04 08:01:05</sys_created_on>
+        <sys_id>43332610475321103fa44aff336d4374</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>nappoma</sys_updated_by>
-        <sys_updated_on>2023-05-28 19:20:33</sys_updated_on>
+        <sys_updated_on>2023-06-04 08:01:05</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

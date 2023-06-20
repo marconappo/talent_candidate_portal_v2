@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_rl_action">
+    <sys_ui_policy_rl_action action="DELETE">
+        <list>REL:9b0b312497c46110a4deb9dfe153af24</list>
+        <sys_class_name>sys_ui_policy_rl_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-01 11:03:29</sys_created_on>
+        <sys_id>7b18c23e9748a110c96bbf36f053afaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>REL:9b0b312497c46110a4deb9dfe153af24</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ui_policy_rl_action_7b18c23e9748a110c96bbf36f053afaa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-01 11:03:29</sys_updated_on>
+        <ui_policy display_value="Show Preselection Criteria if In Preselection">b1084efa9748a110c96bbf36f053af25</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_rl_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_ui_policy_rl_action_7b18c23e9748a110c96bbf36f053afaa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_rl_action">
+    <sys_ui_policy_rl_action action="INSERT_OR_UPDATE">
+        <list>REL:9b0b312497c46110a4deb9dfe153af24</list>
+        <sys_class_name>sys_ui_policy_rl_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-01 11:03:29</sys_created_on>
+        <sys_id>7b18c23e9748a110c96bbf36f053afaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>REL:9b0b312497c46110a4deb9dfe153af24</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ui_policy_rl_action_7b18c23e9748a110c96bbf36f053afaa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-01 11:03:29</sys_updated_on>
+        <ui_policy display_value="Show Preselection Criteria if In Preselection">b1084efa9748a110c96bbf36f053af25</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_rl_action>
+</record_update>]]></payload>
+        <payload_hash>411072412</payload_hash>
+        <record_name>REL:9b0b312497c46110a4deb9dfe153af24</record_name>
+        <reverted_from/>
+        <source>bde4534e470321103fa44aff336d4334</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-28 11:53:42</sys_created_on>
+        <sys_id>5255d306474321103fa44aff336d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188623509340000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-28 11:53:42</sys_updated_on>
+        <type>UI Policy Related List Action</type>
+        <update_guid>1255d3067f432110210e5536eeab2243</update_guid>
+        <update_guid_history>1255d3067f432110210e5536eeab2243:411072412</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:57:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_rl_action">sys_ui_policy_rl_action</sys_db_object>
+        <sys_id>b75317b0a52a4902a862590596665fa4</sys_id>
+        <sys_metadata>7b18c23e9748a110c96bbf36f053afaa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>REL:9b0b312497c46110a4deb9dfe153af24</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_rl_action_7b18c23e9748a110c96bbf36f053afaa</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_rl_action_7b18c23e9748a110c96bbf36f053afaa">5255d306474321103fa44aff336d4343</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:57:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

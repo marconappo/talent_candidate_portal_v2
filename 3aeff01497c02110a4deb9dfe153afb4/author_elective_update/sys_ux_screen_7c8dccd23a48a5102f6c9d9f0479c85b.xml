@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config/>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Knowledge View">3094297373311010b29f2e46fbf6a7a1</macroponent>
+        <macroponent_config>{&#13;
+  "label" : "",&#13;
+  "bare" : true,&#13;
+  "scrollable" : "y",&#13;
+  "headerLevel" : "1",&#13;
+  "interceptNotifications" : false,&#13;
+  "propagateNotifications" : false,&#13;
+  "views" : "",&#13;
+  "selectedTabIndex" : 0,&#13;
+  "table" : "",&#13;
+  "sysId" : ""&#13;
+}</macroponent_config>
+        <name>KB default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="KB">f08dccd25f48a5104cc2435621e0e35d</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-30 12:50:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c8dccd23a48a5102f6c9d9f0479c85b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ux_screen_7c8dccd23a48a5102f6c9d9f0479c85b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-30 12:50:45</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=7c8dccd23a48a5102f6c9d9f0479c85b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_ux_screen_7c8dccd23a48a5102f6c9d9f0479c85b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config/><description/><event_mappings/><macroponent display_value="Knowledge View">3094297373311010b29f2e46fbf6a7a1</macroponent><macroponent_config>{&#13;
+  "label" : "",&#13;
+  "bare" : true,&#13;
+  "scrollable" : "y",&#13;
+  "headerLevel" : "1",&#13;
+  "interceptNotifications" : false,&#13;
+  "propagateNotifications" : false,&#13;
+  "views" : "",&#13;
+  "selectedTabIndex" : 0,&#13;
+  "table" : "",&#13;
+  "sysId" : ""&#13;
+}</macroponent_config><name>KB default</name><order>0</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><required_translations>[]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="KB">f08dccd25f48a5104cc2435621e0e35d</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-30 12:50:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7c8dccd23a48a5102f6c9d9f0479c85b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>KB default</sys_name><sys_overrides/><sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_ux_screen_7c8dccd23a48a5102f6c9d9f0479c85b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-30 12:50:45</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=7c8dccd23a48a5102f6c9d9f0479c85b"/></record_update>]]></payload>
+        <payload_hash>973715510</payload_hash>
+        <record_name>KB default</record_name>
+        <reverted_from/>
+        <source>bf2ea49a470b21103fa44aff336d43af</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:58:02</sys_created_on>
+        <sys_id>52822e1c471321103fa44aff336d43ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1888569c9320000001</sys_recorded_at>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:58:02</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>1e822e1cda1321100bdb4c72ec264afe</update_guid>
+        <update_guid_history>1e822e1cda1321100bdb4c72ec264afe:0,cd655f06bc43211041f2601bc647ab7a:-890406168</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:58:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>1fd53bd863cb4b8abc0daba3c06d54c1</sys_id>
+        <sys_metadata>7c8dccd23a48a5102f6c9d9f0479c85b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB default</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_7c8dccd23a48a5102f6c9d9f0479c85b</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_7c8dccd23a48a5102f6c9d9f0479c85b">52822e1c471321103fa44aff336d43ff</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:58:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

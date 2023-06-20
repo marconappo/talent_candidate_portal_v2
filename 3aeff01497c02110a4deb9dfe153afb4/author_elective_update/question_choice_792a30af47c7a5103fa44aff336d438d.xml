@@ -46,7 +46,7 @@
         <update_guid_history>712a30afb3c7a5102b8b27134621728f:851873972</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="LSE - International Organisations Day">1582aa1c471321103fa44aff336d43ba</sys_audit_delete>
+        <sys_audit_delete display_value="">1582aa1c471321103fa44aff336d43ba</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
         <sys_created_on>2023-06-04 07:57:58</sys_created_on>

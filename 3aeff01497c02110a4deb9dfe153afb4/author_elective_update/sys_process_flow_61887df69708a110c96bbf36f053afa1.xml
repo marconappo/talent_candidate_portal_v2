@@ -1,57 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
     <sys_process_flow action="DELETE">
-        <active>true</active>
-        <condition table="x_431105_cand_ass_talent_application">stepstone=admission_test_info^EQ<item display_value="Admission Test Info" endquery="false" field="stepstone" goto="false" newquery="false" operator="=" or="false" value="admission_test_info"/>
+        <active>false</active>
+        <condition table="x_431105_cand_ass_candidate">state=20^EQ<item display_value="20" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="20"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <description/>
-        <label>Invitation CBT</label>
+        <label>Appl. Validated</label>
         <name>Candidate Flow</name>
         <order>2</order>
         <sys_class_name>sys_process_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-01 09:55:14</sys_created_on>
         <sys_id>61887df69708a110c96bbf36f053afa1</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Candidate Flow</sys_name>
         <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
         <sys_update_name>sys_process_flow_61887df69708a110c96bbf36f053afa1</sys_update_name>
         <sys_updated_by>nappoma</sys_updated_by>
-        <sys_updated_on>2023-06-07 06:57:58</sys_updated_on>
-        <table>x_431105_cand_ass_talent_application</table>
+        <sys_updated_on>2023-05-23 12:07:07</sys_updated_on>
+        <table>x_431105_cand_ass_candidate</table>
     </sys_process_flow>
-    <sys_update_version action="INSERT_OR_UPDATE">
+<sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
         <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
         <file_path/>
         <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
         <instance_name>dev168883</instance_name>
         <name>sys_process_flow_61887df69708a110c96bbf36f053afa1</name>
-        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow"><sys_process_flow action="INSERT_OR_UPDATE"><active>true</active><condition table="x_431105_cand_ass_talent_application">stepstone=admission_test_info^EQ<item display_value="Admission Test Info" endquery="false" field="stepstone" goto="false" newquery="false" operator="=" or="false" value="admission_test_info"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><label>Invitation CBT</label><name>Candidate Flow</name><order>2</order><sys_class_name>sys_process_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-01 09:55:14</sys_created_on><sys_id>61887df69708a110c96bbf36f053afa1</sys_id><sys_mod_count>10</sys_mod_count><sys_name>Candidate Flow</sys_name><sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_process_flow_61887df69708a110c96bbf36f053afa1</sys_update_name><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-06-07 06:57:58</sys_updated_on><table>x_431105_cand_ass_talent_application</table></sys_process_flow></record_update>]]></payload>
-        <payload_hash>1282290788</payload_hash>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition table="x_431105_cand_ass_candidate">state=20^EQ<item display_value="20" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="20"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Appl. Validated</label>
+        <name>Candidate Flow</name>
+        <order>2</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-01 09:55:14</sys_created_on>
+        <sys_id>61887df69708a110c96bbf36f053afa1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Candidate Flow</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_process_flow_61887df69708a110c96bbf36f053afa1</sys_update_name>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-23 12:07:07</sys_updated_on>
+        <table>x_431105_cand_ass_candidate</table>
+    </sys_process_flow>
+</record_update>]]></payload>
+        <payload_hash>-1010241709</payload_hash>
         <record_name>Candidate Flow</record_name>
         <reverted_from/>
-        <source>999a6834479f61103fa44aff336d43f1</source>
-        <source_table>sys_update_set</source_table>
+        <source>bde4534e470321103fa44aff336d4334</source>
+        <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by>nappoma</sys_created_by>
-        <sys_created_on>2023-06-07 06:57:58</sys_created_on>
-        <sys_id>6f8171d1479f21103fa44aff336d4379</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-28 11:53:16</sys_created_on>
+        <sys_id>b7355f82474321103fa44aff336d43a4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_recorded_at>18894a5deea0000001</sys_recorded_at>
-        <sys_updated_by>nappoma</sys_updated_by>
-        <sys_updated_on>2023-06-07 06:57:58</sys_updated_on>
+        <sys_recorded_at>1886234a31c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-28 11:53:16</sys_updated_on>
         <type>Flow Formatter</type>
-        <update_guid>a38171d14b9f2110796287bb71b9cc79</update_guid>
-        <update_guid_history>a38171d14b9f2110796287bb71b9cc79:1282290788,be717d91cf9f2110b195842b1afa8fd6:1858288485,20eb6599dd5f21101c580c58f5543247:1591278165,53dbed99a25f21107f846f2490d187c4:1524437985,392ba119785f2110302fdbad24dc91d5:-1978046712,7b552fa4ab1b61109eccac05b84356e2:0,7b552fa4ab1b61109eccac05b84356e2:0,a9622ed84a132110b2f69a6a2fabf09a:-961923479,77355f824c432110db5effe801e4f2a4:-1010241709</update_guid_history>
+        <update_guid>77355f824c432110db5effe801e4f2a4</update_guid>
+        <update_guid_history>77355f824c432110db5effe801e4f2a4:-1010241709</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
         <sys_audit_delete/>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
-        <sys_created_on>2023-06-09 00:04:15</sys_created_on>
+        <sys_created_on>2023-06-04 07:57:27</sys_created_on>
         <sys_db_object display_value="" name="sys_process_flow">sys_process_flow</sys_db_object>
         <sys_id>59e22ff7202b4f06afd08b4af627e4e1</sys_id>
         <sys_metadata>61887df69708a110c96bbf36f053afa1</sys_metadata>
@@ -63,8 +87,8 @@
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
         <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
         <sys_update_name>sys_process_flow_61887df69708a110c96bbf36f053afa1</sys_update_name>
-        <sys_update_version display_value="sys_process_flow_61887df69708a110c96bbf36f053afa1">6f8171d1479f21103fa44aff336d4379</sys_update_version>
+        <sys_update_version display_value="sys_process_flow_61887df69708a110c96bbf36f053afa1">b7355f82474321103fa44aff336d43a4</sys_update_version>
         <sys_updated_by>nappoma</sys_updated_by>
-        <sys_updated_on>2023-06-09 00:04:15</sys_updated_on>
+        <sys_updated_on>2023-06-04 07:57:27</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

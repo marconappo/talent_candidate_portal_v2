@@ -68,7 +68,7 @@
         <update_guid_history>31b178de5c0b2110c8c7f822567c8802:1992938469,3781f0ded10b211094faf29f8051c611:-623716613</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Appy for a competition">97827412474b21103fa44aff336d4317</sys_audit_delete>
+        <sys_audit_delete display_value="">97827412474b21103fa44aff336d4317</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
         <sys_created_on>2023-05-28 18:40:56</sys_created_on>

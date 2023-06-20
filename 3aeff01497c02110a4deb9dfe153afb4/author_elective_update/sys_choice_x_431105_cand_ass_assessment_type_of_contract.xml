@@ -5,7 +5,7 @@
             <name>x_431105_cand_ass_assessment</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-18 08:08:00</sys_created_on>
+            <sys_created_on>2023-06-04 08:44:40</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>type_of_contract</sys_name>
             <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
@@ -13,83 +13,7 @@
             <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
             <sys_update_name>sys_choice_x_431105_cand_ass_assessment_type_of_contract</sys_update_name>
             <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-18 08:08:00</sys_updated_on>
+            <sys_updated_on>2023-06-04 08:44:40</sys_updated_on>
         </sys_choice_set>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type_of_contract</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Seconded national expert (SNE)</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_assessment</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-19 18:54:05</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-19 18:54:23</sys_updated_on>
-            <value>Seconded national expert (SNE)</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type_of_contract</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Permanent official</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_assessment</name>
-            <sequence>1</sequence>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-18 08:08:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-18 08:08:00</sys_updated_on>
-            <value>Permanent official</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type_of_contract</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Contract staff</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_assessment</name>
-            <sequence>2</sequence>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-18 09:55:13</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-18 09:55:22</sys_updated_on>
-            <value>Contract staff</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type_of_contract</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Temporary staff</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_assessment</name>
-            <sequence>3</sequence>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-18 09:56:17</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-18 09:56:24</sys_updated_on>
-            <value>Temporary staff</value>
-        </sys_choice>
     </sys_choice>
 </record_update>

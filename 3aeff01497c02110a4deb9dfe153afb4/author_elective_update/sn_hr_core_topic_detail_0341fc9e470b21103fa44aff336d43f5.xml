@@ -43,7 +43,7 @@
         <update_guid_history>0751b85e1a0b2110fe77bfe0403d86ad:-684969313</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Competition">8bb27412474b21103fa44aff336d4348</sys_audit_delete>
+        <sys_audit_delete display_value="">8bb27412474b21103fa44aff336d4348</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
         <sys_created_on>2023-05-28 18:41:43</sys_created_on>

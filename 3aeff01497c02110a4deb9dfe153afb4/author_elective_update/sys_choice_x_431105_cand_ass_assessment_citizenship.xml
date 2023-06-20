@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="citizenship" table="x_431105_cand_ass_assessment" version="3">
-        <sys_choice_set action="INSERT_OR_UPDATE">
+    <sys_choice action="DELETE" field="citizenship" table="x_431105_cand_ass_assessment" version="3">
+        <sys_choice_set action="DELETE">
             <element>citizenship</element>
             <name>x_431105_cand_ass_assessment</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>nappoma</sys_created_by>
             <sys_created_on>2023-05-20 00:29:20</sys_created_on>
+            <sys_id>8bfb6f9747722510691e7258946d4391</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>citizenship</sys_name>
             <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
@@ -15,309 +16,50 @@
             <sys_updated_by>nappoma</sys_updated_by>
             <sys_updated_on>2023-05-20 00:29:20</sys_updated_on>
         </sys_choice_set>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>citizenship</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Germany</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_assessment</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-20 00:31:54</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-06-05 12:09:49</sys_updated_on>
-            <value/>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>citizenship</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Latvia</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_assessment</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-20 00:32:02</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-20 00:32:02</sys_updated_on>
-            <value/>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>citizenship</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Germany</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_assessment</name>
-            <sequence>0</sequence>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-20 00:31:47</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-20 09:54:44</sys_updated_on>
-            <value/>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>citizenship</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Germany</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_assessment</name>
-            <sequence>0</sequence>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-20 00:31:43</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-06-05 12:10:58</sys_updated_on>
-            <value/>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>citizenship</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Germany</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_assessment</name>
-            <sequence>0</sequence>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-20 00:31:51</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-06-05 12:09:49</sys_updated_on>
-            <value/>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>citizenship</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>Germany</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_assessment</name>
-            <sequence>1</sequence>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-20 00:31:58</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-06-05 12:10:58</sys_updated_on>
-            <value/>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>citizenship</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Austria</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_assessment</name>
-            <sequence>1</sequence>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-20 00:29:20</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-20 00:29:40</sys_updated_on>
-            <value>Austria</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>citizenship</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Belgium</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_assessment</name>
-            <sequence>2</sequence>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-20 00:29:27</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-20 00:29:42</sys_updated_on>
-            <value>Belgium</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>citizenship</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Bulgaria</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_assessment</name>
-            <sequence>3</sequence>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-20 00:29:35</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-20 00:29:44</sys_updated_on>
-            <value>Bulgaria</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>citizenship</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Croatia</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_assessment</name>
-            <sequence>4</sequence>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-20 00:29:50</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-20 00:32:32</sys_updated_on>
-            <value>Croatia</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>citizenship</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Cyprus</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_assessment</name>
-            <sequence>5</sequence>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-20 00:29:54</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-20 00:32:34</sys_updated_on>
-            <value>Cyprus</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>citizenship</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Czech republic</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_assessment</name>
-            <sequence>6</sequence>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-20 00:30:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-20 00:32:36</sys_updated_on>
-            <value>Czech republic</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>citizenship</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Denmark</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_assessment</name>
-            <sequence>7</sequence>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-20 00:30:05</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-20 00:32:56</sys_updated_on>
-            <value>Denmark</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>citizenship</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Estonia</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_assessment</name>
-            <sequence>8</sequence>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-20 00:30:09</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-20 00:32:58</sys_updated_on>
-            <value>Estonia</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>citizenship</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Finland</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_assessment</name>
-            <sequence>9</sequence>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-20 00:30:13</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-20 00:33:00</sys_updated_on>
-            <value>Finland</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>citizenship</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>France</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_assessment</name>
-            <sequence>10</sequence>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-20 00:30:21</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-20 00:33:03</sys_updated_on>
-            <value>France</value>
-        </sys_choice>
     </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_choice_x_431105_cand_ass_assessment_citizenship</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="citizenship" table="x_431105_cand_ass_assessment" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>citizenship</element><name>x_431105_cand_ass_assessment</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-05-20 00:29:20</sys_created_on><sys_id>8bfb6f9747722510691e7258946d4391</sys_id><sys_mod_count>0</sys_mod_count><sys_name>citizenship</sys_name><sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_choice_x_431105_cand_ass_assessment_citizenship</sys_update_name><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-05-20 00:29:20</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>266707562</payload_hash>
+        <record_name>x_431105_cand_ass_assessment.citizenship</record_name>
+        <reverted_from/>
+        <source>bf2ea49a470b21103fa44aff336d43af</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:56:02</sys_created_on>
+        <sys_id>f4122258471321103fa44aff336d4363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1888567f3ee0000001</sys_recorded_at>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:56:02</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>7c1222583b132110baa78672d6b7da62</update_guid>
+        <update_guid_history>7c1222583b132110baa78672d6b7da62:266707562,3c122258ee132110e4dff6cc34045804:-640707069,f412ee180b132110579e49cb130df9bf:-1078035436,2012ee18f3132110dd8e24cfec512693:-1749041258,6812ee1836132110b09d0b6e9e9acf66:-1892108323,a012ee1802132110d61b1d56d958a13a:-891939841,d812ee18a6132110ec7c6813318e350d:230894306,1412ae18ee132110a946097b8dcffce1:828232452,1812ae1858132110b51caed35bf3968f:-1169704375,5012ae184f1321108f7ddcab5f840d63:650098745,8812ae189e132110f8de6ea64a131536:-678787633,c012ae187013211018636e791da7340a:-1422353574,0c126e18121321102ed5053419fe44dd:1348868358,77026e1828132110b891a282485524b1:-880518973,bf026e1885132110418fc75f137f0784:-1546769336,f7026e189c1321108acc4efe942d6558:-1540204409,a265d3460b432110cb0bd3de1833945a:-279353612</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:58:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>9cf2b2a79f0047908de034f975b60640</sys_id>
+        <sys_metadata>8bfb6f9747722510691e7258946d4391</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>citizenship</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="">94f45b4e470321103fa44aff336d4380</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_choice_x_431105_cand_ass_assessment_citizenship</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_431105_cand_ass_assessment_citizenship">f4122258471321103fa44aff336d4363</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:58:24</sys_updated_on>
+    </sys_metadata_delete>
 </record_update>

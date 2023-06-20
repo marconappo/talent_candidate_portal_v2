@@ -46,7 +46,7 @@
         <update_guid_history>7d2a30afa3c7a510d77ef51646b36d94:-1966381454</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="EU Careers Presentation">5982aa1c471321103fa44aff336d43b4</sys_audit_delete>
+        <sys_audit_delete display_value="">5982aa1c471321103fa44aff336d43b4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
         <sys_created_on>2023-06-04 07:57:58</sys_created_on>

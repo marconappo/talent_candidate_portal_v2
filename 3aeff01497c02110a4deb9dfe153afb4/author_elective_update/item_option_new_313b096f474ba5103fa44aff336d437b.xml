@@ -171,7 +171,7 @@
         <update_guid_history>338b01aff94ba51090c7ca029e07cdb0:213812256,b93b096ff64ba5102019924252817f8f:200984573</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="First name">447cc5ef474ba5103fa44aff336d43d1</sys_audit_delete>
+        <sys_audit_delete display_value="">447cc5ef474ba5103fa44aff336d43d1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
         <sys_created_on>2023-06-01 17:46:26</sys_created_on>

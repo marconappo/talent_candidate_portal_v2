@@ -171,7 +171,7 @@
         <update_guid_history>f53b096f8c4ba51076c2f49c623650a8:-806260212</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Email">907cc5ef474ba5103fa44aff336d43f7</sys_audit_delete>
+        <sys_audit_delete display_value="">907cc5ef474ba5103fa44aff336d43f7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
         <sys_created_on>2023-06-01 17:46:26</sys_created_on>

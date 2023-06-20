@@ -78,7 +78,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>preselection_score</sys_name>
         <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
-        <sys_parent display_value="Show Exclusion reasons if  Closure and NOT scores">4709502a974ce510352bb39fe153af41</sys_parent>
+        <sys_parent display_value="">4709502a974ce510352bb39fe153af41</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
         <sys_scope_delete/>

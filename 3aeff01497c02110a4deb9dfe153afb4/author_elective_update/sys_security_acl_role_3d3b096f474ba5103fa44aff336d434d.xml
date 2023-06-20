@@ -42,7 +42,7 @@
         <update_guid_history>16826e1c42132110008b956f7ae8f130:-1022634710</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_431105_cand_ass_self_reg_user_profile_895160.admin">92826e1c471321103fa44aff336d4333</sys_audit_delete>
+        <sys_audit_delete display_value="">92826e1c471321103fa44aff336d4333</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
         <sys_created_on>2023-06-04 07:58:02</sys_created_on>

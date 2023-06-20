@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>Assessment</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Assessment</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">fe634cb454302110a866ac4e61313182</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-01 20:23:56</sys_created_on>
+        <sys_id>36680c872f4c6110603a50492799b637</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assessment</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_wizard_answer_36680c872f4c6110603a50492799b637</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-01 20:23:56</sys_updated_on>
+        <table/>
+        <target_url>x_431105_cand_ass_assessment.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_wizard_answer_36680c872f4c6110603a50492799b637</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Assessment</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Assessment</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">fe634cb454302110a866ac4e61313182</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-01 20:23:56</sys_created_on>
+        <sys_id>36680c872f4c6110603a50492799b637</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assessment</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_wizard_answer_36680c872f4c6110603a50492799b637</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-01 20:23:56</sys_updated_on>
+        <table/>
+        <target_url>x_431105_cand_ass_assessment.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>]]></payload>
+        <payload_hash>-217409785</payload_hash>
+        <record_name>Assessment</record_name>
+        <reverted_from/>
+        <source>bde4534e470321103fa44aff336d4334</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-28 11:53:58</sys_created_on>
+        <sys_id>ca655346474321103fa44aff336d4327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188623544de0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-28 11:53:58</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>8a65534680432110835d5fc83b74d627</update_guid>
+        <update_guid_history>8a65534680432110835d5fc83b74d627:-217409785</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:56:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>044a281aa6f44eb08cdbc7675ee60a90</sys_id>
+        <sys_metadata>36680c872f4c6110603a50492799b637</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assessment</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="">953a4739e821211076da10591ad28742</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_36680c872f4c6110603a50492799b637</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_36680c872f4c6110603a50492799b637">ca655346474321103fa44aff336d4327</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:56:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

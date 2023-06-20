@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Apply for internal competition [BROKEN]]">c02a386f47c7a5103fa44aff336d4310</cat_item>
+        <cat_item display_value="Apply for internal competition">c02a386f47c7a5103fa44aff336d4310</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>

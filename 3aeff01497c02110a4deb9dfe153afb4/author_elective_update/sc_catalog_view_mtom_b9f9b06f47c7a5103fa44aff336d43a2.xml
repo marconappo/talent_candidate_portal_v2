@@ -42,7 +42,7 @@
         <update_guid_history>39f9b06fbec7a5100d0ba11bf59e5ea4:706651608</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Candidate Catalog.catalog_candidate_catalog">2a826e1c471321103fa44aff336d43ac</sys_audit_delete>
+        <sys_audit_delete display_value="">2a826e1c471321103fa44aff336d43ac</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
         <sys_created_on>2023-06-04 07:58:03</sys_created_on>

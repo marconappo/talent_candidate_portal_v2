@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view_workspace">
+    <sysrule_view_workspace action="DELETE">
+        <active>true</active>
+        <condition/>
+        <default_tab_focus>45cbaefc1b80e1101f602f08b04bcbd3</default_tab_focus>
+        <default_tab_order>false</default_tab_order>
+        <description/>
+        <disable_section_collapse>true</disable_section_collapse>
+        <experience_restricted>true</experience_restricted>
+        <hide_details>true</hide_details>
+        <hide_journal_input_fields>true</hide_journal_input_fields>
+        <hide_section_menu>true</hide_section_menu>
+        <name>CA View Rule</name>
+        <order>100</order>
+        <roles>x_431105_cand_ass.admin</roles>
+        <sys_class_name>sysrule_view_workspace</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 02:15:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>922f9e451b4825101f602f08b04bcb37</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>CA View Rule</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sysrule_view_workspace_922f9e451b4825101f602f08b04bcb37</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 02:37:11</sys_updated_on>
+        <table>x_431105_cand_ass_assessment</table>
+        <tabs_order>[{"label":"Playbook","value":"45cbaefc1b80e1101f602f08b04bcbd3"},{"label":"Details","value":"Details"},{"label":"Candidate-&gt;Assessment","value":"x_431105_cand_ass_candidate.assessment"},{"label":"Exclusion Reason-&gt;Assessment","value":"x_431105_cand_ass_exclusion_reason.assessment"},{"label":"Main CBT Criteria","value":"REL:53db796497c46110a4deb9dfe153af4a"},{"label":"Main Preselection Criteria","value":"REL:63cb396497c46110a4deb9dfe153af45"},{"label":"Main Selection Criteria","value":"REL:3b1a7da097c46110a4deb9dfe153af1d"}]</tabs_order>
+        <view display_value="Default view" name="NULL">Default view</view>
+        <workspace display_value="Agent Workspace">7b24ceae5304130084acddeeff7b12a3</workspace>
+    </sysrule_view_workspace>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sysrule_view_workspace_922f9e451b4825101f602f08b04bcb37</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view_workspace">
+    <sysrule_view_workspace action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <default_tab_focus>45cbaefc1b80e1101f602f08b04bcbd3</default_tab_focus>
+        <default_tab_order>false</default_tab_order>
+        <description/>
+        <disable_section_collapse>true</disable_section_collapse>
+        <experience_restricted>true</experience_restricted>
+        <hide_details>true</hide_details>
+        <hide_journal_input_fields>true</hide_journal_input_fields>
+        <hide_section_menu>true</hide_section_menu>
+        <name>CA View Rule</name>
+        <order>100</order>
+        <roles>x_431105_cand_ass.admin</roles>
+        <sys_class_name>sysrule_view_workspace</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 02:15:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>922f9e451b4825101f602f08b04bcb37</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>CA View Rule</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sysrule_view_workspace_922f9e451b4825101f602f08b04bcb37</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 02:37:11</sys_updated_on>
+        <table>x_431105_cand_ass_assessment</table>
+        <tabs_order>[{"label":"Playbook","value":"45cbaefc1b80e1101f602f08b04bcbd3"},{"label":"Details","value":"Details"},{"label":"Candidate-&gt;Assessment","value":"x_431105_cand_ass_candidate.assessment"},{"label":"Exclusion Reason-&gt;Assessment","value":"x_431105_cand_ass_exclusion_reason.assessment"},{"label":"Main CBT Criteria","value":"REL:53db796497c46110a4deb9dfe153af4a"},{"label":"Main Preselection Criteria","value":"REL:63cb396497c46110a4deb9dfe153af45"},{"label":"Main Selection Criteria","value":"REL:3b1a7da097c46110a4deb9dfe153af1d"}]</tabs_order>
+        <view display_value="Default view" name="NULL">Default view</view>
+        <workspace display_value="Agent Workspace">7b24ceae5304130084acddeeff7b12a3</workspace>
+    </sysrule_view_workspace>
+</record_update>]]></payload>
+        <payload_hash>-2126645284</payload_hash>
+        <record_name>CA View Rule</record_name>
+        <reverted_from/>
+        <source>bde4534e470321103fa44aff336d4334</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-28 11:53:58</sys_created_on>
+        <sys_id>c2655346474321103fa44aff336d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188623545e40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-28 11:53:58</sys_updated_on>
+        <type>View Rule</type>
+        <update_guid>82655346784321102f04398c81cede7f</update_guid>
+        <update_guid_history>82655346784321102f04398c81cede7f:-2126645284</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:58:30</sys_created_on>
+        <sys_db_object display_value="" name="sysrule_view_workspace">sysrule_view_workspace</sys_db_object>
+        <sys_id>441daf016e574a449ddcebc8c742e790</sys_id>
+        <sys_metadata>922f9e451b4825101f602f08b04bcb37</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CA View Rule</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sysrule_view_workspace_922f9e451b4825101f602f08b04bcb37</sys_update_name>
+        <sys_update_version display_value="sysrule_view_workspace_922f9e451b4825101f602f08b04bcb37">c2655346474321103fa44aff336d437f</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:58:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

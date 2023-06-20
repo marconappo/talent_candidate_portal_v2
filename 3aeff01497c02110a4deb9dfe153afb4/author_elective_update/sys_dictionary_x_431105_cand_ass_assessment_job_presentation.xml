@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="job_presentation" table="x_431105_cand_ass_assessment">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Job presentation</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value>We propose a challenging and rewarding position as leader of one of the most important units for the Digital Transformation of the Commission. The daily work will cover 2 wide areas of our business, from Payment Office Support to digitally transforming Policy Making, as well as technical matters like supporting legacy systems, implementing innovative solutions employing Al, Data Mining, etc. This broad areas of responsibility comes with management of a significant team and budget. This requires the job holder to operate both at operational and at highly strategic level Operational, the unit is responsible for the day to day support of solutions used by the institutions staff and pensioners as well as externally facing solutions and services used by Member States (like the internal Market Information System). It is also responsible for the European public (.9 European Citizens Initiative or the Single Digital Gateway)</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>job_presentation</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>2000</max_length>
+        <name>x_431105_cand_ass_assessment</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-29 14:37:56</sys_created_on>
+        <sys_id>ee198b2647ba2110691e7258946d434d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Job presentation</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_dictionary_x_431105_cand_ass_assessment_job_presentation</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 14:01:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_dictionary_x_431105_cand_ass_assessment_job_presentation</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="job_presentation" table="x_431105_cand_ass_assessment">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Job presentation</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value>We propose a challenging and rewarding position as leader of one of the most important units for the Digital Transformation of the Commission. The daily work will cover 2 wide areas of our business, from Payment Office Support to digitally transforming Policy Making, as well as technical matters like supporting legacy systems, implementing innovative solutions employing Al, Data Mining, etc. This broad areas of responsibility comes with management of a significant team and budget. This requires the job holder to operate both at operational and at highly strategic level Operational, the unit is responsible for the day to day support of solutions used by the institutions staff and pensioners as well as externally facing solutions and services used by Member States (like the internal Market Information System). It is also responsible for the European public (.9 European Citizens Initiative or the Single Digital Gateway)</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>job_presentation</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>2000</max_length>
+        <name>x_431105_cand_ass_assessment</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-29 14:37:56</sys_created_on>
+        <sys_id>ee198b2647ba2110691e7258946d434d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Job presentation</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_dictionary_x_431105_cand_ass_assessment_job_presentation</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 14:01:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+</record_update>]]></payload>
+        <payload_hash>419688388</payload_hash>
+        <record_name>Publication.Job presentation</record_name>
+        <reverted_from/>
+        <source>bde4534e470321103fa44aff336d4334</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-28 11:52:28</sys_created_on>
+        <sys_id>0815dbce470321103fa44aff336d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1886233e4c30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-28 11:52:28</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>0415dbcea80321101e61ee29108f560b</update_guid>
+        <update_guid_history>0415dbcea80321101e61ee29108f560b:0,c0159bce130321101c6b8ff76f43eaf9:915193525</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:56:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>1f7efcab58ef4848a72d66517f0e7984</sys_id>
+        <sys_metadata>a4f49b4e470321103fa44aff336d435d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Job presentation</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="">9be4974e470321103fa44aff336d4308</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_431105_cand_ass_assessment_job_presentation</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_431105_cand_ass_assessment_job_presentation">0815dbce470321103fa44aff336d430b</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:56:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

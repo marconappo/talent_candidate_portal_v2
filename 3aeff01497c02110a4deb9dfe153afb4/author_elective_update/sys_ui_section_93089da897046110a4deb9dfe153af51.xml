@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="93089da897046110a4deb9dfe153af51" sys_domain="global" table="x_431105_cand_ass_candidate_selection_criteria_score" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assessment_selection_criteria</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-30 13:42:08</sys_created_on>
+            <sys_id>6d4958169788a510352bb39fe153af30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_431105_cand_ass_candidate_selection_criteria_score" sys_domain="global" view="Default view">93089da897046110a4deb9dfe153af51</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-30 13:42:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assessment_selection_criteria.max_value</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-30 13:42:08</sys_created_on>
+            <sys_id>654958169788a510352bb39fe153af31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_431105_cand_ass_candidate_selection_criteria_score" sys_domain="global" view="Default view">93089da897046110a4deb9dfe153af51</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-30 13:42:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-30 13:42:08</sys_created_on>
+            <sys_id>694958169788a510352bb39fe153af31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_431105_cand_ass_candidate_selection_criteria_score" sys_domain="global" view="Default view">93089da897046110a4deb9dfe153af51</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-30 13:42:08</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>candidate</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-30 13:42:08</sys_created_on>
+            <sys_id>6d4958169788a510352bb39fe153af31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_431105_cand_ass_candidate_selection_criteria_score" sys_domain="global" view="Default view">93089da897046110a4deb9dfe153af51</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-30 13:42:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>score</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-30 13:42:08</sys_created_on>
+            <sys_id>614958169788a510352bb39fe153af32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_431105_cand_ass_candidate_selection_criteria_score" sys_domain="global" view="Default view">93089da897046110a4deb9dfe153af51</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-30 13:42:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-30 13:42:08</sys_created_on>
+            <sys_id>654958169788a510352bb39fe153af32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_431105_cand_ass_candidate_selection_criteria_score" sys_domain="global" view="Default view">93089da897046110a4deb9dfe153af51</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-30 13:42:08</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reason</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-30 13:42:08</sys_created_on>
+            <sys_id>694958169788a510352bb39fe153af32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_431105_cand_ass_candidate_selection_criteria_score" sys_domain="global" view="Default view">93089da897046110a4deb9dfe153af51</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-30 13:42:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>application</element>
+            <position>7</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-29 08:38:25</sys_created_on>
+            <sys_id>1f32b3da47c761103fa44aff336d4326</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_431105_cand_ass_candidate_selection_criteria_score" sys_domain="global" view="Default view">93089da897046110a4deb9dfe153af51</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-29 08:38:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_431105_cand_ass_candidate_selection_criteria_score</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-25 07:47:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93089da897046110a4deb9dfe153af51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_431105_cand_ass_candidate_selection_criteria_score</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+            <sys_update_name>sys_ui_section_93089da897046110a4deb9dfe153af51</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-25 07:47:02</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_ui_section_93089da897046110a4deb9dfe153af51</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="93089da897046110a4deb9dfe153af51" sys_domain="global" table="x_431105_cand_ass_candidate_selection_criteria_score" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>assessment_selection_criteria</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-30 13:42:08</sys_created_on><sys_id>6d4958169788a510352bb39fe153af30</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_431105_cand_ass_candidate_selection_criteria_score" sys_domain="global" view="Default view">93089da897046110a4deb9dfe153af51</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-30 13:42:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assessment_selection_criteria.max_value</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-30 13:42:08</sys_created_on><sys_id>654958169788a510352bb39fe153af31</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_431105_cand_ass_candidate_selection_criteria_score" sys_domain="global" view="Default view">93089da897046110a4deb9dfe153af51</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-30 13:42:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-30 13:42:08</sys_created_on><sys_id>694958169788a510352bb39fe153af31</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_431105_cand_ass_candidate_selection_criteria_score" sys_domain="global" view="Default view">93089da897046110a4deb9dfe153af51</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-30 13:42:08</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>candidate</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-30 13:42:08</sys_created_on><sys_id>6d4958169788a510352bb39fe153af31</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_431105_cand_ass_candidate_selection_criteria_score" sys_domain="global" view="Default view">93089da897046110a4deb9dfe153af51</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-30 13:42:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>score</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-30 13:42:08</sys_created_on><sys_id>614958169788a510352bb39fe153af32</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_431105_cand_ass_candidate_selection_criteria_score" sys_domain="global" view="Default view">93089da897046110a4deb9dfe153af51</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-30 13:42:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-30 13:42:08</sys_created_on><sys_id>654958169788a510352bb39fe153af32</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_431105_cand_ass_candidate_selection_criteria_score" sys_domain="global" view="Default view">93089da897046110a4deb9dfe153af51</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-30 13:42:08</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>reason</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-30 13:42:08</sys_created_on><sys_id>694958169788a510352bb39fe153af32</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_431105_cand_ass_candidate_selection_criteria_score" sys_domain="global" view="Default view">93089da897046110a4deb9dfe153af51</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-30 13:42:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>application</element><position>7</position><sys_created_by>nappoma</sys_created_by><sys_created_on>2023-05-29 08:38:25</sys_created_on><sys_id>1f32b3da47c761103fa44aff336d4326</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_431105_cand_ass_candidate_selection_criteria_score" sys_domain="global" view="Default view">93089da897046110a4deb9dfe153af51</sys_ui_section><sys_updated_by>nappoma</sys_updated_by><sys_updated_on>2023-05-29 08:38:25</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_431105_cand_ass_candidate_selection_criteria_score</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-25 07:47:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>93089da897046110a4deb9dfe153af51</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_431105_cand_ass_candidate_selection_criteria_score</sys_name><sys_overrides/><sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package><sys_policy/><sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope><sys_update_name>sys_ui_section_93089da897046110a4deb9dfe153af51</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-25 07:47:02</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1699968737</payload_hash>
+        <record_name>Candidate Competency Score</record_name>
+        <reverted_from/>
+        <source>bf2ea49a470b21103fa44aff336d43af</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-05-29 08:38:25</sys_created_on>
+        <sys_id>1732b3da47c761103fa44aff336d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18866a899cf0000001</sys_recorded_at>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-29 08:38:25</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>9b32b3daebc7611051bc94fa2059e828</update_guid>
+        <update_guid_history>9b32b3daebc7611051bc94fa2059e828:-1699968737,725517068e4321100d347a9ced7e17f2:2007729263</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:55:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>61ad6ee66475460fb76653a66f915459</sys_id>
+        <sys_metadata>93089da897046110a4deb9dfe153af51</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_431105_cand_ass_candidate_selection_criteria_score</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="">1fe4574e470321103fa44aff336d4385</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_93089da897046110a4deb9dfe153af51</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_93089da897046110a4deb9dfe153af51">1732b3da47c761103fa44aff336d4329</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:55:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

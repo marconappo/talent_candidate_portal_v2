@@ -171,7 +171,7 @@
         <update_guid_history>353b096fa14ba5104f68b34d7dceceb9:1472505116,f93b096ff04ba510a9276579a75f8db3:-867081203</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Portal Internal">887cc5ef474ba5103fa44aff336d43de</sys_audit_delete>
+        <sys_audit_delete display_value="">887cc5ef474ba5103fa44aff336d43de</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
         <sys_created_on>2023-06-01 17:46:26</sys_created_on>

@@ -15,43 +15,5 @@
             <sys_updated_by>nappoma</sys_updated_by>
             <sys_updated_on>2023-05-21 09:31:55</sys_updated_on>
         </sys_choice_set>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>eligible</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Yes</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_candidate</name>
-            <sequence>1</sequence>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-21 09:31:55</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-21 09:32:05</sys_updated_on>
-            <value>Yes</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>eligible</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>No</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_candidate</name>
-            <sequence>2</sequence>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-21 09:31:58</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-21 09:32:07</sys_updated_on>
-            <value>No</value>
-        </sys_choice>
     </sys_choice>
 </record_update>

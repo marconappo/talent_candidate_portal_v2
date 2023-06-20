@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>sysverb_import_assessments_from_sap</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>false</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>true</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>true</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Import Assessments [SAP/Prom./Hudson]</name>
+        <onclick>importAssessmentsFromSAP()</onclick>
+        <order>100</order>
+        <script><![CDATA[function importAssessmentsFromSAP() {
+    g_list.action('3336755c97842110a4deb9dfe153afa9', 'sysverb_import_assessments_from_sap');
+}
+
+if (typeof window == 'undefined') {
+    var caUtils = new CandidateAssessmentUtils();
+    caUtils.importAssessments();
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-24 15:21:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3336755c97842110a4deb9dfe153afa9</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>Import Assessments [SAP/Prom./Hudson]</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Recruitment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recruitment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ui_action_3336755c97842110a4deb9dfe153afa9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-30 11:36:00</sys_updated_on>
+        <table>x_431105_cand_ass_assessment</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</application>
+        <file_path/>
+        <instance_id>ce1aa807db352d180b9d21c4059619e3</instance_id>
+        <instance_name>dev168883</instance_name>
+        <name>sys_ui_action_3336755c97842110a4deb9dfe153afa9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;
+    &lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;
+        &lt;action_name&gt;sysverb_import_assessments_from_sap&lt;/action_name&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;client&gt;true&lt;/client&gt;
+        &lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+}]]&gt;&lt;/client_script_v2&gt;
+        &lt;comments/&gt;
+        &lt;condition/&gt;
+        &lt;form_action&gt;false&lt;/form_action&gt;
+        &lt;form_button&gt;false&lt;/form_button&gt;
+        &lt;form_button_v2&gt;false&lt;/form_button_v2&gt;
+        &lt;form_context_menu&gt;false&lt;/form_context_menu&gt;
+        &lt;form_link&gt;false&lt;/form_link&gt;
+        &lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;
+        &lt;form_style/&gt;
+        &lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;
+        &lt;hint/&gt;
+        &lt;isolate_script&gt;true&lt;/isolate_script&gt;
+        &lt;list_action&gt;true&lt;/list_action&gt;
+        &lt;list_banner_button&gt;false&lt;/list_banner_button&gt;
+        &lt;list_button&gt;false&lt;/list_button&gt;
+        &lt;list_choice&gt;false&lt;/list_choice&gt;
+        &lt;list_context_menu&gt;false&lt;/list_context_menu&gt;
+        &lt;list_link&gt;true&lt;/list_link&gt;
+        &lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;
+        &lt;list_style/&gt;
+        &lt;messages/&gt;
+        &lt;name&gt;Import Assessments [SAP/Prom./Hudson]&lt;/name&gt;
+        &lt;onclick&gt;importAssessmentsFromSAP()&lt;/onclick&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;script&gt;&lt;![CDATA[function importAssessmentsFromSAP() {
+    g_list.action('3336755c97842110a4deb9dfe153afa9', 'sysverb_import_assessments_from_sap');
+}
+
+if (typeof window == 'undefined') {
+    var caUtils = new CandidateAssessmentUtils();
+    caUtils.importAssessments();
+}]]&gt;&lt;/script&gt;
+        &lt;show_insert&gt;true&lt;/show_insert&gt;
+        &lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;
+        &lt;show_query&gt;false&lt;/show_query&gt;
+        &lt;show_update&gt;true&lt;/show_update&gt;
+        &lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-12-24 15:21:38&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;3336755c97842110a4deb9dfe153afa9&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;31&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Import Assessments [SAP/Prom./Hudson]&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="Recruitment" source="x_431105_cand_ass"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Recruitment"&gt;3aeff01497c02110a4deb9dfe153afb4&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_ui_action_3336755c97842110a4deb9dfe153afa9&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-12-30 11:36:00&lt;/sys_updated_on&gt;
+        &lt;table&gt;x_431105_cand_ass_assessment&lt;/table&gt;
+        &lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;
+        &lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;
+    &lt;/sys_ui_action&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>867419837</payload_hash>
+        <record_name>Import Assessments [SAP/Prom./Hudson]</record_name>
+        <reverted_from/>
+        <source>bde4534e470321103fa44aff336d4334</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-28 11:53:35</sys_created_on>
+        <sys_id>54555fc2474321103fa44aff336d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1886234ebdb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-28 11:53:35</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>14555fc2e6432110b18f1291ca8704bd</update_guid>
+        <update_guid_history>14555fc2e6432110b18f1291ca8704bd:867419837</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nappoma</sys_created_by>
+        <sys_created_on>2023-06-04 07:57:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>6ca8bfee90fd403798124398c515d659</sys_id>
+        <sys_metadata>3336755c97842110a4deb9dfe153afa9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import Assessments [SAP/Prom./Hudson]</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_parent display_value="">9be4974e470321103fa44aff336d4308</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope_delete display_value="Talent NOW">102d0c1703d24bb18e1e1addf418fef1</sys_scope_delete>
+        <sys_update_name>sys_ui_action_3336755c97842110a4deb9dfe153afa9</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_3336755c97842110a4deb9dfe153afa9">54555fc2474321103fa44aff336d43bd</sys_update_version>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-04 07:57:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

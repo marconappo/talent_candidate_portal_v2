@@ -46,7 +46,7 @@
         <update_guid_history>292a30af13c7a5109d1203c411b52c58:548062405</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="EU Careers Linkedin">df72e61c471321103fa44aff336d437b</sys_audit_delete>
+        <sys_audit_delete display_value="">df72e61c471321103fa44aff336d437b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
         <sys_created_on>2023-06-04 07:57:50</sys_created_on>

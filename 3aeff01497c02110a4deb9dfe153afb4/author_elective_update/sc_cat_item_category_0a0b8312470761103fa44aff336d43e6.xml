@@ -41,7 +41,7 @@
         <update_guid_history>d39dcfd284076110b80663919fe6878a:788431852,923c0f5282076110be22a8f97b387ece:918302072</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="HR Systems.Apply for a competition">1f9dcfd2470761103fa44aff336d438e</sys_audit_delete>
+        <sys_audit_delete display_value="">1f9dcfd2470761103fa44aff336d438e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2023-05-29 05:58:24</sys_created_on>
